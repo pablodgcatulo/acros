@@ -1,0 +1,8 @@
+- if registro.errors.any?
+  .alert-box.radius.alert{'data-alert' => "true"}
+    = "#{pluralize(registro.errors.count, "error")} prohibe guardar los cambios"
+    %ul
+      - registro.errors.full_messages.each do |msg|
+        %li= msg
+    %a.close{:href => "#"} &times;        
+

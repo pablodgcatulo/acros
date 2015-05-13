@@ -1,0 +1,12 @@
+%div.row
+  .large-12.columns
+    = accion
+.row
+  %div.large-10.columns
+    %h2= titulo
+  %div.large-2.columns
+    %ul.button-group.round
+      - botones.each do |b|
+        %li
+          %a.small.button{href: b[:ruta]}= b[:texto]
+      

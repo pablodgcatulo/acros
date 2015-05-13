@@ -1,0 +1,7 @@
+= content_for :panel do 
+  = render partial: 'shared/panel', locals: {titulo: "Empresa", accion: "Editar", |
+    botones: [{ruta: empresas_path, texto: 'Listado'}, {ruta: empresa_path(@empresa), texto: 'Ver'} ] }
+
+= render :partial => "shared/errores_crud", :locals => { :registro => @empresa }
+
+= render 'form'

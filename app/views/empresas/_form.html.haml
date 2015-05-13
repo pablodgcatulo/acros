@@ -1,0 +1,18 @@
+= form_for @empresa, auto_labels: false do |f|
+  %fieldset
+    %legend Datos de la empresa
+    .row
+      .large-12.columns
+        .row
+          .medium-12.columns
+            .row.collapse
+              .medium-1.columns
+                %span.prefix Nombre
+              .medium-11.columns
+                = f.text_field :nombre, {placeholder: "Nombre de la empresa"}
+    .row
+      .large-12.columns
+        .clearfix
+          .actions
+            = link_to "Cancelar", :back, class: "small radius alert button right"
+            = f.submit 'Guardar', class: "small radius success button right"

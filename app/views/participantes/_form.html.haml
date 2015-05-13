@@ -1,0 +1,77 @@
+= form_for(@participante, auto_labels: false) do |f|
+  %fieldset
+    %legend Datos Personales
+    .row
+      .large-12.columns
+        .row
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix Apellido
+              .small-10.columns
+                = f.text_field :apellido, {placeholder: "Apellido del participante"}
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix Nombre
+              .small-10.columns
+                = f.text_field :nombre, {placeholder: "Nombre del participante"}
+        .row
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix Tipo
+              .small-10.columns
+                = f.select :tipo_de_documento_id, @tipos_de_documento,{include_blank: true}, {class: 'select2', placeholder: "Ingrese el tipo de documento"}
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix Número
+              .small-10.columns
+                = f.text_field :numero_de_documento, {placeholder: "Ingrese el número de documento"}
+        .row
+          .medium-12.columns
+            .row.collapse
+              .medium-1.columns
+                %span.prefix Dirección
+              .medium-11.columns
+                = f.text_field :direccion, {placeholder: "Dirección"}
+        .row
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix País
+              .small-10.columns
+                = f.select :pais_id, @paises,{include_blank: true}, {class: 'select2'}
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix Provincia
+              .small-10.columns
+                = f.select :provincia_id, @provincias, {include_blank: true}, {class: 'select2'}
+        .row
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix Teléfono
+              .small-10.columns
+                = f.text_field :telefono, {placeholder: "Teléfono de contacto"}
+          .large-6.columns
+            .row.collapse
+              .small-2.columns
+                %span.prefix Celular
+              .small-10.columns
+                = f.text_field :celular, {placeholder: "Número de celular"}
+        .row
+          .medium-12.columns
+            .row.collapse
+              .medium-1.columns
+                %span.prefix Empresa
+              .medium-11.columns
+                = f.select :empresa_id, @empresas, {include_blank: true}, {class: 'select2', placeholder: "Seleccione la empresa para la que trabaja"}
+  .row
+    .large-12.columns
+      .clearfix
+        .actions
+          = link_to "Cancelar", :back, class: "small radius alert button right"
+          = f.submit 'Guardar', class: "small radius success button right"

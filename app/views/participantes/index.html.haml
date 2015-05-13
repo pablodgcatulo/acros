@@ -1,0 +1,29 @@
+= content_for :panel do 
+  = render partial: 'shared/panel', locals: {titulo: "Participantes", accion: "Listado", |
+    botones: [{texto: 'Nuevo', ruta: new_participante_path } ] }
+
+- if @participantes.blank?
+  %h2 No existen participantes cargados
+- else
+  %table{role: "grid", width: "100%"}
+    %thead
+      %tr
+        %th Apellido
+        %th Nombre
+        %th Empresa
+        %th Documento
+        %th Telefono
+        %th Celular
+        %th{colspan: 3,style: "text-align: center;"} Acciones
+    %tbody
+      - @participantes.each do |participante|
+        %tr
+          %td= participante.apellido
+          %td= participante.nombre
+          %td= participante.empresa.nombre
+          %td= (participante.tipo_de_documento.present? and participante.numero_de_documento.present? ) ? (participante.tipo_de_documento.codigo + ":" + participante.numero_de_documento) : "Desconocido"
+          %td= participante.telefono.present? ? participante.telefono : "Desconocido"
+          %td= participante.celular.present? ? participante.celular : "Desconocido"
+          %td= link_to 'Ver', participante
+          %td= link_to 'Editar', edit_participante_path(participante)
+          %td= link_to 'Borrar', participante, :method => :delete, :data => { :confirm => '¿Desea borrar el participante?' }

@@ -1,0 +1,12 @@
+= content_for :panel do 
+  = render partial: 'shared/panel', locals: {titulo: "Empresa", accion: "Ver", |
+    botones: [{ruta: empresas_path, texto: 'Listado'}, {ruta: edit_empresa_path(@empresa), texto: 'Editar'} ] }
+
+%h3 Empresa
+%p
+  %b Nombre: 
+  #{@empresa.nombre if @empresa.nombre.present?}
+
+
+
+

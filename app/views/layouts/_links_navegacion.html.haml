@@ -1,0 +1,9 @@
+%li{ class: nav_bar_activo?(root_path)}
+  = link_to 'Inicio', root_path
+%li.has-dropdown{ class: nav_bar_activo?(participantes_path) }
+  = link_to "Participantes", participantes_path
+  %ul.dropdown
+    %li
+      = link_to 'Cargar participante', new_participante_path
+    %li 
+      %a{:href => "#"} Active link in dropdown

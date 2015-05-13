@@ -1,0 +1,30 @@
+# PostgreSQL. Versions 8.2 and up are supported.
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+  template: template0
+
+development:
+  <<: *default
+  database: acros_development
+  host: localhost
+  username: acros
+  password:
+  
+test:
+  <<: *default
+  database: acros_test
+  host: localhost
+  username: acros
+  password:
+
+
+production:
+  <<: *default
+  database: acros_production
+  username: acros
+  password: <%= ENV['ACROS_DATABASE_PASSWORD'] %>

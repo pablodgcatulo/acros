@@ -1,0 +1,32 @@
+= content_for :panel do 
+  = render partial: 'shared/panel', locals: {titulo: "Empresa", accion: "Ver", |
+    botones: [{ruta: participantes_path, texto: 'Listado'}, {ruta: edit_participante_path(@participante), texto: 'Editar'} ] }
+
+%h3 Empresa
+%p
+  %b Apellido:
+  = @participante.apellido
+%p
+  %b Nombre:
+  = @participante.nombre
+%p
+  %b Empresa:
+  = @participante.empresa.nombre
+%p
+  %b Documento:
+  = (@participante.tipo_de_documento.present? and @participante.numero_de_documento.present? ) ? (@participante.tipo_de_documento.codigo + ":" + @participante.numero_de_documento) : "Desconocido"
+%p
+  %b Direccion:
+  = @participante.direccion.present? ? @participante.direccion : "Desconocida"
+%p
+  %b Telefono:
+  = @participante.telefono.present? ? @participante.telefono : "Desconocido"
+%p
+  %b Celular:
+  = @participante.celular.present? ? @participante.celular : "Desconocido"
+%p
+  %b Pais:
+  = @participante.pais.present? ? @participante.pais.nombre : "Desconocido"
+%p
+  %b Provincia:
+  = @participante.provincia.present? ? @participante.provincia.nombre : "Desconocido"
