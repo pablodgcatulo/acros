@@ -1,0 +1,25 @@
+= form_for @talento do |f|
+  - if @talento.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@talento.errors.count, "error")} prohibited this talento from being saved:"
+      %ul
+        - @talento.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :nombre
+    = f.text_field :nombre
+  .field
+    = f.label :dominio
+    = f.text_field :dominio
+  .field
+    = f.label :libro
+    = f.text_field :libro
+  .field
+    = f.label :pelicula
+    = f.text_field :pelicula
+  .field
+    = f.label :docx_json
+    = f.text_field :docx_json
+  .actions
+    = f.submit 'Save'

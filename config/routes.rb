@@ -1,8 +1,13 @@
 Rails.application.routes.draw do
+  resources :talentos
   resources :empresas
   #get 'participantes/show'
 
-  resources :participantes
+  resources :participantes do
+    member do 
+      get :imprimir_documentos, as: :imprimir_documentos, action: :imprimir_documentos
+    end
+  end
   get 'visitantes/index'
   root to: 'visitantes#index'
 

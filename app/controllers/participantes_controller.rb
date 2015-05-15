@@ -1,14 +1,12 @@
 class ParticipantesController < ApplicationController
-  before_action :set_participante, only: [:show, :edit, :update, :destroy]
+  before_action :set_participante, only: [:show, :edit, :update, :destroy, :imprimir_documentos]
 
   # GET /participantes
-  # GET /participantes.json
   def index
     @participantes = Participante.all
   end
 
   # GET /participantes/1
-  # GET /participantes/1.json
   def show
   end
 
@@ -63,6 +61,10 @@ class ParticipantesController < ApplicationController
   def destroy
     @participante.destroy
     redirect_to participantes_url, notice: 'El participante fue borrado correctamente.'
+  end
+
+  def imprimir_documentos
+    
   end
 
   private

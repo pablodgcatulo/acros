@@ -11,10 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150504014151) do
+ActiveRecord::Schema.define(version: 20150514151510) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "dominios", force: :cascade do |t|
+    t.string   "nombre"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "empresas", force: :cascade do |t|
     t.string   "nombre",     limit: 30
@@ -54,8 +60,18 @@ ActiveRecord::Schema.define(version: 20150504014151) do
     t.datetime "updated_at",            null: false
   end
 
+  create_table "talentos", force: :cascade do |t|
+    t.string   "nombre"
+    t.integer  "dominio_id"
+    t.string   "libro"
+    t.string   "pelicula"
+    t.json     "docx_json"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "tipos_de_documentos", force: :cascade do |t|
-    t.string   "nombre",     limit: 30
+    t.string   "nombre",     limit: 40
     t.string   "codigo",     limit: 4
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false

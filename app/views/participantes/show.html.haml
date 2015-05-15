@@ -1,8 +1,8 @@
 = content_for :panel do 
-  = render partial: 'shared/panel', locals: {titulo: "Empresa", accion: "Ver", |
-    botones: [{ruta: participantes_path, texto: 'Listado'}, {ruta: edit_participante_path(@participante), texto: 'Editar'} ] }
+  = render partial: 'shared/panel', locals: {titulo: "Participantes", accion: "Ver/", |
+    botones: [{ruta: edit_participante_path(@participante), texto: 'Editar'}, {ruta: imprimir_documentos_participante_path(@participante), texto: 'Imprimir'} ] }
 
-%h3 Empresa
+%h3 Participante
 %p
   %b Apellido:
   = @participante.apellido

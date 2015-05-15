@@ -49,3 +49,5 @@ gem 'haml-rails'
 gem 'foundation-rails', '>= 5.5.2.1'
 gem 'foundation_rails_helper'
 gem "select2-rails"
+# genera docx basado en template
+gem 'sablon'

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  dominio_id: 
+  libro: MyString
+  pelicula: MyString
+  docx_json: 
+
+two:
+  nombre: MyString
+  dominio_id: 
+  libro: MyString
+  pelicula: MyString
+  docx_json: 

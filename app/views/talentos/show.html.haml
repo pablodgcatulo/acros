@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Nombre:
+  = @talento.nombre
+%p
+  %b Dominio:
+  = @talento.dominio
+%p
+  %b Libro:
+  = @talento.libro
+%p
+  %b Pelicula:
+  = @talento.pelicula
+%p
+  %b Docx json:
+  = @talento.docx_json
+
+= link_to 'Edit', edit_talento_path(@talento)
+\|
+= link_to 'Back', talentos_path

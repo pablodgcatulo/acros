@@ -1,0 +1,29 @@
+%h1 Listing talentos
+
+%table
+  %thead
+    %tr
+      %th Nombre
+      %th Dominio
+      %th Libro
+      %th Pelicula
+      %th Docx json
+      %th
+      %th
+      %th
+
+  %tbody
+    - @talentos.each do |talento|
+      %tr
+        %td= talento.nombre
+        %td= talento.dominio
+        %td= talento.libro
+        %td= talento.pelicula
+        %td= talento.docx_json
+        %td= link_to 'Show', talento
+        %td= link_to 'Edit', edit_talento_path(talento)
+        %td= link_to 'Destroy', talento, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Talento', new_talento_path

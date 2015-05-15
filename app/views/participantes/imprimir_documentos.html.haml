@@ -1,0 +1,4 @@
+= content_for :panel do 
+  = render partial: 'shared/panel', locals: {titulo: "Participante: #{@participante.apellido}, #{@participante.nombre}", accion: "Imprimir Documentos/", |
+    botones: [{ruta: participante_path(@participante), texto: 'Ver'}, {ruta: edit_participante_path(@participante), texto: 'Editar'} ] }
+
