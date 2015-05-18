@@ -1,32 +1,80 @@
 = content_for :panel do 
-  = render partial: 'shared/panel', locals: {titulo: "Participantes", accion: "Ver/", |
-    botones: [{ruta: edit_participante_path(@participante), texto: 'Editar'}, {ruta: imprimir_documentos_participante_path(@participante), texto: 'Imprimir'} ] }
+  = render partial: 'shared/panel', locals: {titulo: "Participante: #{@participante.apellido + ', ' + @participante.nombre}", accion: "Ver /", |
+    botones: [{ruta: edit_participante_path(@participante), texto: 'Editar'}, {ruta: participantes_path, texto: 'Listado'} ] }
 
-%h3 Participante
-%p
-  %b Apellido:
-  = @participante.apellido
-%p
-  %b Nombre:
-  = @participante.nombre
-%p
-  %b Empresa:
-  = @participante.empresa.nombre
-%p
-  %b Documento:
-  = (@participante.tipo_de_documento.present? and @participante.numero_de_documento.present? ) ? (@participante.tipo_de_documento.codigo + ":" + @participante.numero_de_documento) : "Desconocido"
-%p
-  %b Direccion:
-  = @participante.direccion.present? ? @participante.direccion : "Desconocida"
-%p
-  %b Telefono:
-  = @participante.telefono.present? ? @participante.telefono : "Desconocido"
-%p
-  %b Celular:
-  = @participante.celular.present? ? @participante.celular : "Desconocido"
-%p
-  %b Pais:
-  = @participante.pais.present? ? @participante.pais.nombre : "Desconocido"
-%p
-  %b Provincia:
-  = @participante.provincia.present? ? @participante.provincia.nombre : "Desconocido"
+.row
+  .large-12.columns
+    %ul.accordion{"data-accordion" => ""}
+      %li.accordion-navigation
+        %a{:href => "#panel1a"} Datos Personales
+        #panel1a.content.active
+          .panel
+            %p
+              %b Empresa:
+              = @participante.empresa.nombre
+            %p
+              %b Documento:
+              = (@participante.tipo_de_documento.present? and @participante.numero_de_documento.present? ) ? (@participante.tipo_de_documento.codigo + ":" + @participante.numero_de_documento) : "Desconocido"
+            %p
+              %b Direccion:
+              = @participante.direccion.present? ? @participante.direccion : "La dirección no esta disponible"
+            %p
+              %b Telefono:
+              = @participante.telefono.present? ? @participante.telefono : "Desconocido"
+            %p
+              %b Celular:
+              = @participante.celular.present? ? @participante.celular : "Desconocido"
+            %p
+              %b Pais:
+              = @participante.pais.present? ? @participante.pais.nombre : "Desconocido"
+            %p
+              %b Provincia:
+              = @participante.provincia.present? ? @participante.provincia.nombre : "Desconocido"
+      %li.accordion-navigation
+        %a{:href => "#panel2a"} Generar evaluación de fortalezas
+        #panel2a.content
+          .panel
+            = form_for(@participante, url: {action: :imprimir_resultados}, method: :get, auto_labels: false) do |f|
+              .row
+                .large-12.columns
+                  %ul.large-block-grid-5
+                    %li
+                      %ul.vcard
+                        %li.fn Primer Talento
+                        %li.locality= f.select :talento_1, @talentos, {include_blank: true}
+                    %li
+                      %ul.vcard
+                        %li.fn Segundo Talento
+                        %li.locality= f.select :talento_2, @talentos, {include_blank: true}
+                    %li
+                      %ul.vcard
+                        %li.fn Tercer Talento
+                        %li.locality= f.select :talento_3, @talentos, {include_blank: true}
+                    %li
+                      %ul.vcard
+                        %li.fn Cuarto Talento
+                        %li.locality= f.select :talento_4, @talentos, {include_blank: true}
+                    %li
+                      %ul.vcard
+                        %li.fn Quinto Talento
+                        %li.locality= f.select :talento_5, @talentos, {include_blank: true}
+              .row
+                .large-12.columns
+                  = hidden_field_tag "tipo_de_encuesta"
+                  .clearfix
+                    %button.button.dropdown.small.round.right{"aria-controls" => "drop1", "aria-expanded" => "false", "data-dropdown" => "drop1", :href => "#"} Descargar resultados de la encuesta
+                    %br/
+                    %ul#drop1.f-dropdown{"aria-hidden" => "true", "data-dropdown-content" => ""}
+                      %li
+                        = link_to 'Perfil de fortalezas', "#", :onclick=>"descargar_resultados(1);"
+                      %li
+                        = link_to 'Cómo manejar las fortalezas', "#", :onclick=>"descargar_resultados(2);"
+                      %li
+                        = link_to 'Liderazgo basado en fortalezas', "#", :onclick=>"descargar_resultados(3);"
+                      %li
+                        = link_to 'Ideas para la acción', "#", :onclick=>"descargar_resultados(4);"
+                      %li
+                        = link_to 'Libros y peliculas', "#", :onclick=>"descargar_resultados(5);"
+    
+
+

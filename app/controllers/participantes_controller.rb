@@ -1,5 +1,6 @@
+require "sablon"
 class ParticipantesController < ApplicationController
-  before_action :set_participante, only: [:show, :edit, :update, :destroy, :imprimir_documentos]
+  before_action :set_participante, only: [:show, :edit, :update, :destroy, :imprimir_resultados]
 
   # GET /participantes
   def index
@@ -8,6 +9,7 @@ class ParticipantesController < ApplicationController
 
   # GET /participantes/1
   def show
+    @talentos = Talento.all.map { |t| [t.nombre, t.id] }
   end
 
   # GET /participantes/new
@@ -63,8 +65,59 @@ class ParticipantesController < ApplicationController
     redirect_to participantes_url, notice: 'El participante fue borrado correctamente.'
   end
 
-  def imprimir_documentos
+  def imprimir_resultados
+
+    #talentos_ids = params[:participante].map { |p| [p[:talento] }
+    talentos_ids = []
     
+    if params[:participante][:talento_1].blank? and
+       params[:participante][:talento_2].blank? and
+       params[:participante][:talento_3].blank? and
+       params[:participante][:talento_4].blank? and
+       params[:participante][:talento_5].blank? 
+       redirect_to @participante, alert: 'Debe seleccionar al menos un talento para descargar los resultados' 
+    else
+      (1..5).each do |i|
+        if eval("params[:participante][:talento_#{i}]").present?
+          talentos_ids << eval("params[:participante][:talento_#{i}]")
+        end
+      end
+    end
+
+    tipo_de_encuesta = params.require(:tipo_de_encuesta)
+
+
+    talentos = Talento.find( talentos_ids)
+    
+    case 
+    when tipo_de_encuesta.to_i == 1 #:perfil_de_fortalezas
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '1_los_treinta_y_cuatro_talentos_template.docx'))
+      contexto  = {
+        participante: @participante.apellido_y_nombre,
+        talento: t.docx_json["documentos"][0]["datos"]["talento"],
+        items: t.docx_json["documentos"][0]["datos"]["items"]
+      }
+    when tipo_de_encuesta.to_i == 2 #:manejar_las_fortalezas
+      
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '2_como_manejar_las_fortalezas_template.docx'))      
+      
+      t = talentos.first
+
+      contexto  = {
+        participante: @participante.apellido_y_nombre,
+        talento: t.docx_json["documentos"][1]["datos"]["talento"],
+        items: t.docx_json["documentos"][1]["datos"]["items"]
+      }
+      send_data template.render_to_string(contexto), filename: "como_manejar_las_fortalezas_#{@participante.apellido}_#{@participante.nombre}.docx", disposition: 'attachment'
+      #raise
+    when tipo_de_encuesta.to_i == 3 # :liderazgo_basado_en_fortalezas
+
+    when tipo_de_encuesta.to_i == 4 # Ideas para la acción
+
+    when tipo_de_encuesta.to_i == 5 # Libros y peliculas
+    end
+
+    #raise
   end
 
   private

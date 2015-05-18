@@ -2,3 +2,6 @@
   = render partial: 'shared/panel', locals: {titulo: "Participante: #{@participante.apellido}, #{@participante.nombre}", accion: "Imprimir Documentos/", |
     botones: [{ruta: participante_path(@participante), texto: 'Ver'}, {ruta: edit_participante_path(@participante), texto: 'Editar'} ] }
 
+= form_for @participante, url: {action: 'resultados_de_la_encuesta'}, method: :get do |f|
+  = f.text_field :talentos, {:size => "80x8"}
+  = f.submit

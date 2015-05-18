@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   resources :participantes do
     member do 
-      get :imprimir_documentos, as: :imprimir_documentos, action: :imprimir_documentos
+      get :imprimir_resultados, as: :imprimir_resultados, action: :imprimir_resultados
     end
   end
   get 'visitantes/index'

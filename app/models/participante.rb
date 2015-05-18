@@ -9,4 +9,13 @@ class Participante < ActiveRecord::Base
   validates_length_of :direccion, maximum: 50
   validates_length_of :numero_de_documento, maximum: 10
 
+  attr_accessor :talento_1
+  attr_accessor :talento_2
+  attr_accessor :talento_3
+  attr_accessor :talento_4
+  attr_accessor :talento_5
+  
+  def apellido_y_nombre
+    self.apellido + ', ' + self.nombre
+  end
 end
