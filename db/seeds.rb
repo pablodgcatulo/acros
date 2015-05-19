@@ -79,7 +79,7 @@ El talento de Logro se puede expresar así:
 *Héctor S., vendedor:* "El año pasado fui elegido como el vendedor del año entre los trescientos representantes de ventas de mi compañía. Me sentí bien durante un día pero, como era de esperarse, la semana siguiente transcurrió como si nada hubiera pasado. Empecé de cero nuevamente. Algunas veces me gustaría que no fuera así porque temo alterar el equilibrio de mi vida y caer en la obsesión. Solía pensar que podría cambiar, pero ahora sé que mi cerebro no funciona así. Este talento realmente es una espada de doble filo. Me ayuda a lograr mis metas pero, por otro lado, me gustaría poder desactivarlo a voluntad y no puedo. Lo que sí puedo hacer es manejarlo y evitar la obsesión por el trabajo si me concentro en realizarme en todos los aspectos de mi vida y no sólo en el trabajo.
 
 *Sara L., escritora:* "Este talento es extraño. Primero, es bueno porque uno vive en pos de un desafío perpetuo. Pero, por otro lado, uno jamás siente que ha llegado a la meta. Es una especie de ascenso permanente a cien kilómetros por hora durante toda la vida. Jamás hay descanso porque siempre hay algo más por hacer. Sin embargo, al hacer el balance, prefiero tener este talento que no tenerlo. Yo me refiero a él como la "divina inquietud" y si me hace sentir que le debo al presente todo lo que tengo, entonces que así sea. Puedo vivir con eso".)
-            }
+            } 
         },
         {
           nombre:"manejar_las_fortalezas",
@@ -111,20 +111,23 @@ El talento de Logro se puede expresar así:
                                 "Poner metas y plazos, algo tan motivador para Ud., puede, al  mismo tiempo, ayudar a otros a que puedan administrar y gestionar grandes planes y proyectos. Ud. puede contribuir a que una tarea no parezca tan compleja e inmanejable fraccionándola en pequeñas porciones más simples y breves. Cada vez que alguien requiera de su ayuda para hacerle frente a una tarea colosal, comparta su sistema de gestión en “pequeños pasos” y ayúdeles a comprender las ventajas del mismo."]
             }
         },
-          {
-            nombre: "ideas_para_la_accion",
-            talento: "Logro",
-            items: ["Elija empleos u ocupaciones que le permitan trabajar tan intensamente como Ud. quiera y donde sea capaz de medir su propia productividad. Ud. se sentirá vivo y motivado en contextos con estas características.",
-                    "Tener el talento de Logro le permite disfrutar sentirse ocupado, al mismo tiempo que necesita saber cuándo algo está listo. Por esta razón, Ud. se sentirá mejor cuando establezca fechas límite y pueda medir progreso en cualquier actividad que desarrolle.",
-                    "No olvide incorporar festejos y reconocimientos a su día a día. La gente con el talento de Logro tienden a saltar de una actividad a la otra sin llegar a reconocer méritos propios ni ajenos. Combata este impulso creando momentos de esparcimiento donde tenga la oportunidad de celebrar avances y logros.",
-                    "Su orientación a la acción puede hacer que Ud. se aburra en reuniones. Si esto es cierto, apele a su talento de Logro para encontrar objetivos y metas y hacer cumplir los tiempos programados. De esta manera se asegurará que las reuniones sean productivas y eficientes.",
-                    "No deje de estudiar. Asista a cursos y charlas acerca de su especialidad o acerca de aquella en la que Ud. está próximo a involucrarse. Esto creará en Ud. nuevas metas y le dará la motivación necesaria para obtener nuevos logros.",
-                    "Ud. no necesita que otros lo motiven. Aprovecha esta auto-motivación para ponerse metas desafiantes. Establezca una meta desafiante cada vez que finalice un proyecto.",
-                    "Asóciese con otros que trabajen tan duro como Ud. Comparta objetivos y metas de tal manera que puedan ayudarse mutuamente.",
-                    "Lleve la cuenta de sus logros. Esto le ayudará a llevar su talento de Logro a otros ámbitos, como familia o amigos.",
-                    "El trabajo es algo que lo entusiasma, por lo que más cantidad de trabajo suele ser algo motivante para Ud. No deje de emprender nuevos proyectos. Su energía casi ilimitada le permitirá provocar entusiasmo y energía en quienes trabajan con Ud.",
-                    "No descuide la calidad. La gente con el talento de Logro, en el afán de lograr más, puede pasar por alto detalles que otros encontrarán evidentes. Asegúrese que incrementos en productividad vienen de la mano de incrementos en calidad."]
-          }
+        {
+          nombre: "ideas_para_la_accion",
+          datos: 
+            {
+              talento: "Logro",
+              items: ["Elija empleos u ocupaciones que le permitan trabajar tan intensamente como Ud. quiera y donde sea capaz de medir su propia productividad. Ud. se sentirá vivo y motivado en contextos con estas características.",
+                      "Tener el talento de Logro le permite disfrutar sentirse ocupado, al mismo tiempo que necesita saber cuándo algo está listo. Por esta razón, Ud. se sentirá mejor cuando establezca fechas límite y pueda medir progreso en cualquier actividad que desarrolle.",
+                      "No olvide incorporar festejos y reconocimientos a su día a día. La gente con el talento de Logro tienden a saltar de una actividad a la otra sin llegar a reconocer méritos propios ni ajenos. Combata este impulso creando momentos de esparcimiento donde tenga la oportunidad de celebrar avances y logros.",
+                      "Su orientación a la acción puede hacer que Ud. se aburra en reuniones. Si esto es cierto, apele a su talento de Logro para encontrar objetivos y metas y hacer cumplir los tiempos programados. De esta manera se asegurará que las reuniones sean productivas y eficientes.",
+                      "No deje de estudiar. Asista a cursos y charlas acerca de su especialidad o acerca de aquella en la que Ud. está próximo a involucrarse. Esto creará en Ud. nuevas metas y le dará la motivación necesaria para obtener nuevos logros.",
+                      "Ud. no necesita que otros lo motiven. Aprovecha esta auto-motivación para ponerse metas desafiantes. Establezca una meta desafiante cada vez que finalice un proyecto.",
+                      "Asóciese con otros que trabajen tan duro como Ud. Comparta objetivos y metas de tal manera que puedan ayudarse mutuamente.",
+                      "Lleve la cuenta de sus logros. Esto le ayudará a llevar su talento de Logro a otros ámbitos, como familia o amigos.",
+                      "El trabajo es algo que lo entusiasma, por lo que más cantidad de trabajo suele ser algo motivante para Ud. No deje de emprender nuevos proyectos. Su energía casi ilimitada le permitirá provocar entusiasmo y energía en quienes trabajan con Ud.",
+                      "No descuide la calidad. La gente con el talento de Logro, en el afán de lograr más, puede pasar por alto detalles que otros encontrarán evidentes. Asegúrese que incrementos en productividad vienen de la mano de incrementos en calidad."]
+            }
+        }
       ]}).to_json },
     {nombre: "Organización", dominio_id: 1, libro: "Administre el conocimiento, Gilbert Probst, Steffen Raub, Kai Romhardt, Esther Fernández", pelicula: "APOLLO 13", 
     docx_json: ({ 
@@ -160,35 +163,38 @@ El talento de Organización se puede expresar así:
                       "Comprenda que su modo de operar para desarrollar el equipo de trabajo es a través de la confianza y las relaciones. Bien podría rechazar a alguien a quien considere deshonesto o mediocre en su trabajo."]
             }
         },
-          {
-            nombre:"liderazgo_basado_en_fortalezas",
+        {
+          nombre:"liderazgo_basado_en_fortalezas",
+          datos: 
+            {
+              talento: "Organización",
+              items_confianza: ["Ud. desea  que la gente le diga siempre la verdad porque de ese feedback honesto depende su habilidad para hacer correcciones sobre la marcha a toda clase de tareas y/o proyectos en los cuales Ud. se involucra. Asegúrese de comentar que, ya que ese feedback es imprescindible para Ud., ellos no deben temer hacer comentarios frontales o “sin filtro”. Construya una atmósfera de respeto mutuo para generar el ámbito adecuado para ellos.",
+                                "Cuando diseñe nuevos planes de acción, sistemas o metodologías de ejecución de tareas, hágalo con extrema transparencia. Ser muy honesto con estos procesos hace que la gente entienda su forma de razonar con mucha más facilidad y rapidez."],
+              items_empatia: ["Cuando Ud. invierte tiempo pensando qué es mejor para los demás y cómo hacer para que ellos sean exitosos en sus planes, la gente lo ama por ello. Ud. suele tener la capacidad de ver oportunidades para ellos que ni ellos mismos suelen detectar. Dígales lo que ve y “deles permiso” a seguir ese camino que Ud. ve con tanta claridad para ellos.  ",
+                              "En algunos casos, algunos de ellos necesitarán ser “rescatados” de una situación complicada. La complejidad de ciertas situaciones tanto personales como laborales puede generar en ellos confusión y es en esos casos donde su talento Organización suele brillar. En esos casos, anticípese y muéstreles sus realidades de manera simplificada de evitar el caos. Se lo agradecerán profundamente."],
+              items_estabilidad: ["Su capacidad para lidiar con la complejidad es reconfortante para todos aquellos que necesitan de un plan o una agenda para poder realizar sus tareas correctamente. Cada vez que Ud. puede mantener la confusión lo más lejos posible de las rutinas de sus colaboradores, ellos se sentirán seguros de que todo va según lo planeado.",
+                                  "A veces, los mejores planes terminan transformándose en caos. Su talento Organización le permitirá verlo venir y anticiparse antes de muchos se den cuenta. Esta probablemente sea la característica más distintiva de su estilo de liderazgo. "],
+              items_esperanza: ["Ud. no solamente puede ayudar a otros a desarrollarse profesionalmente, sino que al mismo tiempo puede detectar en ellos aquellas cosas que deberían dejar de hacer. Muchas personas pueden sentirse atrapadas en medio de agendas y compromisos. Ayúdeles a encontrar la forma de sentirse más libres. Guíelos para que ellos mismos les encuentren sentido a sus responsabilidades y a cómo impactan positivamente en sus vidas.",
+                                "Antes de que muchos de sus colaboradores puedan reorganizar sus tareas y proyectos en pos de un futuro mejor, muchos de ellos necesitarán de su experiencia para tener una mejor visión de la situación en la que actualmente se encuentran. Aliéntelos a llevar una agenda que muestre mejor lo que hacen todos los días, si fuera necesario, hora por hora. De esta manera, ellos con un simple golpe de vista podrán entender dónde están parados y tener una mejor comprensión de la situación actual."]
+            }
+         },
+         {
+            nombre: "ideas_para_la_accion",
             datos: 
               {
                 talento: "Organización",
-                items_confianza: ["Ud. desea  que la gente le diga siempre la verdad porque de ese feedback honesto depende su habilidad para hacer correcciones sobre la marcha a toda clase de tareas y/o proyectos en los cuales Ud. se involucra. Asegúrese de comentar que, ya que ese feedback es imprescindible para Ud., ellos no deben temer hacer comentarios frontales o “sin filtro”. Construya una atmósfera de respeto mutuo para generar el ámbito adecuado para ellos.",
-                                  "Cuando diseñe nuevos planes de acción, sistemas o metodologías de ejecución de tareas, hágalo con extrema transparencia. Ser muy honesto con estos procesos hace que la gente entienda su forma de razonar con mucha más facilidad y rapidez."],
-                items_empatia: ["Cuando Ud. invierte tiempo pensando qué es mejor para los demás y cómo hacer para que ellos sean exitosos en sus planes, la gente lo ama por ello. Ud. suele tener la capacidad de ver oportunidades para ellos que ni ellos mismos suelen detectar. Dígales lo que ve y “deles permiso” a seguir ese camino que Ud. ve con tanta claridad para ellos.  ",
-                                "En algunos casos, algunos de ellos necesitarán ser “rescatados” de una situación complicada. La complejidad de ciertas situaciones tanto personales como laborales puede generar en ellos confusión y es en esos casos donde su talento Organización suele brillar. En esos casos, anticípese y muéstreles sus realidades de manera simplificada de evitar el caos. Se lo agradecerán profundamente."],
-                items_estabilidad: ["Su capacidad para lidiar con la complejidad es reconfortante para todos aquellos que necesitan de un plan o una agenda para poder realizar sus tareas correctamente. Cada vez que Ud. puede mantener la confusión lo más lejos posible de las rutinas de sus colaboradores, ellos se sentirán seguros de que todo va según lo planeado.",
-                                    "A veces, los mejores planes terminan transformándose en caos. Su talento Organización le permitirá verlo venir y anticiparse antes de muchos se den cuenta. Esta probablemente sea la característica más distintiva de su estilo de liderazgo. "],
-                items_esperanza: ["Ud. no solamente puede ayudar a otros a desarrollarse profesionalmente, sino que al mismo tiempo puede detectar en ellos aquellas cosas que deberían dejar de hacer. Muchas personas pueden sentirse atrapadas en medio de agendas y compromisos. Ayúdeles a encontrar la forma de sentirse más libres. Guíelos para que ellos mismos les encuentren sentido a sus responsabilidades y a cómo impactan positivamente en sus vidas.",
-                                  "Antes de que muchos de sus colaboradores puedan reorganizar sus tareas y proyectos en pos de un futuro mejor, muchos de ellos necesitarán de su experiencia para tener una mejor visión de la situación en la que actualmente se encuentran. Aliéntelos a llevar una agenda que muestre mejor lo que hacen todos los días, si fuera necesario, hora por hora. De esta manera, ellos con un simple golpe de vista podrán entender dónde están parados y tener una mejor comprensión de la situación actual."]
+                items: ["Conozca las metas de sus compañeros de trabajo y amigos. Hágales saber que Ud. las conoce. De esa manera, podrá ayudarlos a que Ud. las direccione hacia el éxito.",
+                        "Si es necesario crear un equipo, involúcrese. Ud. reconoce talentos, habilidades, conocimientos en la gente, por lo que esa capacidad siempre le ayudará a encontrar las personas correctas para cada rol.",
+                        "Ud. tiene la habilidad de encontrar la manera de que gente muy diferente entre sí pueda trabajar junta. Los grupos con integrantes con personalidades fuertes se beneficiarán aún más con el aporte de su talento de Organización.",
+                        "Las fechas límites de tareas, proyectos u obligaciones deben ser su prioridad. Si Ud. se involucra en proyectos que otros conducen, hágales saber acerca de los progresos que está realizando, ya que su talento de Organización puede hacer creer a otros que Ud. no está lo suficientemente involucrado, ya que su tendencia natural siempre será realizar múltiples actividades y jugar con el tiempo al segundo.",
+                        "Busque actividades complejas, lejos de las rutinas.",
+                        "Involúcrese en la organización de algún evento: convención, fiesta de fin de año del trabajo, hasta casamientos. Su capacidad de organizar siempre dará réditos.",
+                        "Su capacidad de atender muchos frentes a la vez y tener muchas cosas en su cabeza al mismo tiempo puede ser difícil de entender para otros. Deles tiempo de que comprendan cómo funciona y cómo responde fácilmente a situaciones donde otros ven sólo problemas o demoras.",
+                        "Evite formar parte de sectores de la organización donde se realizan tareas de rutina. No solo que Ud. no será capaz de realizar su mayor aporte, sino que otros podrían llegar a verlo como irresponsable o poco involucrado.",
+                        "Comparta con otros su excelente capacidad de estudiar situaciones hipotéticas. Hágales ver cómo Ud. identifica posibles cursos de acción rápidamente. Ellos se sentirán más seguros y paulatinamente irán confiando más en Ud. al percibir que no es sólo “instinto”, sino que hay una lógica detrás de lo que Ud. hace a diario.",
+                        "Ud. tiene el talento de Organización. Utilícelo no solamente con gente, sino con lugares, amoblamiento, maquinaria y espacios desaprovechados. Eso también forma parte de lo que otros esperan de Ud."]
               }
-         ,
-          {
-            nombre: "ideas_para_la_accion",
-            talento: "Organización",
-            items: ["Conozca las metas de sus compañeros de trabajo y amigos. Hágales saber que Ud. las conoce. De esa manera, podrá ayudarlos a que Ud. las direccione hacia el éxito.",
-                    "Si es necesario crear un equipo, involúcrese. Ud. reconoce talentos, habilidades, conocimientos en la gente, por lo que esa capacidad siempre le ayudará a encontrar las personas correctas para cada rol.",
-                    "Ud. tiene la habilidad de encontrar la manera de que gente muy diferente entre sí pueda trabajar junta. Los grupos con integrantes con personalidades fuertes se beneficiarán aún más con el aporte de su talento de Organización.",
-                    "Las fechas límites de tareas, proyectos u obligaciones deben ser su prioridad. Si Ud. se involucra en proyectos que otros conducen, hágales saber acerca de los progresos que está realizando, ya que su talento de Organización puede hacer creer a otros que Ud. no está lo suficientemente involucrado, ya que su tendencia natural siempre será realizar múltiples actividades y jugar con el tiempo al segundo.",
-                    "Busque actividades complejas, lejos de las rutinas.",
-                    "Involúcrese en la organización de algún evento: convención, fiesta de fin de año del trabajo, hasta casamientos. Su capacidad de organizar siempre dará réditos.",
-                    "Su capacidad de atender muchos frentes a la vez y tener muchas cosas en su cabeza al mismo tiempo puede ser difícil de entender para otros. Deles tiempo de que comprendan cómo funciona y cómo responde fácilmente a situaciones donde otros ven sólo problemas o demoras.",
-                    "Evite formar parte de sectores de la organización donde se realizan tareas de rutina. No solo que Ud. no será capaz de realizar su mayor aporte, sino que otros podrían llegar a verlo como irresponsable o poco involucrado.",
-                    "Comparta con otros su excelente capacidad de estudiar situaciones hipotéticas. Hágales ver cómo Ud. identifica posibles cursos de acción rápidamente. Ellos se sentirán más seguros y paulatinamente irán confiando más en Ud. al percibir que no es sólo “instinto”, sino que hay una lógica detrás de lo que Ud. hace a diario.",
-                    "Ud. tiene el talento de Organización. Utilícelo no solamente con gente, sino con lugares, amoblamiento, maquinaria y espacios desaprovechados. Eso también forma parte de lo que otros esperan de Ud."]
-          } }
+          } 
       ]}).to_json},
       {nombre: "Creencia", dominio_id: 1, libro: "El camino del  líder, David Fischman", pelicula: "Gran Torino", 
       docx_json: ({ 
@@ -240,17 +246,20 @@ El talento Creencia se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Creencia",
-            items: ["Intente clarificar sus valores pensando en uno de los mejores días de su vida. Qué papel jugaron esos valores? Cómo ayudaron a que ese día sea tan especial? Cómo podría hacer para que eso se dé más a menudo?",
-                    "Hago un esfuerzo para encontrar roles o puestos compatibles con sus valores. En ese sentido, puede ser muy beneficioso para Ud. formar parte de alguna organización que haga un gran aporte a la sociedad.",
-                    "El sentido y propósito de su trabajo muchas veces será útil para quienes trabajan con Ud. Recuérdeles lo importante que es el trabajo que realizan y la diferencia que este hace, no solo en sus vidas, sino en la de otros.",
-                    "Su talente de Creencia le permite tocar el corazón de la gente. Esta fuerte característica emocional le permite motivar a otros con facilidad, especialmente en tiempos difíciles.",
-                    "Si Ud. tiene cartas, correos, fotografías o simples notas de gente a la que Ud. haya influenciado, colecciónelas! Esto le será de suma utilidad en aquellos momentos donde Ud. necesite motivación o inspiración para seguir adelante.",
-                    "Equilibre su tiempo con el que le dedica al trabajo. Su compromiso muchas veces le hará perder noción de cuánto tiempo está pasando lejos de su familia o de sus actividad de recreación.",
-                    "No oculte sus valores. Haga esfuerzos para que otros los conozcan y aprendan a valorarlos.",
-                    "Intente hacer amistad con aquellos que comparten sus valores. Piense en su mejor amigo: esta persona comparte su sistema de valores?",
-                    "Trate de asociarse con alguien que posea el talento de Futuro. Esta persona será de gran ayuda para mostrarle todo lo bueno que Ud. tiene por delante y cómo sus valores lo ayudarán a llegar allí.",
-                    "Acepte que los demás puedan tener valores diferentes a los suyos. Exprese sus ideas dejando de lado los prejuicios."]
+            datos:
+              {
+                talento: "Creencia",
+                items: ["Intente clarificar sus valores pensando en uno de los mejores días de su vida. Qué papel jugaron esos valores? Cómo ayudaron a que ese día sea tan especial? Cómo podría hacer para que eso se dé más a menudo?",
+                        "Hago un esfuerzo para encontrar roles o puestos compatibles con sus valores. En ese sentido, puede ser muy beneficioso para Ud. formar parte de alguna organización que haga un gran aporte a la sociedad.",
+                        "El sentido y propósito de su trabajo muchas veces será útil para quienes trabajan con Ud. Recuérdeles lo importante que es el trabajo que realizan y la diferencia que este hace, no solo en sus vidas, sino en la de otros.",
+                        "Su talente de Creencia le permite tocar el corazón de la gente. Esta fuerte característica emocional le permite motivar a otros con facilidad, especialmente en tiempos difíciles.",
+                        "Si Ud. tiene cartas, correos, fotografías o simples notas de gente a la que Ud. haya influenciado, colecciónelas! Esto le será de suma utilidad en aquellos momentos donde Ud. necesite motivación o inspiración para seguir adelante.",
+                        "Equilibre su tiempo con el que le dedica al trabajo. Su compromiso muchas veces le hará perder noción de cuánto tiempo está pasando lejos de su familia o de sus actividad de recreación.",
+                        "No oculte sus valores. Haga esfuerzos para que otros los conozcan y aprendan a valorarlos.",
+                        "Intente hacer amistad con aquellos que comparten sus valores. Piense en su mejor amigo: esta persona comparte su sistema de valores?",
+                        "Trate de asociarse con alguien que posea el talento de Futuro. Esta persona será de gran ayuda para mostrarle todo lo bueno que Ud. tiene por delante y cómo sus valores lo ayudarán a llegar allí.",
+                        "Acepte que los demás puedan tener valores diferentes a los suyos. Exprese sus ideas dejando de lado los prejuicios."]
+              }
           }
         ]}).to_json},
       {nombre: "Equidad", dominio_id: 1, libro: "Líderes, Estrategias para un liderazgo eficaz, Warren Bennis y Burt Nanus", pelicula: "NORTH COUNTRY", 
@@ -304,17 +313,20 @@ El talento Equidad se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Equidad",
-            items: ["Haga una lista  de las reglas de Equidad bajo las que vive.  Estas reglas pueden estar basadas en ciertos valores que posee o en ciertas normas que considera “no negociables”. Cuanto más claro sea acerca de estas reglas, más cómodo se sentirá dentro de esos límites.",
-                    "Busque roles en los cuales pueda ayudar a la nivelación. En el trabajo o en su comunidad, ayude a los que estén en desventaja brindándoles la plataforma que necesitan para mostrar su verdadero potencial.",
-                    "Cultive una reputación de identificar a aquellos que realmente se merecen el crédito. Asegúrese de que el mérito se reconozca siempre a los que actualmente hacen el trabajo. Puede volverse conocido como la conciencia de su organización o grupo.",
-                    "Encuentre roles donde pueda hacer cumplir las normas. Este siempre listo para desafiar a quienes rompen las reglas o las manipulan para obtener mayores beneficios para ellos mismos.",
-                    "Mantenga el enfoque en los resultados. Sus talentos de Equidad pueden llevarlo ocasionalmente a poner mayor énfasis en cómo alguien hace las cosas, en vez de que es lo que esa persona hace.",
-                    "Debido a sus valores de igualdad, le cuesta lidiar con los individuos que acomodan las reglas para que sirvan a su situación. Sus talentos de Equidad pueden ayudarlo a aclarar reglas, políticas y procedimientos de manera tal que se asegure su aplicación uniforme para todos. Considere establecer protocolos para asegurar que estas reglas están claramente establecidas. ",
-                    "Asóciese con alguien con un fuerte talento de Excelencia o Individualización. Esta persona puede recordarle cuando es apropiado tener en cuenta diferencias particulares.",
-                    "Siempre haga lo que predica. Esto establecerá un tono igualitario y alentará el cumplimento pacifico de las normas.",
-                    "Los demás apreciaran su compromiso natural a la consistencia entre lo que promete y lo que hace. Siempre defienda sus creencias, aun cuando encuentre una fuerte resistencia. Ud. cosechará beneficios a largo plazo.",
-                    "Aproveche sus talentos de Equidad cuando tenga que comunicar noticias “no tan agradables”. Ud. puede naturalmente hacer que los otros entienden la lógica detrás de dichas decisiones, lo que hará la situación más fácil para ellos – y para Ud."]
+            datos: 
+              {
+                talento: "Equidad",
+                items: ["Haga una lista  de las reglas de Equidad bajo las que vive.  Estas reglas pueden estar basadas en ciertos valores que posee o en ciertas normas que considera “no negociables”. Cuanto más claro sea acerca de estas reglas, más cómodo se sentirá dentro de esos límites.",
+                        "Busque roles en los cuales pueda ayudar a la nivelación. En el trabajo o en su comunidad, ayude a los que estén en desventaja brindándoles la plataforma que necesitan para mostrar su verdadero potencial.",
+                        "Cultive una reputación de identificar a aquellos que realmente se merecen el crédito. Asegúrese de que el mérito se reconozca siempre a los que actualmente hacen el trabajo. Puede volverse conocido como la conciencia de su organización o grupo.",
+                        "Encuentre roles donde pueda hacer cumplir las normas. Este siempre listo para desafiar a quienes rompen las reglas o las manipulan para obtener mayores beneficios para ellos mismos.",
+                        "Mantenga el enfoque en los resultados. Sus talentos de Equidad pueden llevarlo ocasionalmente a poner mayor énfasis en cómo alguien hace las cosas, en vez de que es lo que esa persona hace.",
+                        "Debido a sus valores de igualdad, le cuesta lidiar con los individuos que acomodan las reglas para que sirvan a su situación. Sus talentos de Equidad pueden ayudarlo a aclarar reglas, políticas y procedimientos de manera tal que se asegure su aplicación uniforme para todos. Considere establecer protocolos para asegurar que estas reglas están claramente establecidas. ",
+                        "Asóciese con alguien con un fuerte talento de Excelencia o Individualización. Esta persona puede recordarle cuando es apropiado tener en cuenta diferencias particulares.",
+                        "Siempre haga lo que predica. Esto establecerá un tono igualitario y alentará el cumplimento pacifico de las normas.",
+                        "Los demás apreciaran su compromiso natural a la consistencia entre lo que promete y lo que hace. Siempre defienda sus creencias, aun cuando encuentre una fuerte resistencia. Ud. cosechará beneficios a largo plazo.",
+                        "Aproveche sus talentos de Equidad cuando tenga que comunicar noticias “no tan agradables”. Ud. puede naturalmente hacer que los otros entienden la lógica detrás de dichas decisiones, lo que hará la situación más fácil para ellos – y para Ud."]
+              }
           }
         ]}).to_json},
       {nombre: "Prudencia", dominio_id: 1, libro: "Sólo los paranoides sobreviven,  Andrew S. Grove", pelicula: "THE FIRM", 
@@ -372,17 +384,20 @@ El talento Prudencia se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Prudencia",
-            items: ["Ud. posee un excelente juicio crítico. Intente encontrar trabajos o roles donde puede brindar consejo y/o asesoramiento. Ud. puede ser particularmente bueno en cuestiones legales, como revisión de contratos o normas a cumplimentar.",
-                    "Cualquiera sea su rol, tome la responsabilidad de ayudar a otros a que consideren lo mejor posible sus alternativas antes de tomar una decisión importante. Ud. es capaz de ver factores que otros no ven. Pronto lo reconocerán como un valioso asesor.",
-                    "Explique su detallado proceso de toma de decisiones a todos aquellos que crea necesario. Cuénteles que Ud. resalta el riesgo, con el objeto de poder reducirlo y tener más control. Ud. no quiere que otros vean su talento Prudencia como falta de iniciativa o temor a la acción.",
-                    "Ud. inspira confianza por ser precavido y considerado al tratar temas difíciles. Use estos talentos para aprovechar oportunidades donde pueda manejar conflictos y asuntos complicados.",
-                    "Ud. nunca toma riesgos innecesarios. Por el contrario, suele revisar cada decisión con suma cautela. Confíe en sus instintos cuando piense que algo es “demasiado bueno para ser cierto”. Su prudencia y cautela harán que otros se sientan protegidos y seguros acerca de las conclusiones a las que Ud. frecuentemente llega.",
-                    "En épocas de cambios, considere las ventajas de ser un poco conservador en su toma de decisiones. Esté listo para explicar estas ventajas a otros.",
-                    "No deje que otros lo presionen a que revele detalles de su vida personal demasiado pronto. Confirme cuidadosamente quiénes son estas personas antes de brindarles esa información. Ud. normalmente construye amistades de manera lenta y cuidadosa. Siéntase orgulloso de su pequeño círculo de amigos.",
-                    "Asóciese con alguien con fuertes talentos de Mando, Auto-Confianza o Impulso. Juntos podrán tomar muchas decisiones y todas ellas serán correctas.",
-                    "Intente disuadir la tendencia de otros a moverse rápidamente hacia la acción. Muchas veces la gente cree que por “haber considerado” algo antes de decidirse, eso significa que están tomando una buena decisión. Su Prudencia servirá para advertir a otros de potenciales peligros y llevarlos hacia decisiones más inteligentes.",
-                    "Dese permiso para demorar su opinión acerca de algo hasta asegurarse que cuenta con todos los elementos necesarios para evaluar la situación. Ud. no es alguien que acepte el cambio inmediatamente. Todo lo contrario. Ud. es capaz de mostrar diferentes perspectivas, ver la misma realidad desde otros ángulos y así poner en evidencia detalles que muchos otros pasarían por alto. Como la persona con talento Prudencia que Ud. es, Ud. funciona como un “freno” para aquellos más impulsivos que desean moverse siempre lo más rápidamente posible."]
+            datos:
+              {
+                talento: "Prudencia",
+                items: ["Ud. posee un excelente juicio crítico. Intente encontrar trabajos o roles donde puede brindar consejo y/o asesoramiento. Ud. puede ser particularmente bueno en cuestiones legales, como revisión de contratos o normas a cumplimentar.",
+                        "Cualquiera sea su rol, tome la responsabilidad de ayudar a otros a que consideren lo mejor posible sus alternativas antes de tomar una decisión importante. Ud. es capaz de ver factores que otros no ven. Pronto lo reconocerán como un valioso asesor.",
+                        "Explique su detallado proceso de toma de decisiones a todos aquellos que crea necesario. Cuénteles que Ud. resalta el riesgo, con el objeto de poder reducirlo y tener más control. Ud. no quiere que otros vean su talento Prudencia como falta de iniciativa o temor a la acción.",
+                        "Ud. inspira confianza por ser precavido y considerado al tratar temas difíciles. Use estos talentos para aprovechar oportunidades donde pueda manejar conflictos y asuntos complicados.",
+                        "Ud. nunca toma riesgos innecesarios. Por el contrario, suele revisar cada decisión con suma cautela. Confíe en sus instintos cuando piense que algo es “demasiado bueno para ser cierto”. Su prudencia y cautela harán que otros se sientan protegidos y seguros acerca de las conclusiones a las que Ud. frecuentemente llega.",
+                        "En épocas de cambios, considere las ventajas de ser un poco conservador en su toma de decisiones. Esté listo para explicar estas ventajas a otros.",
+                        "No deje que otros lo presionen a que revele detalles de su vida personal demasiado pronto. Confirme cuidadosamente quiénes son estas personas antes de brindarles esa información. Ud. normalmente construye amistades de manera lenta y cuidadosa. Siéntase orgulloso de su pequeño círculo de amigos.",
+                        "Asóciese con alguien con fuertes talentos de Mando, Auto-Confianza o Impulso. Juntos podrán tomar muchas decisiones y todas ellas serán correctas.",
+                        "Intente disuadir la tendencia de otros a moverse rápidamente hacia la acción. Muchas veces la gente cree que por “haber considerado” algo antes de decidirse, eso significa que están tomando una buena decisión. Su Prudencia servirá para advertir a otros de potenciales peligros y llevarlos hacia decisiones más inteligentes.",
+                        "Dese permiso para demorar su opinión acerca de algo hasta asegurarse que cuenta con todos los elementos necesarios para evaluar la situación. Ud. no es alguien que acepte el cambio inmediatamente. Todo lo contrario. Ud. es capaz de mostrar diferentes perspectivas, ver la misma realidad desde otros ángulos y así poner en evidencia detalles que muchos otros pasarían por alto. Como la persona con talento Prudencia que Ud. es, Ud. funciona como un “freno” para aquellos más impulsivos que desean moverse siempre lo más rápidamente posible."]
+              }
           }
         ]}).to_json},
       {nombre: "Disciplina", dominio_id: 1, libro: "Sin Excusas!, Brian Tracy", pelicula: "SAVING PRIVATE RYAN", 
@@ -503,17 +518,20 @@ El talento Enfoque se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Enfoque",
-            items: ["Cuando establezca metas, tenga la disciplina para incluir cronogramas y evaluaciones. Estos le darán pruebas de que realmente está progresando.",
-                    "Busque empleos en los que pueda funcionar en forma independiente. Con su talento dominante de Enfoque, Ud. podrá mantenerse encaminado sin supervisión.",
-                    "Su mayor valor dentro de un equipo podría ser ayudar a los demás a establecer metas. Al finalizar las reuniones, sea el responsable de resumir las decisiones, de definir cuando estas decisiones se ejecutarán, y de establecer las nuevas fechas reunión. ",
-                    "Los demás pensarán, hablarán y actuarán de un modo menos eficiente que el suyo. Preste atención. A veces estos “desvíos” pueden llevar a descubrimientos y delicias.",
-                    "Establezca metas más allá del trabajo. Si se encuentra demasiado concentrado en los objetivos laborales, fije objetivos para su vida personal. Estos le darán importancia a sus prioridades personales y por ende ayudarán a que logre un balance en su vida.",
-                    "Las horas vuelan cuando está inmerso en una tarea; Ud. pierde la noción del tiempo. Asegúrese que todos sus objetivos son alcanzados y todas sus prioridades son atendidas programando sus esfuerzos y siguiendo esa programación.",
-                    "Ud. funciona mejor cuando se puede concentrar en unas pocas iniciativas y demandas bien definidas. Dese el permiso para rechazar aquellos proyectos que no están alineados con su tarea general. Esto le permitirá concentrar sus esfuerzos en sus prioridades principales – y ayudará a los demás a entender su necesidad de enfoque.",
-                    "Tómese el tiempo para escribir sus aspiraciones, y remítase a ellas seguido. Ud. se sentirá más en control de su vida.",
-                    "En el trabajo, asegúrese de comunicar a su jefe sus objetivos de corto y mediano plazo. Esto le permitirá a su jefe darle el espacio que necesita.",
-                    "Asegúrese de que las metas que se fija consideran cantidad y calidad. La integridad de sus objetivos asegurará que la aplicación de sus talentos de Enfoque conducen a triunfos sólidos y duraderos."]
+            datos: 
+              {
+                talento: "Enfoque",
+                items: ["Cuando establezca metas, tenga la disciplina para incluir cronogramas y evaluaciones. Estos le darán pruebas de que realmente está progresando.",
+                        "Busque empleos en los que pueda funcionar en forma independiente. Con su talento dominante de Enfoque, Ud. podrá mantenerse encaminado sin supervisión.",
+                        "Su mayor valor dentro de un equipo podría ser ayudar a los demás a establecer metas. Al finalizar las reuniones, sea el responsable de resumir las decisiones, de definir cuando estas decisiones se ejecutarán, y de establecer las nuevas fechas reunión. ",
+                        "Los demás pensarán, hablarán y actuarán de un modo menos eficiente que el suyo. Preste atención. A veces estos “desvíos” pueden llevar a descubrimientos y delicias.",
+                        "Establezca metas más allá del trabajo. Si se encuentra demasiado concentrado en los objetivos laborales, fije objetivos para su vida personal. Estos le darán importancia a sus prioridades personales y por ende ayudarán a que logre un balance en su vida.",
+                        "Las horas vuelan cuando está inmerso en una tarea; Ud. pierde la noción del tiempo. Asegúrese que todos sus objetivos son alcanzados y todas sus prioridades son atendidas programando sus esfuerzos y siguiendo esa programación.",
+                        "Ud. funciona mejor cuando se puede concentrar en unas pocas iniciativas y demandas bien definidas. Dese el permiso para rechazar aquellos proyectos que no están alineados con su tarea general. Esto le permitirá concentrar sus esfuerzos en sus prioridades principales – y ayudará a los demás a entender su necesidad de enfoque.",
+                        "Tómese el tiempo para escribir sus aspiraciones, y remítase a ellas seguido. Ud. se sentirá más en control de su vida.",
+                        "En el trabajo, asegúrese de comunicar a su jefe sus objetivos de corto y mediano plazo. Esto le permitirá a su jefe darle el espacio que necesita.",
+                        "Asegúrese de que las metas que se fija consideran cantidad y calidad. La integridad de sus objetivos asegurará que la aplicación de sus talentos de Enfoque conducen a triunfos sólidos y duraderos."]
+              }
           }
         ]}).to_json},
       {nombre: "Responsabilidad", dominio_id: 1, libro: "Meta-Management 1, Fredy Kofman", pelicula: "LETTERS FROM IWO JIMA", 
@@ -568,17 +586,20 @@ El talento Responsabilidad se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Responsabilidad",
-            items: ["Enfatice su sentido de la responsabilidad cuando busque una nueva tarea. Durante las reuniones, describa su deseo de tener toda la responsabilidad posible por el éxito o fracaso de los nuevos proyectos. Encárguese de mostrar su incomodidad frente a las cuestiones inconclusas y a la falta de calidad.",
-                    "No tema responsabilizarse por nuevas tareas, incluso si siente que no cuenta con toda la experiencia necesaria. Ud. se destaca gracias a su talento Responsabilidad y puede lidiar con ella muy efectivamente.",
-                    "Trabaje con quienes comparten su talento Responsabilidad. Ud. se destacará aún más cuando comparta con ellos su gusto por dejar todo terminado.",
-                    "Coméntele a su jefe o superior, que Ud. trabaja mejor cuando deja que Ud. decida los caminos a seguir. No será necesario que Ud. reciba un seguimiento por parte de él. Cuando Ud. forma parte de un proyecto, lo único que hay que revisar es la fecha de finalización, ya que los resultados están garantizados de antemano.",
-                    " Atrévase a decir no. Debido a su responsabilidad instintiva, es probable que tenga dificultades a la hora de recibir una propuesta para involucrarse en más responsabilidades. Por esta razón, debe aprender a ser más selectivo. Solicite más responsabilidades solamente en aquellas oportunidades donde Ud. sienta que disfrutará del proceso y no renegará por haber aceptado.",
-                    "Ud. toma posesión de los proyectos en los que se involucra de manera natural. Asegúrese que su capacidad para llevar adelante esos proyectos no impida compartir la responsabilidad con otros. Permita que los demás experimenten los desafíos propios de liderar un proyecto. Recuerde que al dejarlo, Ud. contribuye a que ellos crezcan e incorporen nuevas herramientas.",
-                    "Aprenda a administrar su talento Responsabilidad aprendiendo a discernir si Ud. es quien debe resolver un determinado asunto o no. Intente desviar responsabilidades adicionales, ya que estas podrían terminar deteriorando la calidad con la que Ud. normalmente realiza sus tareas.",
-                    "Asóciese con personas que posean los talentos Enfoque o Disciplina. Ellos le ayudarán a mantenerse libre de cargas adicionales.",
-                    "Trabajar con alguien que piense como Ud. es algo que encuentra sumamente placentero. De cualquier manera, asegúrese de aclarar las expectativas que cada uno tiene de antemano, así como las fronteras donde cada uno se sentirá cómodo con respecto a la pertenencia de las tareas y/o proyectos que cada uno encare. No espere que haya interferencias o malos entendidos para aclarar esto. Anticípese.",
-                    "A la gente responsable le gusta saber si han trabajado de acuerdo a las expectativas de los demás. Configure una serie de indicadores para poder ir midiendo el proceso, además de los resultados de sus proyectos. Esto también le ayudará como mecanismo de control de calidad, en función de las expectativas que también haya al respecto."]
+            datos: 
+              {
+              talento: "Responsabilidad",
+              items: ["Enfatice su sentido de la responsabilidad cuando busque una nueva tarea. Durante las reuniones, describa su deseo de tener toda la responsabilidad posible por el éxito o fracaso de los nuevos proyectos. Encárguese de mostrar su incomodidad frente a las cuestiones inconclusas y a la falta de calidad.",
+                      "No tema responsabilizarse por nuevas tareas, incluso si siente que no cuenta con toda la experiencia necesaria. Ud. se destaca gracias a su talento Responsabilidad y puede lidiar con ella muy efectivamente.",
+                      "Trabaje con quienes comparten su talento Responsabilidad. Ud. se destacará aún más cuando comparta con ellos su gusto por dejar todo terminado.",
+                      "Coméntele a su jefe o superior, que Ud. trabaja mejor cuando deja que Ud. decida los caminos a seguir. No será necesario que Ud. reciba un seguimiento por parte de él. Cuando Ud. forma parte de un proyecto, lo único que hay que revisar es la fecha de finalización, ya que los resultados están garantizados de antemano.",
+                      " Atrévase a decir no. Debido a su responsabilidad instintiva, es probable que tenga dificultades a la hora de recibir una propuesta para involucrarse en más responsabilidades. Por esta razón, debe aprender a ser más selectivo. Solicite más responsabilidades solamente en aquellas oportunidades donde Ud. sienta que disfrutará del proceso y no renegará por haber aceptado.",
+                      "Ud. toma posesión de los proyectos en los que se involucra de manera natural. Asegúrese que su capacidad para llevar adelante esos proyectos no impida compartir la responsabilidad con otros. Permita que los demás experimenten los desafíos propios de liderar un proyecto. Recuerde que al dejarlo, Ud. contribuye a que ellos crezcan e incorporen nuevas herramientas.",
+                      "Aprenda a administrar su talento Responsabilidad aprendiendo a discernir si Ud. es quien debe resolver un determinado asunto o no. Intente desviar responsabilidades adicionales, ya que estas podrían terminar deteriorando la calidad con la que Ud. normalmente realiza sus tareas.",
+                      "Asóciese con personas que posean los talentos Enfoque o Disciplina. Ellos le ayudarán a mantenerse libre de cargas adicionales.",
+                      "Trabajar con alguien que piense como Ud. es algo que encuentra sumamente placentero. De cualquier manera, asegúrese de aclarar las expectativas que cada uno tiene de antemano, así como las fronteras donde cada uno se sentirá cómodo con respecto a la pertenencia de las tareas y/o proyectos que cada uno encare. No espere que haya interferencias o malos entendidos para aclarar esto. Anticípese.",
+                      "A la gente responsable le gusta saber si han trabajado de acuerdo a las expectativas de los demás. Configure una serie de indicadores para poder ir midiendo el proceso, además de los resultados de sus proyectos. Esto también le ayudará como mecanismo de control de calidad, en función de las expectativas que también haya al respecto."]
+              }
           }
         ]}).to_json},
       {nombre: "Restauración", dominio_id: 1, libro: "Las 5 disfunciones de un equipo, Patrick Lencioni", pelicula: "DRIVING MISS DAISY", 
@@ -631,17 +652,20 @@ El talento Restauración se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Restauración",
-            items: ["Busque roles en los cuales le paguen por resolver problemas o en los cuales su éxito dependa de su habilidad para resolver o restaurar. Puede que disfrute especialmente de la medicina, consultoría, programación, o atención al cliente.",
-                    "No tema que los demás sepan que Ud. disfruta al resolver problemas. Para Ud. es natural, pero mucha gente rehúye de los problemas. Ud. puede ayudarlos.",
-                    "Dese un respiro. Su talento Restauración puede llevarlo a ser demasiado autocrítico. Trate de redirigir esto hacia aspectos en Ud. que pueden ser resueltos, como déficits en los conocimientos o habilidades, o hacia problemas externos que sean tangibles.",
-                    "Deje que los demás resuelvan sus propios problemas. Puede querer meterse y resolver cosas por ellos, pero al hacerlo, puede dificultar su aprendizaje. Preste atención a esto, sobre todo si está en una posición de gerente, mentor, maestro o padre.",
-                    "Las situaciones de cambio activan su fortaleza natural. Use su poder Restauración para diseñar un plan de ataque para revitalizar un proyecto, empresa, negocio o equipo decaído.",
-                    "Aproveche su talento Restauración no solo para lidiar con problemas existentes, sino también para anticiparse y prevenirlos antes de que ocurran. Comparte sus recaudos y sus soluciones con los otros, y demostrará que Ud. es un socio valioso.",
-                    "Estudie detalladamente su materia elegida para volverse capaz de identificar las causas de los problemas que se repiten. Esta habilidad le permitirá llegar a la solución rápidamente.",
-                    "Piense en modos de mejorar sus habilidades y conocimientos. Identifique los vacíos que tiene y las acciones para mejorarlos.",
-                    "La mejora continua es uno de sus sellos. Busque oportunidades para mejorar sus habilidades en un campo, actividad o esfuerzo demandante, que requiera habilidades y/o conocimientos excepcionales.",
-                    "Use su talento Restauración para pensar modos de hacer su trabajo a “prueba de problemas”. Identifique cuestiones existentes o potenciales y diseñe sistemas o procesos para evitar errores en el futuro."]
+            datos: 
+              {
+                talento: "Restauración",
+                items: ["Busque roles en los cuales le paguen por resolver problemas o en los cuales su éxito dependa de su habilidad para resolver o restaurar. Puede que disfrute especialmente de la medicina, consultoría, programación, o atención al cliente.",
+                        "No tema que los demás sepan que Ud. disfruta al resolver problemas. Para Ud. es natural, pero mucha gente rehúye de los problemas. Ud. puede ayudarlos.",
+                        "Dese un respiro. Su talento Restauración puede llevarlo a ser demasiado autocrítico. Trate de redirigir esto hacia aspectos en Ud. que pueden ser resueltos, como déficits en los conocimientos o habilidades, o hacia problemas externos que sean tangibles.",
+                        "Deje que los demás resuelvan sus propios problemas. Puede querer meterse y resolver cosas por ellos, pero al hacerlo, puede dificultar su aprendizaje. Preste atención a esto, sobre todo si está en una posición de gerente, mentor, maestro o padre.",
+                        "Las situaciones de cambio activan su fortaleza natural. Use su poder Restauración para diseñar un plan de ataque para revitalizar un proyecto, empresa, negocio o equipo decaído.",
+                        "Aproveche su talento Restauración no solo para lidiar con problemas existentes, sino también para anticiparse y prevenirlos antes de que ocurran. Comparte sus recaudos y sus soluciones con los otros, y demostrará que Ud. es un socio valioso.",
+                        "Estudie detalladamente su materia elegida para volverse capaz de identificar las causas de los problemas que se repiten. Esta habilidad le permitirá llegar a la solución rápidamente.",
+                        "Piense en modos de mejorar sus habilidades y conocimientos. Identifique los vacíos que tiene y las acciones para mejorarlos.",
+                        "La mejora continua es uno de sus sellos. Busque oportunidades para mejorar sus habilidades en un campo, actividad o esfuerzo demandante, que requiera habilidades y/o conocimientos excepcionales.",
+                        "Use su talento Restauración para pensar modos de hacer su trabajo a “prueba de problemas”. Identifique cuestiones existentes o potenciales y diseñe sistemas o procesos para evitar errores en el futuro."]
+              }
           }
         ]}).to_json},
       {nombre: "Impulso", dominio_id: 2, libro: "El sentido de urgencia, John P. Kotter", pelicula: "THERE WILL BE BLOOD", 
@@ -689,7 +713,7 @@ El talento de Impulso se puede expresar así:
                 items_esperanza: ["Ayude a otros a perderle el miedo al fracaso. Su habilidad para transmitir optimismo al comenzar una nueva tarea será, en gran parte, la responsable por los buenos resultados obtenidos.",
                                   "En otros casos, las personas simplemente necesitarán de su energía para decidirse a comenzar algo. Eso es parte de la sensación de esperanza en que lo pueden lograr que Ud. les transmitirá. ¿Cómo lo hará? Simple. Ud. les mostrará el camino paso a paso y de esa manera, eliminará la idea de que la tarea es intimidante, ya que su talento Impulso le ayudará a desmenuzarla y presentarla como una sucesión de pequeños pasos a dar."]
               }
-          ,
+          },
           {
             nombre: "ideas_para_la_accion",
             talento: "Impulso",
@@ -703,7 +727,7 @@ El talento de Impulso se puede expresar así:
                     "Ud. puede encender las ideas y planes de otros con facilidad. Considere formar alianzas con gente analítica y planificadora. Ellos pueden darle estructura a su energía por la acción y de esa manera generar consenso para sumar a otros a sus planes.",
                     "No olvide nunca explicar las razones detrás de su ímpetu por actuar inmediatamente, ya que de lo contrario, sus “urgencias” pueden ser interpretadas como mera ansiedad.",
                     "Ud. tiene la capacidad de influenciar a otros hacia la acción. Regule este impulso y guárdelo para aquellas situaciones donde esa influencia es imprescindible."]
-          }}
+          }
        ]}).to_json},
       {nombre: "Mando", dominio_id: 2, libro: "Winning, Jack Welch , Suzy Welch", pelicula: "THE GODFATHER", 
       docx_json: ({ 
@@ -754,21 +778,24 @@ El talento Mando se puede expresar así:
                 items_esperanza: ["La gente sabe que Ud. es honesto y directo. Por tal motivo, las personas lo buscarán cada vez que necesiten escuchar la “cruda verdad” acerca de un tema o preocupación que puedan tener en ese momento. Es probable que ellos pidan ayuda a otros, pero cada vez que necesiten una palabra honesta, sin filtros, acudirán a Ud. inmediatamente. Por esta razón, no esquive esas situaciones. Profundice. Pregúnteles cómo es que ellos ven la situación y muéstreles el otro lado de las mismas cosas que ellos ven. Confirme con ellos que quieren escuchar la verdad y cada vez que la respuesta sea sí, dígala en forma cuidadosa, pero directa.",
                                   "La fuerza de sus palabras es inspiradora para mucha gente. Hable acerca de los “porqués” de las tareas, metas u objetivos sin temor a sonar demasiado sentimental. Sus emociones hacen que otros se pongan a la altura de las circunstancias y den el máximo de sus potenciales. Es más, es probable que ellos estén esperando sus palabras para lanzarse a enfrentar una causa por la que estén dispuestos a luchar. Sus palabras siempre serán una inspiración para ellos."]
               }
-          ,
+          },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Mando",
-            items: ["Ud. siempre estará listo para confrontar. Practique sus palabras, su tono y su manera de transformar esta facilidad para confrontar en influencia estratégica.",
-                    "En sus relaciones interpersonales, busque oportunidades para ser claro y directo acerca de temas sensibles. Su capacidad de ser franco y transparente puede despertar confianza en otros. Esfuércese por mostrarse como una persona cándida.",
-                    "Pregunte a otros acerca de sus opiniones. A veces, su pasión puede intimidar a los demás, haciendo que otros callen temiendo una mala reacción suya. Esté atento a esto. Si es necesario, exprese su dificultad para no hablar inmediatamente acerca de temas que pueden causar incomodidad.",
-                    "Trabaje con alguien que posea los talentos de Carisma o Empatía. Hay obstáculos que no necesariamente deben ser confrontados. Estas personas son ideales para enseñarle cómo saber cuándo confrontar  y cuándo evitar.",
-                    "Su actitud de hacerse cargo de las cosas puede ser sumamente útil para otros en casos de crisis. Su talento de Mando en una situación difícil servirá para que otros sientan menos miedo y continúen con sus tareas.",
-                    " Su talento de Mando hará que algunas veces Ud. pelee por tener las riendas. Recuerde que en algunos casos Ud. no tiene que estar al frente de algo para que los demás lo perciban como alguien con facilidad para liderar.",
-                    "Adelántese y destrabe cuellos de botellas. Los demás cuentan con su decisión para avanzar y tener éxitos gracias al empuje que Ud. logra en ellos en esos momentos de dificultad.",
-                    "Piensa en la posibilidad de liderar grupos (comités, asambleas, etc.). Ud. tiene muchas ideas acerca de cómo le gustaría que fueran ciertas cosas y ese tipo de ámbitos son ideales para que Ud. consiga los seguidores necesarios para hacer que esas cosas pasen. Además, es probable que Ud. se sienta cómodo alentando nuevas iniciativas.",
-                    "Busque cargos o roles donde sea necesario persuadir a otros. Cualquier actividad comercial puede ser un lugar propicio para Ud.",
-                    "Encuentre una causa en la que Ud. crea y apóyela. Es probable que una buena causa saca lo mejor de su talento de Mando."]
-          }}
+            datos: 
+              {
+                talento: "Mando",
+                items: ["Ud. siempre estará listo para confrontar. Practique sus palabras, su tono y su manera de transformar esta facilidad para confrontar en influencia estratégica.",
+                        "En sus relaciones interpersonales, busque oportunidades para ser claro y directo acerca de temas sensibles. Su capacidad de ser franco y transparente puede despertar confianza en otros. Esfuércese por mostrarse como una persona cándida.",
+                        "Pregunte a otros acerca de sus opiniones. A veces, su pasión puede intimidar a los demás, haciendo que otros callen temiendo una mala reacción suya. Esté atento a esto. Si es necesario, exprese su dificultad para no hablar inmediatamente acerca de temas que pueden causar incomodidad.",
+                        "Trabaje con alguien que posea los talentos de Carisma o Empatía. Hay obstáculos que no necesariamente deben ser confrontados. Estas personas son ideales para enseñarle cómo saber cuándo confrontar  y cuándo evitar.",
+                        "Su actitud de hacerse cargo de las cosas puede ser sumamente útil para otros en casos de crisis. Su talento de Mando en una situación difícil servirá para que otros sientan menos miedo y continúen con sus tareas.",
+                        " Su talento de Mando hará que algunas veces Ud. pelee por tener las riendas. Recuerde que en algunos casos Ud. no tiene que estar al frente de algo para que los demás lo perciban como alguien con facilidad para liderar.",
+                        "Adelántese y destrabe cuellos de botellas. Los demás cuentan con su decisión para avanzar y tener éxitos gracias al empuje que Ud. logra en ellos en esos momentos de dificultad.",
+                        "Piensa en la posibilidad de liderar grupos (comités, asambleas, etc.). Ud. tiene muchas ideas acerca de cómo le gustaría que fueran ciertas cosas y ese tipo de ámbitos son ideales para que Ud. consiga los seguidores necesarios para hacer que esas cosas pasen. Además, es probable que Ud. se sienta cómodo alentando nuevas iniciativas.",
+                        "Busque cargos o roles donde sea necesario persuadir a otros. Cualquier actividad comercial puede ser un lugar propicio para Ud.",
+                        "Encuentre una causa en la que Ud. crea y apóyela. Es probable que una buena causa saca lo mejor de su talento de Mando."]
+              }
+          }
        ]}).to_json},
       {nombre: "Comunicación", dominio_id: 2, libro: "El mago de los millonarios, Steve Cohen", pelicula: "SCENT OF A WOMAN", 
       docx_json: ({ 
@@ -821,21 +848,24 @@ El talento Comunicación se puede expresar así:
                                   "Sus palabras influyen en las impresiones y expectativas que la gente se forma sobre los individuos y grupos. ¿Está Ud. ayudando o perjudicando la imagen de los demás? Cuando usted habla a o por los demás, elija las palabras que inspiren aliento y optimismo.",
                                   "¿Qué términos y expresiones utiliza para ilustrar el futuro? Sus palabras pueden guiar a otros. Tenga en cuenta la dirección en que sus palabras guían a la gente y selecciónelas bien. Esas palabras pueden seguir inspirando a la gente más de lo que Ud. imagina."]
               }
-          ,
+          },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Comunicación",
-            items: ["Ud. siempre se destacará en aquellos roles que impliquen llamar la atención, ya sea como docente, como representante comercial, como publicista o locutor. Si su empleo no es ninguno de estos, su talento de Comunicación encontrará la manera de aflorar y hacerse notar.",
-                    "Intente recolectar historias o frases que tengan que ver con Ud. Recortes de diarios o revistas, fragmentos de canciones o películas, cualquier cosa que le sirva para refinar su capacidad de comunicar ideas, en forma verbal o escrita.",
-                    "Cuando realice presentaciones, preste mucha atención a su audiencia. Observe las reacciones a cada segmento de su presentación. Ud. rápidamente notará que ciertas captan la atención de la gente de una manera casi inexplicable. Al finalizar, analice esos momentos y trata de encontrar las razones por las cuales Ud. piensa que eso ocurre. Diseñe su próxima presentación con estas ideas en mente.",
-                    "Practique. Si bien la improvisación tiene su encanto, en general las audiencias responden mejor a aquellos que se nota hacia donde se dirigen y pueden darle sentido al desarrollo de la presentación. Contra lo que muchos piensan, cuanto más uno se prepara, más natural uno parece.",
-                    "Identifique quiénes son aquellas personas que sacan lo mejor de su talento de Comunicación. Examínelos cuidadosamente e intente descubrir en ellos las cualidades que provocan ese efecto en Ud.",
-                    "Sea cuidadoso con sus palabras. Intente refinar su vocabulario, no tanto en términos de sofisticación – puede hacerlo si lo desea - , pero más bien en términos de eficacia. Intente que sus palabras tengan impacto.",
-                    "Su talento de Comunicación puede ser aún más efectivo si su mensaje tiene sustancia. No confíe solo en su talento. Revise su discurso en búsqueda de contradicciones o debilidades. Lleve su comunicación a áreas de conocimiento específicas, donde estas hagan una diferencia a su favor.",
-                    "Su talento también es útil para otros. Muchas personas lo verán como un modelo a seguir a la hora de expresarse, tanto en público como en privado. Al mismo tiempo, en caso de reuniones, use su talento para resumir las ideas de otros. Esto tiende a crear consenso cuando se pone el acento en las coincidencias, por encima de las diferencias que siempre puedan existir.",
-                    "Si disfruta escribir, publique sus trabajos. Si disfruta hablar en público, haga presentaciones. Lo importante es que mantenga su talento de Comunicación activo. La clave es que Ud. disfrute del proceso de compartir sus pensamientos con otras personas, ya sea en forma escrita u oral.",
-                    "Si algún amigo o compañero necesita hacer una presentación, no dude en ayudarlo. No solo hará que ambos se sientan bien, sino que puede ser una inesperada forma de aprender otro estilo o una nueva manera de encarar las suyas cuando tenga la oportunidad."]
-          }}
+            datos: 
+              {
+                talento: "Comunicación",
+                items: ["Ud. siempre se destacará en aquellos roles que impliquen llamar la atención, ya sea como docente, como representante comercial, como publicista o locutor. Si su empleo no es ninguno de estos, su talento de Comunicación encontrará la manera de aflorar y hacerse notar.",
+                        "Intente recolectar historias o frases que tengan que ver con Ud. Recortes de diarios o revistas, fragmentos de canciones o películas, cualquier cosa que le sirva para refinar su capacidad de comunicar ideas, en forma verbal o escrita.",
+                        "Cuando realice presentaciones, preste mucha atención a su audiencia. Observe las reacciones a cada segmento de su presentación. Ud. rápidamente notará que ciertas captan la atención de la gente de una manera casi inexplicable. Al finalizar, analice esos momentos y trata de encontrar las razones por las cuales Ud. piensa que eso ocurre. Diseñe su próxima presentación con estas ideas en mente.",
+                        "Practique. Si bien la improvisación tiene su encanto, en general las audiencias responden mejor a aquellos que se nota hacia donde se dirigen y pueden darle sentido al desarrollo de la presentación. Contra lo que muchos piensan, cuanto más uno se prepara, más natural uno parece.",
+                        "Identifique quiénes son aquellas personas que sacan lo mejor de su talento de Comunicación. Examínelos cuidadosamente e intente descubrir en ellos las cualidades que provocan ese efecto en Ud.",
+                        "Sea cuidadoso con sus palabras. Intente refinar su vocabulario, no tanto en términos de sofisticación – puede hacerlo si lo desea - , pero más bien en términos de eficacia. Intente que sus palabras tengan impacto.",
+                        "Su talento de Comunicación puede ser aún más efectivo si su mensaje tiene sustancia. No confíe solo en su talento. Revise su discurso en búsqueda de contradicciones o debilidades. Lleve su comunicación a áreas de conocimiento específicas, donde estas hagan una diferencia a su favor.",
+                        "Su talento también es útil para otros. Muchas personas lo verán como un modelo a seguir a la hora de expresarse, tanto en público como en privado. Al mismo tiempo, en caso de reuniones, use su talento para resumir las ideas de otros. Esto tiende a crear consenso cuando se pone el acento en las coincidencias, por encima de las diferencias que siempre puedan existir.",
+                        "Si disfruta escribir, publique sus trabajos. Si disfruta hablar en público, haga presentaciones. Lo importante es que mantenga su talento de Comunicación activo. La clave es que Ud. disfrute del proceso de compartir sus pensamientos con otras personas, ya sea en forma escrita u oral.",
+                        "Si algún amigo o compañero necesita hacer una presentación, no dude en ayudarlo. No solo hará que ambos se sientan bien, sino que puede ser una inesperada forma de aprender otro estilo o una nueva manera de encarar las suyas cuando tenga la oportunidad."]
+              }
+          }
        ]}).to_json},
       {nombre: "Competitividad", dominio_id: 2, libro: "Las 33 estrategias de la guerra, Robert Greene, Joost Elffers", pelicula: "PIRATES OF SILICON VALLEY", 
       docx_json: ({ 
@@ -888,21 +918,24 @@ El talento de Competitividad se puede expresar así:
                                   "El número uno es la única posición que a Ud. realmente le interesa. Para ello, limítese a trabajar solamente en las áreas donde Ud. sienta que puede ganar. Como líder, identifique los nichos de mercado en los cuales su grupo puede destacarse y defina sus fortalezas y ventajas competitivas con términos lo más específicos posibles. Al hacerlo, Ud. prepara a su grupo y a su organización para éxitos sin precedentes, lo cual incrementa automáticamente el optimismo de todos aquellos que estén involucrados en su proyecto.",
                                   "Ud. tiene una tendencia natural a medir sus logros en base a parámetros de la vida real. Use este talento para identificar dentro de su organización aquellas personas o prácticas que sobresalen de la media. Esto será posible gracias a su capacidad para encontrar la unidad de medida justa para cada persona y porque es capaz de inspirar más a aquellos que consiguieron su admiración."]
               }
-          ,
+          },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Competitividad",
-            items: ["Busque lugares de trabajo donde Ud. pueda medir sus logros. Es probable que Ud. no pueda descubrir sus virtudes, a menos que las pongan a competir.",
-                    "Haga una lista de resultados que a Ud. le gustaría esperar de las actividades que realiza. A cuáles debería prestarle más atención?",
-                    "Identifique una persona que le sirva a Ud. de parámetro de desempeño. Si hay más de una, haga una lista y pregúntese qué indicadores le sirven para que Ud. se dé cuenta cómo le está yendo, si está “ganando” o no.",
-                    "Transforme actividades rutinarias del trabajo en competencias. Se sorprenderá al ver cuánto más consigue finalizar de esta manera.",
-                    "Si gana en algo, tómese el tiempo para indagar por qué ganó. Se puede aprender más de una victoria que de una derrota. Mucho más importante, se puede repetir una victoria con más facilidad y frecuencia si Ud. conoce las razones por las cuales ganó la última vez.",
-                    "Dígale a las personas que ser competitivo no significa subestimar. Explíqueles que competir es su forma de estar motivado, aunque esto sea incómodo para muchos.",
-                    "Desarrollo su propio “sistema balanceado de medidas” para poder medir mejor su desempeño. Esto es particularmente útil para esas situaciones donde Ud. compite contra sus propios números.",
-                    "Si compite contra otros, intente comparar contra otros que puedan estar apenas por encima de Ud. Su inclinación por competir hará que Ud. se esfuerce por alcanzarlos rápidamente. Si no es motivación suficiente, busque compararse con aquellos que están aún más arriba, por más que el desafío parezca demasiado grande al principio. Su talento de Competitividad encontrará la forma de acortar la brecha rápidamente.",
-                    "Tómese el tiempo para celebrar sus victorias. En su mundo, una victoria no es tal cosa hasta que no se celebra.",
-                    "Diseñe estrategias mentales para afrontar mejor las derrotas. Una vez armado con ellas, Ud. se sobrepondrá de una manera mucho más eficiente a cualquier adversidad."]
-          }}
+            datos: 
+              {
+                talento: "Competitividad",
+                items: ["Busque lugares de trabajo donde Ud. pueda medir sus logros. Es probable que Ud. no pueda descubrir sus virtudes, a menos que las pongan a competir.",
+                        "Haga una lista de resultados que a Ud. le gustaría esperar de las actividades que realiza. A cuáles debería prestarle más atención?",
+                        "Identifique una persona que le sirva a Ud. de parámetro de desempeño. Si hay más de una, haga una lista y pregúntese qué indicadores le sirven para que Ud. se dé cuenta cómo le está yendo, si está “ganando” o no.",
+                        "Transforme actividades rutinarias del trabajo en competencias. Se sorprenderá al ver cuánto más consigue finalizar de esta manera.",
+                        "Si gana en algo, tómese el tiempo para indagar por qué ganó. Se puede aprender más de una victoria que de una derrota. Mucho más importante, se puede repetir una victoria con más facilidad y frecuencia si Ud. conoce las razones por las cuales ganó la última vez.",
+                        "Dígale a las personas que ser competitivo no significa subestimar. Explíqueles que competir es su forma de estar motivado, aunque esto sea incómodo para muchos.",
+                        "Desarrollo su propio “sistema balanceado de medidas” para poder medir mejor su desempeño. Esto es particularmente útil para esas situaciones donde Ud. compite contra sus propios números.",
+                        "Si compite contra otros, intente comparar contra otros que puedan estar apenas por encima de Ud. Su inclinación por competir hará que Ud. se esfuerce por alcanzarlos rápidamente. Si no es motivación suficiente, busque compararse con aquellos que están aún más arriba, por más que el desafío parezca demasiado grande al principio. Su talento de Competitividad encontrará la forma de acortar la brecha rápidamente.",
+                        "Tómese el tiempo para celebrar sus victorias. En su mundo, una victoria no es tal cosa hasta que no se celebra.",
+                        "Diseñe estrategias mentales para afrontar mejor las derrotas. Una vez armado con ellas, Ud. se sobrepondrá de una manera mucho más eficiente a cualquier adversidad."]
+              }
+          }
        ]}).to_json},
       {nombre: "Excelencia", dominio_id: 2, libro: "No se detenga, MARCUS BUCKINGHAM", pelicula: "BLACK SWAN", 
       docx_json: ({ 
@@ -954,21 +987,24 @@ El talento Excelencia se puede expresar así:
                                   "Probablemente no tenga oportunidad de observar todo lo que la gente hace excepcionalmente bien. Por ello anímelos a ser los guardianes de sus propios talentos. Pídales que estudien sus éxitos. ¿Qué hicieron mejor en las situaciones exitosas? ¿Cómo pueden hacer más de ello? Inspírelos a soñar. Que sepan que pueden venir a Ud. para esa clase de conversaciones – que es uno de los grandes placeres de su vida.",
                                   "Como líder, tiene la responsabilidad de hacer la mejor utilización de los recursos de la organización – y el talento es  el recurso más valioso. Ud. ve talento en los demás. Use su autoridad para ayudar a sus colaboradores a identificar sus propios talentos y a maximizarlos al posicionar a la gente donde puedan desarrollarlos y utilizar sus fortalezas. Para cada necesidad, hay una persona con el talento indicado. Reclute y seleccione cuidadosamente, y tendrá una organización llena de oportunidades para destacarse."]
               }
-          ,
+          },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Excelencia",
-            items: ["Busque roles donde pueda ayudar a la gente a que tengan éxito o triunfe en sus actividades, ya sea como entrenador, jefe, supervisor, mentor, asesor, etc. Su capacidad de hacer foco en las fortalezas será muy beneficioso para ellos. Debido a que a la mayoría de la gente le resulta difícil decir con precisión cuáles son aquellas cosas que hacen muy bien, comience por mostrárselos con ejemplos concretos.",
-                    "Encuentre manera de medir su desempeño y el de los demás. Estas medidas le ayudarán a encontrar más rápido las fortalezas, ya que una de las maneras más efectivas de identificarlas en prestando atención a las actividades donde una persona muestra buen desempeño de manera sostenida.",
-                    "Una vez que identifique cuáles son sus talentos, enfóquese en ellos. Refine sus habilidades, adquiera más conocimientos y sobre todo, practique tanto como sea necesario.",
-                    "Trate de elaborar un plan que le permita utilizar sus talentos en actividades extra-laborales. Para lograrlo, tenga en cuenta cuáles son aquellas actividades que son realmente importantes en su vida y cuáles son las herramientas que Ud. considera necesarias para llevar a cabo estas actividades de manera satisfactoria.",
-                    "Resolver problemas constantemente le resultará difícil y desmotivador. Intente encontrar a alguien que posea el talento Restauración y pídale ayuda. Explíquele lo importante que es para Ud. todo lo que esa persona pueda hacer al respecto.",
-                    "Estudie historias de éxito. Haga esfuerzos por pasar tiempo con personas que utilicen sus fortalezas de manera efectiva. Mientras más Ud. pueda entender la relación entre las fortalezas y el éxito, más probabilidades tendrá de conseguir resultados excelentes.",
-                    "Explíqueles a otros por qué es mucho más conveniente desarrollar talentos que intentar reparar o combatir debilidades. Es probable que al principio ellos piensan que Ud. lo dice por auto-complacencia, pero no se dé por vencido. Su talento Excelencia le permitirá demostrarles con ejemplos contundentes.",
-                    "No deje que la “sabiduría popular” opaque su talento. Asegúrese que sus esfuerzos están orientados hacia la excelencia todo el tiempo que sea posible.",
-                    "Manténgase enfocado en relaciones y metas de largo plazo. Muchas personas tienden a ser cortoplacistas, pero su talento de Excelencia le permitirá separarse de este grupo y sostener sus esfuerzos en pos de resultados duraderos.",
-                    "En caso de que Ud. sienta que debe atender a alguna de sus debilidades de manera especial, busque alguien que posea el talento que sirva para compensar su déficit. Apóyese en otros para obtener mejores resultados."]
-          }}
+            datos: 
+              {
+                talento: "Excelencia",
+                items: ["Busque roles donde pueda ayudar a la gente a que tengan éxito o triunfe en sus actividades, ya sea como entrenador, jefe, supervisor, mentor, asesor, etc. Su capacidad de hacer foco en las fortalezas será muy beneficioso para ellos. Debido a que a la mayoría de la gente le resulta difícil decir con precisión cuáles son aquellas cosas que hacen muy bien, comience por mostrárselos con ejemplos concretos.",
+                        "Encuentre manera de medir su desempeño y el de los demás. Estas medidas le ayudarán a encontrar más rápido las fortalezas, ya que una de las maneras más efectivas de identificarlas en prestando atención a las actividades donde una persona muestra buen desempeño de manera sostenida.",
+                        "Una vez que identifique cuáles son sus talentos, enfóquese en ellos. Refine sus habilidades, adquiera más conocimientos y sobre todo, practique tanto como sea necesario.",
+                        "Trate de elaborar un plan que le permita utilizar sus talentos en actividades extra-laborales. Para lograrlo, tenga en cuenta cuáles son aquellas actividades que son realmente importantes en su vida y cuáles son las herramientas que Ud. considera necesarias para llevar a cabo estas actividades de manera satisfactoria.",
+                        "Resolver problemas constantemente le resultará difícil y desmotivador. Intente encontrar a alguien que posea el talento Restauración y pídale ayuda. Explíquele lo importante que es para Ud. todo lo que esa persona pueda hacer al respecto.",
+                        "Estudie historias de éxito. Haga esfuerzos por pasar tiempo con personas que utilicen sus fortalezas de manera efectiva. Mientras más Ud. pueda entender la relación entre las fortalezas y el éxito, más probabilidades tendrá de conseguir resultados excelentes.",
+                        "Explíqueles a otros por qué es mucho más conveniente desarrollar talentos que intentar reparar o combatir debilidades. Es probable que al principio ellos piensan que Ud. lo dice por auto-complacencia, pero no se dé por vencido. Su talento Excelencia le permitirá demostrarles con ejemplos contundentes.",
+                        "No deje que la “sabiduría popular” opaque su talento. Asegúrese que sus esfuerzos están orientados hacia la excelencia todo el tiempo que sea posible.",
+                        "Manténgase enfocado en relaciones y metas de largo plazo. Muchas personas tienden a ser cortoplacistas, pero su talento de Excelencia le permitirá separarse de este grupo y sostener sus esfuerzos en pos de resultados duraderos.",
+                        "En caso de que Ud. sienta que debe atender a alguna de sus debilidades de manera especial, busque alguien que posea el talento que sirva para compensar su déficit. Apóyese en otros para obtener mejores resultados."]
+              }
+          }
        ]}).to_json},
       {nombre: "Auto-confianza", dominio_id: 2, libro: "Egonomics Que Hace Del Ego Nuestro Mayor Activo(O Nuestro Mas Costoso Pasivo),  David Marcum, Steven Smith", pelicula: "THE PURSUIT OF HAPPYNESS", 
       docx_json: ({ 
@@ -1019,21 +1055,24 @@ El talento Autoconfianza se puede expresar así:
                 items_esperanza: ["Proponga y propóngase metas ambiciosas. No dude en ir por aquello que muchos considerarían impracticable o, incluso, imposible. A esas situaciones Ud. las verá simplemente como excitantes y desafiantes, pero por sobre todas las cosas, como alcanzables con algo de heroísmo y un poquito de suerte. Su talento Auto-Confianza puede guiar a Ud., su familia, sus colegas y su organización a alcanzar logros que nadie más hubiera siquiera imaginado.",
                                   "Pregúntele a los demás si se han fijado metas lo suficientemente altas. Es probable que a ellos les cueste animarse a soñar en grande como Ud. lo hace. Si Ud. pudiera ayudarlos a que se imaginen algo más grande y mejor, los estará ayudando a que sus vidas también lo sean."]
               }
-          ,
+          },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Autoconfianza",
-            items: ["Busque situaciones en las que no existan reglas o procedimientos previamente definidos. Ud. se siente pleno cuando tiene necesidad de tomar muchas decisiones.",
-                    "Busque roles en los que tenga que convencer a los demás de su punto de vista. Sus talentos de Autoconfianza (especialmente combinados con los talentos de Mando e Impulso) pueden ser extremadamente persuasivos. Las posiciones de Liderazgo, ventas, legales o emprendimientos pueden ser para Ud.",
-                    "Deje que su autoconfianza se vea. Puede ser contagioso y ayudará a la gente alrededor suyo a crecer.",
-                    "Tenga en cuenta que algunas veces puede resultarle difícil poner sus intuiciones o certezas en palabras, y esto puede hacer que los demás lo vean como alguien cerrado. Explíqueles que su confianza no significa que ellos deban guardarse sus opiniones. Puede que ellos lo vean diferente, pero Ud. realmente quiere conocer sus ideas. Que Ud. este convencido no significa que no tenga ganas de  escucharlos.",
-                    "Su veta independiente puede dejarlo solo. Si esto sucede asegúrese de estar al frente, o busque a alguien que pueda ayudar a que los demás vean la conveniencia de seguirlo.",
-                    "Asóciese con alguien con talentos de Estrategia, Prudencia o Futuro. Esta persona puede ayudarlo a definir las metas a alcanzar. Ud. necesita esta ayuda porque una vez que fija los objetivos, es probable que no los abandone hasta lograrlos.",
-                    "Sus esfuerzos extraordinarios y largas jornadas son consecuencia natural de la pasión y confianza que pone en su trabajo. No suponga que los otros actuaran de igual manera.",
-                    "Ud. Puede ser decisorio, aun cuando las cosas se ponen movidas o confusas. Cuando haya caos a su alrededor, muestre y comparta intencionalmente la calma y seguridad interna que posee. Esto reconfortara y dará seguridad a los demás.",
-                    "Establezca metas ambiciosas. No dude en buscar lo que los otros ven como imposible o impracticable, pero para Ud. es meramente audaz y desafiante – y más importante aun – factible con mayor esfuerzo y coraje. Sus talentos de Autoconfianza pueden llevarlo a logros que de otra manera no hubiera nunca imaginado.",
-                    "Ud. no tiene gran necesidad de dirección y apoyo por parte de los otros. Esto lo hace particularmente efectivo en situaciones que requieren decisiones y acciones independientes. Reconozca y contribuya activamente con su talento de Autoconfianza cuando el auto-control y la seguridad son cruciales."]
-          }}
+            datos: 
+              {
+                talento: "Autoconfianza",
+                items: ["Busque situaciones en las que no existan reglas o procedimientos previamente definidos. Ud. se siente pleno cuando tiene necesidad de tomar muchas decisiones.",
+                        "Busque roles en los que tenga que convencer a los demás de su punto de vista. Sus talentos de Autoconfianza (especialmente combinados con los talentos de Mando e Impulso) pueden ser extremadamente persuasivos. Las posiciones de Liderazgo, ventas, legales o emprendimientos pueden ser para Ud.",
+                        "Deje que su autoconfianza se vea. Puede ser contagioso y ayudará a la gente alrededor suyo a crecer.",
+                        "Tenga en cuenta que algunas veces puede resultarle difícil poner sus intuiciones o certezas en palabras, y esto puede hacer que los demás lo vean como alguien cerrado. Explíqueles que su confianza no significa que ellos deban guardarse sus opiniones. Puede que ellos lo vean diferente, pero Ud. realmente quiere conocer sus ideas. Que Ud. este convencido no significa que no tenga ganas de  escucharlos.",
+                        "Su veta independiente puede dejarlo solo. Si esto sucede asegúrese de estar al frente, o busque a alguien que pueda ayudar a que los demás vean la conveniencia de seguirlo.",
+                        "Asóciese con alguien con talentos de Estrategia, Prudencia o Futuro. Esta persona puede ayudarlo a definir las metas a alcanzar. Ud. necesita esta ayuda porque una vez que fija los objetivos, es probable que no los abandone hasta lograrlos.",
+                        "Sus esfuerzos extraordinarios y largas jornadas son consecuencia natural de la pasión y confianza que pone en su trabajo. No suponga que los otros actuaran de igual manera.",
+                        "Ud. Puede ser decisorio, aun cuando las cosas se ponen movidas o confusas. Cuando haya caos a su alrededor, muestre y comparta intencionalmente la calma y seguridad interna que posee. Esto reconfortara y dará seguridad a los demás.",
+                        "Establezca metas ambiciosas. No dude en buscar lo que los otros ven como imposible o impracticable, pero para Ud. es meramente audaz y desafiante – y más importante aun – factible con mayor esfuerzo y coraje. Sus talentos de Autoconfianza pueden llevarlo a logros que de otra manera no hubiera nunca imaginado.",
+                        "Ud. no tiene gran necesidad de dirección y apoyo por parte de los otros. Esto lo hace particularmente efectivo en situaciones que requieren decisiones y acciones independientes. Reconozca y contribuya activamente con su talento de Autoconfianza cuando el auto-control y la seguridad son cruciales."]
+              }
+          }
        ]}).to_json},
       {nombre: "Significación", dominio_id: 2, libro: "El talento nunca es suficiente, John C. Maxwell", pelicula: "FROST / NIXON", 
       docx_json: ({ 
@@ -1083,21 +1122,24 @@ El talento Significación se puede expresar así:
                 items_esperanza: ["Ud. pasa horas imaginando dónde quiere estar en el futuro y cómo hará para llegar ahí. Ayude a otros a pensar en términos del legado que dejarán. Pregúnteles acerca de sus expectativas, como por ejemplo, en qué áreas o temas quieren destacarse. Trabaje con ellos en la importancia de ver más allá del presente y de la rutina del día a día.",
                                   "Su talento Significación frecuentemente lo pone en una posición de exposición o popularidad. Use esta oportunidad para direccionar algo de esta atención hacia otros. Su habilidad para desarrollar los talentos de otros y prepararlos para el éxito puede llegar a ser la mejor forma de medir su Significación"]
               }
-          ,
+          },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Significación",
-            items: ["Escoja empleos o posiciones en las cuales pueda determinar sus propias tareas y acciones. Ud. disfrutará de la exposición que trae aparejada la independencia.",
-                    "Su reputación es importante para Ud., entonces decida cuál debería ser y atienda cada detalle por mínimo que sea. Por ejemplo, identifique y obtenga un nombramiento que ayude a su credibilidad, escriba un artículo que le de visibilidad u ofrézcase a hablar frente a un grupo que admire sus logros.",
-                    "Comparta sus sueños y metas con su familia o amigos cercanos y colegas. Sus expectativas lo mantendrán enfocado.",
-                    "Manténgase enfocado en los resultados. Sus talentos de Significación pueden llevarlo a establecer metas extraordinarias. Su desempeño debe alcanzar esos resultados, o los demás podrían considerarlo un charlatán.",
-                    "Ud. se desempeñará mejor cuando su actuación sea visible. Busque oportunidades que lo pongan en el centro de la escena. Manténgase alejado de los roles que lo dejen detrás de bambalinas.",
-                    "El liderazgo de equipos clave o proyectos importantes saca lo mejor de Ud. Su mayor motivación aparece cuando hay mucho en juego. Que los otros sepan que cuando haya que jugar, Ud. quiere la pelota.",
-                    "Haga una lista de las metas, logros y habilidades que desea, y péguela en un lugar donde la vea a diario. Use esta lista para inspirarse.",
-                    "Identifique el mejor momento que tuvo de reconocimiento o elogio. Porque fue? Quien lo hizo? Que tiene que hacer para recrear ese momento?",
-                    "Al menos que también tenga el talento de Auto-confianza, acepte que puede temerle al fracaso. No deje que este miedo le impida pretender la excelencia. En cambio, úselo para concentrarse en lograr que su rendimiento colme sus pretensiones.",
-                    "Puede que Ud. tenga una conciencia natural acerca de lo que otros piensan de Ud. podría tener un público específico al que quiere gustar, y hará lo que sea necesario para obtener su aprobación. Tenga en cuenta que mientras que la dependencia en la aprobación de los demás puede ser problemática, no hay nada malo en desear ser querido o admirado por la gente importante en su vida."]
-          }}
+            datos:
+            {
+              talento: "Significación",
+              items: ["Escoja empleos o posiciones en las cuales pueda determinar sus propias tareas y acciones. Ud. disfrutará de la exposición que trae aparejada la independencia.",
+                      "Su reputación es importante para Ud., entonces decida cuál debería ser y atienda cada detalle por mínimo que sea. Por ejemplo, identifique y obtenga un nombramiento que ayude a su credibilidad, escriba un artículo que le de visibilidad u ofrézcase a hablar frente a un grupo que admire sus logros.",
+                      "Comparta sus sueños y metas con su familia o amigos cercanos y colegas. Sus expectativas lo mantendrán enfocado.",
+                      "Manténgase enfocado en los resultados. Sus talentos de Significación pueden llevarlo a establecer metas extraordinarias. Su desempeño debe alcanzar esos resultados, o los demás podrían considerarlo un charlatán.",
+                      "Ud. se desempeñará mejor cuando su actuación sea visible. Busque oportunidades que lo pongan en el centro de la escena. Manténgase alejado de los roles que lo dejen detrás de bambalinas.",
+                      "El liderazgo de equipos clave o proyectos importantes saca lo mejor de Ud. Su mayor motivación aparece cuando hay mucho en juego. Que los otros sepan que cuando haya que jugar, Ud. quiere la pelota.",
+                      "Haga una lista de las metas, logros y habilidades que desea, y péguela en un lugar donde la vea a diario. Use esta lista para inspirarse.",
+                      "Identifique el mejor momento que tuvo de reconocimiento o elogio. Porque fue? Quien lo hizo? Que tiene que hacer para recrear ese momento?",
+                      "Al menos que también tenga el talento de Auto-confianza, acepte que puede temerle al fracaso. No deje que este miedo le impida pretender la excelencia. En cambio, úselo para concentrarse en lograr que su rendimiento colme sus pretensiones.",
+                      "Puede que Ud. tenga una conciencia natural acerca de lo que otros piensan de Ud. podría tener un público específico al que quiere gustar, y hará lo que sea necesario para obtener su aprobación. Tenga en cuenta que mientras que la dependencia en la aprobación de los demás puede ser problemática, no hay nada malo en desear ser querido o admirado por la gente importante en su vida."]
+            }
+          }
        ]}).to_json},
       {nombre: "Carisma", dominio_id: 2, libro: "Cómo ganar amigos e influir sobre las personas, Dale Carnegie", pelicula: "THE TALENTED MR. RIPLEY", 
       docx_json: ({ 
@@ -1150,17 +1192,20 @@ El talento Carisma se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Carisma",
-            items: ["Elija un trabajo en el cual pueda interactuar con mucha gente a lo largo del día.",
-                    "Construya deliberadamente la red de personas que lo conocen. Manténgala poniéndose en contacto con cada uno por lo menos una vez al mes.",
-                    "Únase a organizaciones locales, sea voluntario, y encuentra la manera de ser incluido en las listas de la gente influyente del lugar donde vive.",
-                    "Aprenda los nombres de tanta gente como le sea posible. Cree un archivo de la gente que conoce, y agregue nombres cuando se vaya familiarizando. Incluya un resumen de la información personal – como cumpleaños, color favorito, hobby, o equipo favorito.",
-                    "En eventos sociales, tome la responsabilidad de ayudar a la gente tímida a sentirse cómoda.",
-                    "Encuentre el modo de explicar que las redes de contactos son parte de su estilo personal. Si no lo explica, puede que otros lo confundan con falta de sinceridad y se pregunten porque es tan amigable. ",
-                    "Asóciese con alguien con fuertes talentos de Relación o Empatía. Estas personas pueden fortalecer las relaciones que Ud. comienza.",
-                    "Su talento Carisma le da la habilidad para “acelerarles el pulso” a quienes lo rodean. Reconozca el poder de su presencia y cómo le ayuda a abrir la puerta para interesantes intercambios de ideas. Simplemente con comenzar una conversación que sea interesante y estimulante para otros, Ud. estará provocando mejoras o preparando el terreno para que esas mejoras puedan producirse.",
-                    "Los primeros momentos de cualquier evento social son cruciales en cuanto a cómo la gente se siente y cómo los recuerda. Cada vez que sea posible, sea Ud. la primera persona con quien los invitados se encuentran. Su capacidad para manejarse cómodamente en estas situaciones les transmitirá a ellos esa misma comodidad.",
-                    "Practique diversas formas de comenzar conversaciones. Por ejemplo, indague acerca de los intereses de la gente, de tal manera que pueda encontrar rápidamente puntos en común."]
+            datos: 
+              {
+                talento: "Carisma",
+                items: ["Elija un trabajo en el cual pueda interactuar con mucha gente a lo largo del día.",
+                        "Construya deliberadamente la red de personas que lo conocen. Manténgala poniéndose en contacto con cada uno por lo menos una vez al mes.",
+                        "Únase a organizaciones locales, sea voluntario, y encuentra la manera de ser incluido en las listas de la gente influyente del lugar donde vive.",
+                        "Aprenda los nombres de tanta gente como le sea posible. Cree un archivo de la gente que conoce, y agregue nombres cuando se vaya familiarizando. Incluya un resumen de la información personal – como cumpleaños, color favorito, hobby, o equipo favorito.",
+                        "En eventos sociales, tome la responsabilidad de ayudar a la gente tímida a sentirse cómoda.",
+                        "Encuentre el modo de explicar que las redes de contactos son parte de su estilo personal. Si no lo explica, puede que otros lo confundan con falta de sinceridad y se pregunten porque es tan amigable. ",
+                        "Asóciese con alguien con fuertes talentos de Relación o Empatía. Estas personas pueden fortalecer las relaciones que Ud. comienza.",
+                        "Su talento Carisma le da la habilidad para “acelerarles el pulso” a quienes lo rodean. Reconozca el poder de su presencia y cómo le ayuda a abrir la puerta para interesantes intercambios de ideas. Simplemente con comenzar una conversación que sea interesante y estimulante para otros, Ud. estará provocando mejoras o preparando el terreno para que esas mejoras puedan producirse.",
+                        "Los primeros momentos de cualquier evento social son cruciales en cuanto a cómo la gente se siente y cómo los recuerda. Cada vez que sea posible, sea Ud. la primera persona con quien los invitados se encuentran. Su capacidad para manejarse cómodamente en estas situaciones les transmitirá a ellos esa misma comodidad.",
+                        "Practique diversas formas de comenzar conversaciones. Por ejemplo, indague acerca de los intereses de la gente, de tal manera que pueda encontrar rápidamente puntos en común."]
+              }
           }
         ]}).to_json},
       {nombre: "Flexibilidad", dominio_id: 3, libro: "La brújula interior", pelicula: "THE GAME", 
@@ -1214,17 +1259,20 @@ El talento Flexibilidad se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Flexibilidad",
-            items: ["Confirme su imagen de persona calma y confirmadora cuando otros se molestan con cuestiones rutinarias.",
-                    "Evite aquellas funciones o roles que requieran estructura o predictibilidad, ya que rápidamente lo frustrarán o lo harán sentir, como mínimo, incómodo. En su cabeza, la estructura es sinónimo de falta de independencia.",
-                    "En momentos de mucha presión, ayude a sus amigos, colegas o clientes a encontrar formas de no perder el control. Contágielos con su Flexibilidad, mostrándoles cómo mantenerse calmos y alertas a la vez.",
-                    "No deje que otros abusen de su Flexibilidad. Si bien es un talento que se caracteriza por asistir a otros, esto no significa atender a cada deseo, reclamo o queja alrededor suyo.",
-                    "Encuentre roles cuyo éxito dependa de situaciones de cambio constante. Carreras como periodismo, producción de TV, emergencias médicas o atención al cliente. En estas ocupaciones, los mejores son los más rápidos en responder y lo más atentos.",
-                    "Realice pequeños ajustes a su Flexibilidad para estar aún más preparado. Por ejemplo, ejercite rutinas que le sirvan para estar listo para un viaje en 30 minutos o para conocer los tres primeros pasos a seguir en caso de un cambio de planes en el trabajo.",
-                    "Busque a otros que puedan planificar por Ud. Los talentos de Enfoque, Estrategia o incluso Creencia son característicos en personas que pueden establecer metas de largo plazo, dejando que Ud. se destaca en cambios de último momento.",
-                    "El talento de Flexibilidad es una excelente herramienta para enfrentar altibajos emocionales. Su inclinación por no convertir situaciones convencionales en dramas de telenovela le permitirá recuperarse rápidamente de algunas desilusiones o contratiempos. Ayude a otros a que comprendan la diferencia entre su actitud flexible y predispuesta a superar obstáculos y la indiferencia.",
-                    "Evite tareas demasiado estructuradas. Si alguna vez debe seguir una lista, intente convertir esta actividad en algo lúdico. Trate de ser creativo.",
-                    "Intente utilizar su habilidad para confirmar a otros cuando se sienten desmotivados o desilusionados con algo lo más frecuentemente posible."]
+            datos: 
+              {
+                talento: "Flexibilidad",
+                items: ["Confirme su imagen de persona calma y confirmadora cuando otros se molestan con cuestiones rutinarias.",
+                        "Evite aquellas funciones o roles que requieran estructura o predictibilidad, ya que rápidamente lo frustrarán o lo harán sentir, como mínimo, incómodo. En su cabeza, la estructura es sinónimo de falta de independencia.",
+                        "En momentos de mucha presión, ayude a sus amigos, colegas o clientes a encontrar formas de no perder el control. Contágielos con su Flexibilidad, mostrándoles cómo mantenerse calmos y alertas a la vez.",
+                        "No deje que otros abusen de su Flexibilidad. Si bien es un talento que se caracteriza por asistir a otros, esto no significa atender a cada deseo, reclamo o queja alrededor suyo.",
+                        "Encuentre roles cuyo éxito dependa de situaciones de cambio constante. Carreras como periodismo, producción de TV, emergencias médicas o atención al cliente. En estas ocupaciones, los mejores son los más rápidos en responder y lo más atentos.",
+                        "Realice pequeños ajustes a su Flexibilidad para estar aún más preparado. Por ejemplo, ejercite rutinas que le sirvan para estar listo para un viaje en 30 minutos o para conocer los tres primeros pasos a seguir en caso de un cambio de planes en el trabajo.",
+                        "Busque a otros que puedan planificar por Ud. Los talentos de Enfoque, Estrategia o incluso Creencia son característicos en personas que pueden establecer metas de largo plazo, dejando que Ud. se destaca en cambios de último momento.",
+                        "El talento de Flexibilidad es una excelente herramienta para enfrentar altibajos emocionales. Su inclinación por no convertir situaciones convencionales en dramas de telenovela le permitirá recuperarse rápidamente de algunas desilusiones o contratiempos. Ayude a otros a que comprendan la diferencia entre su actitud flexible y predispuesta a superar obstáculos y la indiferencia.",
+                        "Evite tareas demasiado estructuradas. Si alguna vez debe seguir una lista, intente convertir esta actividad en algo lúdico. Trate de ser creativo.",
+                        "Intente utilizar su habilidad para confirmar a otros cuando se sienten desmotivados o desilusionados con algo lo más frecuentemente posible."]
+              }
           }
         ]}).to_json},
       {nombre: "Desarrollo", dominio_id: 3, libro: "Ayúdele a la gente a ganar en el trabajo, Ken Blanchard, Garry Ridge", pelicula: "PRECIOUS", 
@@ -1281,17 +1329,20 @@ El talento de Desarrollo se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Desarrollo",
-            items: ["Haga una lista de las personas a las que ha ayudado en su aprendizaje y crecimiento. Revise la lista seguido, y recuerde el impacto que ha tenido en el mundo.",
-                    "Busque actividades en las que sus principales responsabilidades incluyan facilitar el crecimiento. Ensenar, entrenar o dirigir puede ser especialmente agradable para Ud.",
-                    "Note  cuando otros triunfan, y dígaselos. Sea específico acerca de lo que notó. Las observaciones detalladas de los que los llevo al éxito pueden intensificar su crecimiento.",
-                    "Identifique el mentor o mentores que vieron algo especial en Ud. Tómese el tiempo para agradecerles por ayudarlo a crecer, aun cuando esto implique rastrear algún antiguo profesor de escuela y enviarle a él o ella una carta.",
-                    "Únase a alguien con un fuerte talento de Individualización. Esta persona puede ayudarlo a ver donde radican los mayores talentos de cada persona. Sin esta ayuda, su instinto de Desarrollo podría llevarlo a alentar a la gente a crecer en áreas en las que realmente no tienen talento.",
-                    "Evite cuidadosamente apoyar a quien constantemente se debe esforzar en su tarea. En esos casos, la mejor acción de desarrollo que puede hacer es alentarlo a buscar una tarea diferente – una tarea en la que encaje.",
-                    "Siempre se sentirá obligado a mentar más gente de la que puede. Para cumplir con este deseo interno mientras mantiene su objetivo primordial, considere el impacto de ser un “mentor momentáneo”. Muchas de los más profundos y memorables momentos de evolución ocurren cuando las palabras correctas son dichas en el momento justo – palabras que facilitan la comprensión, reencienden una pasión, abren los ojos a una oportunidad, y cambian el curso de una vida.",
-                    "No sobre invierta en  causas perdidas. Su inclinación natural a ver lo mejor en la gente y las situaciones pueden crearle un punto ciego que le impedirá avanzar a situaciones más oportunas.",
-                    "Su talento de Desarrollo puede llevarlo a estar tan inmerso en el crecimiento de los otros que Ud. Ignore su propio desarrollo. Recuerde que no puede dar lo que no tiene. Si quiere tener un mayor impacto en el bienestar y crecimiento de los otros, Ud. necesita seguir creciendo. Encuentre un mentor o coach que pueda dedicarse a Ud.",
-                    "Haga una lista de la gente a que quiera ayudar a desarrollarse. Escriba las que considera como fortalezas de cada uno. Dedique un tiempo para reunirse con cada uno de ellos de manera regular – incluso si son solo 15 minutos -  y hablen acerca de sus objetivos y sus fortalezas."]
+            datos: 
+              {
+                talento: "Desarrollo",
+                items: ["Haga una lista de las personas a las que ha ayudado en su aprendizaje y crecimiento. Revise la lista seguido, y recuerde el impacto que ha tenido en el mundo.",
+                        "Busque actividades en las que sus principales responsabilidades incluyan facilitar el crecimiento. Ensenar, entrenar o dirigir puede ser especialmente agradable para Ud.",
+                        "Note  cuando otros triunfan, y dígaselos. Sea específico acerca de lo que notó. Las observaciones detalladas de los que los llevo al éxito pueden intensificar su crecimiento.",
+                        "Identifique el mentor o mentores que vieron algo especial en Ud. Tómese el tiempo para agradecerles por ayudarlo a crecer, aun cuando esto implique rastrear algún antiguo profesor de escuela y enviarle a él o ella una carta.",
+                        "Únase a alguien con un fuerte talento de Individualización. Esta persona puede ayudarlo a ver donde radican los mayores talentos de cada persona. Sin esta ayuda, su instinto de Desarrollo podría llevarlo a alentar a la gente a crecer en áreas en las que realmente no tienen talento.",
+                        "Evite cuidadosamente apoyar a quien constantemente se debe esforzar en su tarea. En esos casos, la mejor acción de desarrollo que puede hacer es alentarlo a buscar una tarea diferente – una tarea en la que encaje.",
+                        "Siempre se sentirá obligado a mentar más gente de la que puede. Para cumplir con este deseo interno mientras mantiene su objetivo primordial, considere el impacto de ser un “mentor momentáneo”. Muchas de los más profundos y memorables momentos de evolución ocurren cuando las palabras correctas son dichas en el momento justo – palabras que facilitan la comprensión, reencienden una pasión, abren los ojos a una oportunidad, y cambian el curso de una vida.",
+                        "No sobre invierta en  causas perdidas. Su inclinación natural a ver lo mejor en la gente y las situaciones pueden crearle un punto ciego que le impedirá avanzar a situaciones más oportunas.",
+                        "Su talento de Desarrollo puede llevarlo a estar tan inmerso en el crecimiento de los otros que Ud. Ignore su propio desarrollo. Recuerde que no puede dar lo que no tiene. Si quiere tener un mayor impacto en el bienestar y crecimiento de los otros, Ud. necesita seguir creciendo. Encuentre un mentor o coach que pueda dedicarse a Ud.",
+                        "Haga una lista de la gente a que quiera ayudar a desarrollarse. Escriba las que considera como fortalezas de cada uno. Dedique un tiempo para reunirse con cada uno de ellos de manera regular – incluso si son solo 15 minutos -  y hablen acerca de sus objetivos y sus fortalezas."]
+              }
           }
         ]}).to_json},
       {nombre: "Conexión", dominio_id: 3, libro: "La píldora del liderazgo, Kenneth H. Blanchard, Marc Muchnick", pelicula: "7 POUNDS", 
@@ -1345,17 +1396,20 @@ El talento Conexión se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Conexión",
-            items: ["Considere actividades donde Ud. pueda escuchar y aconsejar. Puede volverse bueno para ayudar a los demás a ver conexiones y propósito en la vida diaria.",
-                    "Explore modos específicos de expandir su sentido de conexión, como comenzar un club de lectura, asistir a un retiro o unirse a una organización que practique la Conexión.",
-                    "Dentro de su organización, ayude a sus compañeros de trabajo a ver como sus esfuerzos son parte necesaria del todo. Puede ser un líder construyendo equipos y ayudando a la gente a sentirse importante.",
-                    "Ud. Conoce las fronteras y limites creadas dentro de las organizaciones y comunidades, pero las trata como flexibles y fluidas. Use su talento de Conexión para derribar aquellos muros que dificultan el compartir información.",
-                    "Ayude a la gente a identificar las conexiones entre sus talentos, sus acciones, su misión y sus logros. Cuando la gente cree en lo que está haciendo y se siente parte de algo mayor, el compromiso al logro se incrementa.",
-                    "Asóciese con alguien que tenga un fuerte talento de Comunicación. Esta persona puede ayudarlo a elegir las palabras para describir ejemplos de conexiones en el mundo real.",
-                    "No pierda mucho tiempo tratando de convencer a otros de ver el mundo como una telaraña interconectada. Reconozca que su sentido de conexión es intuitivo. Si los demás no comparten su intuición, los argumentos racionales no lograran persuadirlos.",
-                    "Su filosofía de vida lo obliga a moverse más allá de sus propios intereses y los intereses de su entorno inmediato y sus esferas de influencia. Como tal, Ud. Puede ver mayores implicancias para su comunidad y el mundo. Explore maneras de comunicar estas percepciones a los demás.",
-                    "Asuma responsabilidades globales o interculturales que le permitan capitalizar su entendimiento de los temas comunes inherentes a la humanidad. Construya habilidades universales, cambie la mentalidad de aquellos que piensan en términos de “nosotros” y “ellos”.",
-                    "El talento de Conexión puede ayudarlo a ver más allá de la capa superficial de las personas y descubrir su interior. Tengo esto en cuenta en particular cuando trabaje con alguien cuyo ambiente sea muy diferente al suyo. Ud. Tiene el talento natural de ver más allá de los rótulos y enfocarse en las necesidades esenciales de los otros."]
+            datos:
+              {
+                talento: "Conexión",
+                items: ["Considere actividades donde Ud. pueda escuchar y aconsejar. Puede volverse bueno para ayudar a los demás a ver conexiones y propósito en la vida diaria.",
+                        "Explore modos específicos de expandir su sentido de conexión, como comenzar un club de lectura, asistir a un retiro o unirse a una organización que practique la Conexión.",
+                        "Dentro de su organización, ayude a sus compañeros de trabajo a ver como sus esfuerzos son parte necesaria del todo. Puede ser un líder construyendo equipos y ayudando a la gente a sentirse importante.",
+                        "Ud. Conoce las fronteras y limites creadas dentro de las organizaciones y comunidades, pero las trata como flexibles y fluidas. Use su talento de Conexión para derribar aquellos muros que dificultan el compartir información.",
+                        "Ayude a la gente a identificar las conexiones entre sus talentos, sus acciones, su misión y sus logros. Cuando la gente cree en lo que está haciendo y se siente parte de algo mayor, el compromiso al logro se incrementa.",
+                        "Asóciese con alguien que tenga un fuerte talento de Comunicación. Esta persona puede ayudarlo a elegir las palabras para describir ejemplos de conexiones en el mundo real.",
+                        "No pierda mucho tiempo tratando de convencer a otros de ver el mundo como una telaraña interconectada. Reconozca que su sentido de conexión es intuitivo. Si los demás no comparten su intuición, los argumentos racionales no lograran persuadirlos.",
+                        "Su filosofía de vida lo obliga a moverse más allá de sus propios intereses y los intereses de su entorno inmediato y sus esferas de influencia. Como tal, Ud. Puede ver mayores implicancias para su comunidad y el mundo. Explore maneras de comunicar estas percepciones a los demás.",
+                        "Asuma responsabilidades globales o interculturales que le permitan capitalizar su entendimiento de los temas comunes inherentes a la humanidad. Construya habilidades universales, cambie la mentalidad de aquellos que piensan en términos de “nosotros” y “ellos”.",
+                        "El talento de Conexión puede ayudarlo a ver más allá de la capa superficial de las personas y descubrir su interior. Tengo esto en cuenta en particular cuando trabaje con alguien cuyo ambiente sea muy diferente al suyo. Ud. Tiene el talento natural de ver más allá de los rótulos y enfocarse en las necesidades esenciales de los otros."]
+              }
           }
         ]}).to_json},
       {nombre: "Empatía", dominio_id: 3, libro: "Meta-Management 2, Fredy Kofman", pelicula: "SCHINDLER'S LIST", 
@@ -1409,17 +1463,20 @@ El talento Empatía se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Empatía",
-            items: ["Ayude a sus amigos y compañeros a reconocer cuando un colega está pasando por un mal momento. Recuerde, la mayoría de la gente no tiene su habilidad de reconocer situaciones sensibles.",
-                    "Actúe en forma rápida y segura cuando otros se comportan de manera no saludable con ellos mismos o los demás. El entender el estado emocional de alguien no significa que Ud. deba justificar ciertas conductas. Tenga en cuenta que cuando su empata se convierte en compasión pueden verlo en “posición de víctima”.",
-                    "Asóciese con alguien con un fuerte talento de Mando o Impulso. Esta persona puede ayudarlo a actuar, aun cuando los sentimientos de la gente puedan ser heridos.",
-                    "Considere ayudar a otros siendo su mentor o confidente. Dado que la confianza es primordial para Ud., es probable que la gente se sienta cómodaacercándose a Ud. en caso de necesidad. Su discreción y deseo genuino de ayudar serán altamente valorados.",
-                    "En ocasiones, su empatía hacia otros puede sobrepasarlo. Establezca rituales que pueda usar al final de su día para marcar que el trabajo ha terminado. Esto lo ayudara a proteger sus emociones y prevenir el burnout.",
-                    "Identifique un amigo que tenga fuertes talentos de Empatía y valide sus observaciones con él/ella.",
-                    "Debido a su sensibilidad acerca de los sentimientos de los otros, fácilmente mide el tono emocional de una habitación. Use sus talentos para construir puentes de entendimiento y soporte mutuo. Su empatía resulta especialmente importante durante tiempos difíciles porque demuestra su preocupación, generando de esa manera lealtad.",
-                    "Ser testigo de la felicidad de otros le produce placer. Es por eso que es probable que encuentre oportunidades para remarcar los éxitos de los demás y enfatizar positivamente sus logros. En cada oportunidad, diga unas palabras de aliento y reconocimiento. Al hacerlo, dejara una profunda y valiosa impresión.",
-                    "Porque Ud. es un observador de los sentimientos de los demás, es probable que intuya lo que va a suceder antes de que otros lo noten. A pesar de que intuiciones pueden parecer nada más que “corazonadas”, tome nota de ellas. Pueden convertirse en un activo valioso.",
-                    "Hay veces en que la empatía no necesita de palabras. Un gesto amable puede ser todo lo que alguien necesita para sentirse reconocido. Utilice su talento de Empatía para reconfortar a los demás sin hablar, una mirada, una sonrisa o una palmada en la espalda."]
+            datos: 
+              {
+                talento: "Empatía",
+                items: ["Ayude a sus amigos y compañeros a reconocer cuando un colega está pasando por un mal momento. Recuerde, la mayoría de la gente no tiene su habilidad de reconocer situaciones sensibles.",
+                        "Actúe en forma rápida y segura cuando otros se comportan de manera no saludable con ellos mismos o los demás. El entender el estado emocional de alguien no significa que Ud. deba justificar ciertas conductas. Tenga en cuenta que cuando su empata se convierte en compasión pueden verlo en “posición de víctima”.",
+                        "Asóciese con alguien con un fuerte talento de Mando o Impulso. Esta persona puede ayudarlo a actuar, aun cuando los sentimientos de la gente puedan ser heridos.",
+                        "Considere ayudar a otros siendo su mentor o confidente. Dado que la confianza es primordial para Ud., es probable que la gente se sienta cómodaacercándose a Ud. en caso de necesidad. Su discreción y deseo genuino de ayudar serán altamente valorados.",
+                        "En ocasiones, su empatía hacia otros puede sobrepasarlo. Establezca rituales que pueda usar al final de su día para marcar que el trabajo ha terminado. Esto lo ayudara a proteger sus emociones y prevenir el burnout.",
+                        "Identifique un amigo que tenga fuertes talentos de Empatía y valide sus observaciones con él/ella.",
+                        "Debido a su sensibilidad acerca de los sentimientos de los otros, fácilmente mide el tono emocional de una habitación. Use sus talentos para construir puentes de entendimiento y soporte mutuo. Su empatía resulta especialmente importante durante tiempos difíciles porque demuestra su preocupación, generando de esa manera lealtad.",
+                        "Ser testigo de la felicidad de otros le produce placer. Es por eso que es probable que encuentre oportunidades para remarcar los éxitos de los demás y enfatizar positivamente sus logros. En cada oportunidad, diga unas palabras de aliento y reconocimiento. Al hacerlo, dejara una profunda y valiosa impresión.",
+                        "Porque Ud. es un observador de los sentimientos de los demás, es probable que intuya lo que va a suceder antes de que otros lo noten. A pesar de que intuiciones pueden parecer nada más que “corazonadas”, tome nota de ellas. Pueden convertirse en un activo valioso.",
+                        "Hay veces en que la empatía no necesita de palabras. Un gesto amable puede ser todo lo que alguien necesita para sentirse reconocido. Utilice su talento de Empatía para reconfortar a los demás sin hablar, una mirada, una sonrisa o una palmada en la espalda."]
+              }
           }
         ]}).to_json},
       {nombre: "Armonía", dominio_id: 3, libro: "Sí de acuerdo Como negociar sin ceder, Roger Fisher,Bruce Patton,William Ury", pelicula: "REMEMBER THE TITANS", 
@@ -1471,17 +1528,20 @@ El talento Armonía se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Armonía",
-            items: ["Use su talento Armonía para una red de personas con distintos puntos de vista. Confíe en estas personas cada vez que necesite expertise. Su apertura frente a estas muy diversas perspectivas le ayudará a crecer.",
-                    "Cuando dos personas discutan, pregúntele a otros del grupo qué opinión tienen al respecto. Cada vez que Ud. aumenta la cantidad de voces en una conversación, más chances hay de encontrar puntos en común donde puedan estar de acuerdo. Recuerde: Ud. acerca a la gente.",
-                    "Evite cualquier tipo de rol donde tenga que confrontar con gente a diario. El sector comercial o las “llamadas en frío” a clientes lo frustrarán y/o pondrán de mal humor.",
-                    "Practique diversas formas de resolver conflictos sin confrontación. Si no pule sus herramientas, se encontrará huyendo de los conflictos en lugar de enfrentarlos, lo que podría propiciar un comportamiento del tipo pasivo-agresivo.",
-                    "Asóciese con gente que posea los talentos Mando o Impulso. Cuando todos sus esfuerzos para disolver conflictos se agoten, ellos lo ayudarán a enfrentarlos sin titubear.",
-                    "Cree ámbitos de interacción o foros donde la gente pueda dar su opinión y sea escuchada. Esto ayudará a que las personas paulatinamente se van involucrando más en sus proyectos o iniciativas.",
-                    "Sea consciente de que su inclinación por crear armonía dondequiera que Ud. vaya puede lograr el efecto contrario en muchas personas. La gente con talento Logro, por ejemplo, pueden sentir que se está perdiendo el tiempo y estarán ansiosos por tomar una decisión. Aprenda a comunicar brevemente la importancia de escuchar a los demás siempre.",
-                    "Entienda que siempre habrá personas que intentarán sacar ventaja de sus intentos por crear armonía. A veces, cuando a todas las personas se les da la oportunidad de hablar y expresar sus puntos de vista, algunos pueden aprovechar para “promocionarse” o conversar acerca de temas que no tienen nada que ver con el que se está planteando en ese momento. En circunstancias como esa, no dude en interrumpir a quien lo esté haciendo y retome el curso normal de la conversación. El balance entre escuchar y ser eficiente es clave para lograr armonía.",
-                    "Durante las discusiones, busque el lado práctico de las cosas. Ayude a otros a que también lo hagan. Este suele ser el punto de partida para muchos acuerdos.",
-                    "El respeto es una de sus fortalezas. Ud. tiene facilidad para apartarse de cualquier cuestión cuando entiende que alguien con más experiencia puede participar en el asunto. Fomente este lado suyo, siendo proactivo al invitar a otros a que sumen su experiencia en los asuntos donde Ud. no se siente lo suficientemente experto."]
+            datos: 
+              {
+                talento: "Armonía",
+                items: ["Use su talento Armonía para una red de personas con distintos puntos de vista. Confíe en estas personas cada vez que necesite expertise. Su apertura frente a estas muy diversas perspectivas le ayudará a crecer.",
+                        "Cuando dos personas discutan, pregúntele a otros del grupo qué opinión tienen al respecto. Cada vez que Ud. aumenta la cantidad de voces en una conversación, más chances hay de encontrar puntos en común donde puedan estar de acuerdo. Recuerde: Ud. acerca a la gente.",
+                        "Evite cualquier tipo de rol donde tenga que confrontar con gente a diario. El sector comercial o las “llamadas en frío” a clientes lo frustrarán y/o pondrán de mal humor.",
+                        "Practique diversas formas de resolver conflictos sin confrontación. Si no pule sus herramientas, se encontrará huyendo de los conflictos en lugar de enfrentarlos, lo que podría propiciar un comportamiento del tipo pasivo-agresivo.",
+                        "Asóciese con gente que posea los talentos Mando o Impulso. Cuando todos sus esfuerzos para disolver conflictos se agoten, ellos lo ayudarán a enfrentarlos sin titubear.",
+                        "Cree ámbitos de interacción o foros donde la gente pueda dar su opinión y sea escuchada. Esto ayudará a que las personas paulatinamente se van involucrando más en sus proyectos o iniciativas.",
+                        "Sea consciente de que su inclinación por crear armonía dondequiera que Ud. vaya puede lograr el efecto contrario en muchas personas. La gente con talento Logro, por ejemplo, pueden sentir que se está perdiendo el tiempo y estarán ansiosos por tomar una decisión. Aprenda a comunicar brevemente la importancia de escuchar a los demás siempre.",
+                        "Entienda que siempre habrá personas que intentarán sacar ventaja de sus intentos por crear armonía. A veces, cuando a todas las personas se les da la oportunidad de hablar y expresar sus puntos de vista, algunos pueden aprovechar para “promocionarse” o conversar acerca de temas que no tienen nada que ver con el que se está planteando en ese momento. En circunstancias como esa, no dude en interrumpir a quien lo esté haciendo y retome el curso normal de la conversación. El balance entre escuchar y ser eficiente es clave para lograr armonía.",
+                        "Durante las discusiones, busque el lado práctico de las cosas. Ayude a otros a que también lo hagan. Este suele ser el punto de partida para muchos acuerdos.",
+                        "El respeto es una de sus fortalezas. Ud. tiene facilidad para apartarse de cualquier cuestión cuando entiende que alguien con más experiencia puede participar en el asunto. Fomente este lado suyo, siendo proactivo al invitar a otros a que sumen su experiencia en los asuntos donde Ud. no se siente lo suficientemente experto."]
+             }
           }
         ]}).to_json},
       {nombre: "Inclusión", dominio_id: 3, libro: "Fish, Stephen C. Lundin, Harry Paul, John Christensen", pelicula: "INVICTUS", 
@@ -1534,17 +1594,20 @@ El talento Inclusión se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Inclusión",
-            items: ["Considere actividades donde pueda ser responsable de representar voces que generalmente no son escuchadas. Ud. Puede obtener una gran satisfacción de ser el portavoz de dichas personas.",
-                    "Busque oportunidades de conectar gente de diversas culturas y ambientes. Ud. puede ser un líder en esta área.",
-                    "Ayude a aquellos nuevos en la organización o grupo a integrarse al conocer nuevas personas. Ud. siempre será un experto en hacer que la gente se sienta rápidamente aceptada e incluida.",
-                    "Como anti-elitista puede chocar con aquellos que sienten que se han ganado el derecho al poder y ciertos beneficios. En vez de cuestionar sus reclamos, use su perspicacia para ayudar a que todos encuentran un terreno común y valoren sus contribuciones.",
-                    "Reconozca la dualidad que siente cuando debe dar malas noticias. Busque  colegas que puedan ayudarlo a justificar su posición para no tener que disculparse o suavizar demasiado su mensaje.",
-                    "No toda la gente es amable o simpática. Mientras que muchos de sus amigos o compañeros pueden alejarse de la gente difícil, Ud. tiene una capacidad natural para preocuparse por todas las personas. Que los demás sepan que pueden acudir a Ud. si sienten que han llegado al límite con una persona problemática.",
-                    "Escoja roles en los que está continuamente trabajando e interactuando con gente. Disfrutara el desafío de hacer que todos se sientan importantes.",
-                    "Asóciese con alguien que tenga el talento dominante de Impulso o Mando. Esta persona puede ayudarlo cuando tenga que dar malas noticias que puedan herir los sentimientos de alguien.",
-                    "Sepa que la gente se relacionara a través suyo. Ud. es un conducto para la información. Ud. puede interactuar con todas las partes y todas las personas de un grupo y mantenerlas conectadas efectivamente entre ellas.",
-                    "Explique lo que todos tenemos en común. Ayude a los demás a entender que para respetar nuestras diferencias (nuestra diversidad), primero debemos apreciar lo que compartimos (nuestras similitudes)."]
+            datos: 
+              {
+                talento: "Inclusión",
+                items: ["Considere actividades donde pueda ser responsable de representar voces que generalmente no son escuchadas. Ud. Puede obtener una gran satisfacción de ser el portavoz de dichas personas.",
+                        "Busque oportunidades de conectar gente de diversas culturas y ambientes. Ud. puede ser un líder en esta área.",
+                        "Ayude a aquellos nuevos en la organización o grupo a integrarse al conocer nuevas personas. Ud. siempre será un experto en hacer que la gente se sienta rápidamente aceptada e incluida.",
+                        "Como anti-elitista puede chocar con aquellos que sienten que se han ganado el derecho al poder y ciertos beneficios. En vez de cuestionar sus reclamos, use su perspicacia para ayudar a que todos encuentran un terreno común y valoren sus contribuciones.",
+                        "Reconozca la dualidad que siente cuando debe dar malas noticias. Busque  colegas que puedan ayudarlo a justificar su posición para no tener que disculparse o suavizar demasiado su mensaje.",
+                        "No toda la gente es amable o simpática. Mientras que muchos de sus amigos o compañeros pueden alejarse de la gente difícil, Ud. tiene una capacidad natural para preocuparse por todas las personas. Que los demás sepan que pueden acudir a Ud. si sienten que han llegado al límite con una persona problemática.",
+                        "Escoja roles en los que está continuamente trabajando e interactuando con gente. Disfrutara el desafío de hacer que todos se sientan importantes.",
+                        "Asóciese con alguien que tenga el talento dominante de Impulso o Mando. Esta persona puede ayudarlo cuando tenga que dar malas noticias que puedan herir los sentimientos de alguien.",
+                        "Sepa que la gente se relacionara a través suyo. Ud. es un conducto para la información. Ud. puede interactuar con todas las partes y todas las personas de un grupo y mantenerlas conectadas efectivamente entre ellas.",
+                        "Explique lo que todos tenemos en común. Ayude a los demás a entender que para respetar nuestras diferencias (nuestra diversidad), primero debemos apreciar lo que compartimos (nuestras similitudes)."]
+              }
           }
         ]}).to_json},
       {nombre: "Individualización", dominio_id: 3, libro: "Ahora, descubra sus fortalezas, Marcus Buckingham, Donald O. Clifton", pelicula: "DEAD POETS' SOCIETY", 
@@ -1602,17 +1665,20 @@ El talento de Individualización se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Individualización",
-            items: ["Intente encontrar tareas relacionadas con la psicología, la docencia, la supervisión o incluso, las ventas donde pueda poner su talento Individualización en marcha lo más frecuentemente posible.",
-                    "Conviértase en un experto en describir cuáles son sus fortalezas y su propio estilo. Por ejemplo, intente responder a las siguientes preguntas: “¿Cuál fue el mejor elogio que recibió? ¿Cuán seguido prefiere tener reuniones con su jefe? ¿Cuál es el mejor método para construir relaciones? ¿Cuál es la mejor manera de aprender?”. Luego hágales las mismas preguntas a sus colegas y amigos. En el proceso, ayúdelos a planear su futuro apoyándose en sus fortalezas y en lo que mejor saben hacer.",
-                    "Ayude a otros a que descubran que la verdadera diversidad radica en diferencias casi imperceptibles entre las personas, no en su raza, sexo o nacionalidad.",
-                    "Explíqueles que es apropiado, justo y efectivo tratan a cada persona de forma diferente. Aquellos que no poseen su talento Individualización es probable que no vean algunas de estas diferencias o que las vean como injusticia o falta de equidad. Para convencerlos, deberá insistir describiendo su perspectiva con el mayor lujo de detalles que sea posible.",
-                    "Descubra cuáles son aquellas cosas que los que están en su equipo mejor saben hacer. A partir de ahí, ayúdelos a fortalecer sus talentos y habilidades, así como sus conocimientos. Explíqueles cuáles son las razones que hay detrás de su interés, cuénteles acerca de su interés por identificar aquellas cosas únicas en cada persona.",
-                    "Ud. tiene habilidad para describir los gustos de las personas, así como aquellas cosas que a la gente no le gusta tanto. Esto lo pone en una posición muy particular. Use su talento de Individualización para encontrar aquellos gustos que son únicos en cada persona. Celebre esas diferencias.",
-                    "Haga que sus amigos y colegas tomen conciencia de las necesidades particulares de cada persona. Muy pronto, muchos de ellos acudirán a Ud. para que les explique qué motiva a otros.",
-                    "Si realiza presentaciones en público, utilice las experiencias particulares de la audiencia a su favor. Use su talento de Individualización para conocer acerca de las historias más originales y no olvide utilizarlas la próxima vez.",
-                    "Ud. se mueve cómodamente en un amplio rango de estilos y culturas, y es intuitivo para personalizar sus interacciones. Haga uso de estos talentos de manera concienzuda y proactiva liderando proyectos diversos y comunitarios.",
-                    "Sus talentos de Individualización lo pueden ayudar a tomar un camino diferente al interpretar datos. Mientras otros buscan similitudes, Ud. puede identificar rangos distintivos. Sus interpretaciones sumarán una valiosa perspectiva,"]
+            datos: 
+              {
+                talento: "Individualización",
+                items: ["Intente encontrar tareas relacionadas con la psicología, la docencia, la supervisión o incluso, las ventas donde pueda poner su talento Individualización en marcha lo más frecuentemente posible.",
+                        "Conviértase en un experto en describir cuáles son sus fortalezas y su propio estilo. Por ejemplo, intente responder a las siguientes preguntas: “¿Cuál fue el mejor elogio que recibió? ¿Cuán seguido prefiere tener reuniones con su jefe? ¿Cuál es el mejor método para construir relaciones? ¿Cuál es la mejor manera de aprender?”. Luego hágales las mismas preguntas a sus colegas y amigos. En el proceso, ayúdelos a planear su futuro apoyándose en sus fortalezas y en lo que mejor saben hacer.",
+                        "Ayude a otros a que descubran que la verdadera diversidad radica en diferencias casi imperceptibles entre las personas, no en su raza, sexo o nacionalidad.",
+                        "Explíqueles que es apropiado, justo y efectivo tratan a cada persona de forma diferente. Aquellos que no poseen su talento Individualización es probable que no vean algunas de estas diferencias o que las vean como injusticia o falta de equidad. Para convencerlos, deberá insistir describiendo su perspectiva con el mayor lujo de detalles que sea posible.",
+                        "Descubra cuáles son aquellas cosas que los que están en su equipo mejor saben hacer. A partir de ahí, ayúdelos a fortalecer sus talentos y habilidades, así como sus conocimientos. Explíqueles cuáles son las razones que hay detrás de su interés, cuénteles acerca de su interés por identificar aquellas cosas únicas en cada persona.",
+                        "Ud. tiene habilidad para describir los gustos de las personas, así como aquellas cosas que a la gente no le gusta tanto. Esto lo pone en una posición muy particular. Use su talento de Individualización para encontrar aquellos gustos que son únicos en cada persona. Celebre esas diferencias.",
+                        "Haga que sus amigos y colegas tomen conciencia de las necesidades particulares de cada persona. Muy pronto, muchos de ellos acudirán a Ud. para que les explique qué motiva a otros.",
+                        "Si realiza presentaciones en público, utilice las experiencias particulares de la audiencia a su favor. Use su talento de Individualización para conocer acerca de las historias más originales y no olvide utilizarlas la próxima vez.",
+                        "Ud. se mueve cómodamente en un amplio rango de estilos y culturas, y es intuitivo para personalizar sus interacciones. Haga uso de estos talentos de manera concienzuda y proactiva liderando proyectos diversos y comunitarios.",
+                        "Sus talentos de Individualización lo pueden ayudar a tomar un camino diferente al interpretar datos. Mientras otros buscan similitudes, Ud. puede identificar rangos distintivos. Sus interpretaciones sumarán una valiosa perspectiva,"]
+              }
           }
         ]}).to_json},
       {nombre: "Optimismo", dominio_id: 3, libro: "Aprenda Optimismo, Martin E. P. Seligman", pelicula: "PATCH ADAMS", 
@@ -1669,17 +1735,20 @@ El talento de Optimismo se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Optimismo",
-            items: ["Probablemente se luzca en cualquier tarea en la cual le paguen por recalcar lo positivo. Como docente, vendedor, comerciante, o líder, Ud. usará lo mejor de sus habilidades para hacer una tarea excelsa.",
-                    "Suele ser más entusiasta y energético que la mayoría de la gente. Cuando otros se sienten desalentados o reacios a correr riesgos, su actitud les dará el ímpetu necesario para seguir adelante. Con el tiempo, los demás lo buscaran para que les de ese “empujón”.",
-                    "Planifique eventos para sus amigos y compañeros. Por ejemplo, encuentre el modo de transformar los pequeños logros en eventos, realice celebraciones que todos esperen en forma regular , o aproveche al máximo los feriados o fiestas nacionales.",
-                    "Explique que su entusiasmo no es mera inocencia. UD. sabe que pueden suceder cosas malas, pero simplemente prefiere enfocarse en las cosas buenas.",
-                    "Ud. podría sentirse bien alentando a los demás. Demuestre libremente su apreciación por otros, y asegúrese de que su elogio sea concreto. En consecuencia, trate de trasladar sus sentimientos en algo específico, tangible, y expresiones personales de gratitud y reconocimiento.",
-                    "Al compartir sus talentos de Optimismo, asegúrese de protegerlos y  estimularlos. Si lo necesita, aléjese de quejosos crónicos y trate de pasar tiempo en ambientes positivos y alegres que lo estimularán y aumentarán su optimismo.",
-                    "No simule que los problemas no le interesan.  Los demás necesitan saber que aunque Ud. encuentra lo buena en casi cualquier situación, no es ingenuo. Admita los desafíos,  y comunique las razones de su optimismo. Su actitud positiva se verá reforzada cuando los demás se den cuenta que está basada en la realidad. ",
-                    "Como la gente contará con Ud. para ayudarla a sobrellevar las frustraciones diarias, cuente con buenas historias, chistes y refranes. Nunca subestime el efecto que puede tener en los demás.",
-                    "Evite las personas negativas. Lo tirarán abajo. En cambio, busque gente que comparte con Ud. la visión del drama y el humor en el mundo. Se energizarán mutuamente.",
-                    "Deliberadamente ayude a los demás a ver las cosas buenas que tienen y van bien para ellos. puede hacer que mantengan su mirada en los positivo. "]
+            datos: 
+              {
+                talento: "Optimismo",
+                items: ["Probablemente se luzca en cualquier tarea en la cual le paguen por recalcar lo positivo. Como docente, vendedor, comerciante, o líder, Ud. usará lo mejor de sus habilidades para hacer una tarea excelsa.",
+                        "Suele ser más entusiasta y energético que la mayoría de la gente. Cuando otros se sienten desalentados o reacios a correr riesgos, su actitud les dará el ímpetu necesario para seguir adelante. Con el tiempo, los demás lo buscaran para que les de ese “empujón”.",
+                        "Planifique eventos para sus amigos y compañeros. Por ejemplo, encuentre el modo de transformar los pequeños logros en eventos, realice celebraciones que todos esperen en forma regular , o aproveche al máximo los feriados o fiestas nacionales.",
+                        "Explique que su entusiasmo no es mera inocencia. UD. sabe que pueden suceder cosas malas, pero simplemente prefiere enfocarse en las cosas buenas.",
+                        "Ud. podría sentirse bien alentando a los demás. Demuestre libremente su apreciación por otros, y asegúrese de que su elogio sea concreto. En consecuencia, trate de trasladar sus sentimientos en algo específico, tangible, y expresiones personales de gratitud y reconocimiento.",
+                        "Al compartir sus talentos de Optimismo, asegúrese de protegerlos y  estimularlos. Si lo necesita, aléjese de quejosos crónicos y trate de pasar tiempo en ambientes positivos y alegres que lo estimularán y aumentarán su optimismo.",
+                        "No simule que los problemas no le interesan.  Los demás necesitan saber que aunque Ud. encuentra lo buena en casi cualquier situación, no es ingenuo. Admita los desafíos,  y comunique las razones de su optimismo. Su actitud positiva se verá reforzada cuando los demás se den cuenta que está basada en la realidad. ",
+                        "Como la gente contará con Ud. para ayudarla a sobrellevar las frustraciones diarias, cuente con buenas historias, chistes y refranes. Nunca subestime el efecto que puede tener en los demás.",
+                        "Evite las personas negativas. Lo tirarán abajo. En cambio, busque gente que comparte con Ud. la visión del drama y el humor en el mundo. Se energizarán mutuamente.",
+                        "Deliberadamente ayude a los demás a ver las cosas buenas que tienen y van bien para ellos. puede hacer que mantengan su mirada en los positivo. "]
+              }
           }
         ]}).to_json},
       {nombre: "Relación", dominio_id: 3, libro: "Quién le cubre la espalda?, Keith Ferrazzi", pelicula: "SLEEPERS", 
@@ -1733,17 +1802,20 @@ El talento Relación se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Relación",
-            items: ["Elija un trabajo donde se fomenten las amistades. Ud. no estará demasiado cómodo en ámbitos muy formales. Si va a una entrevista de trabajo, haga preguntas acerca del estilo con el que se trabaja en ese lugar, así como sobre la cultura del mismo.",
-                    "Intente conocer lo máximo posible a las personas que va sumando a su vida. A Ud. le gusta saber acerca de la gente y a mucha le gente le entusiasma que la gente sepa más acerca de ellos. Esto suele ser un buen catalizador para relaciones basadas en la confianza.",
-                    "No olvide hacerles saber a los demás que a Ud. le interesan mucho más las características de la personalidad de la gente, que su status o su título. Este es uno de sus más grandes talentos y es probable que sirva como modelos para otros.",
-                    "Muéstrese como una persona que se preocupa por los demás. Ud. podría ser un buen mentor en su empresa o compartir actividades con colegas que no necesariamente pertenecen a su mismo sector.",
-                    "No importa cuán ocupado esté, no pierda el contacto con sus amigos. Ellos son su combustible.",
-                    "Sea honesto con ellos. Lo mejor que puede hacer por sus amigos es ayudarlos a que tengan éxito y se sientan realizados. Ser honesto a la hora de darles feedback o ayudarlos a que salga de una situación complicada es una de las mejores maneras de mostrar empatía.",
-                    "Es probable que Ud. prefiera ser visto como una persona, un amigo, un compañero, antes que como un colega, un jefe o un título cualquiera. Hágales saber a los demás que Ud. prefiere que lo llamen por su nombre de pila.",
-                    "Ud. suele no ser muy demostrativo acerca de los aspectos más importantes de su personalidad hasta que los otros lo hacen primero. Recuerde: construir relaciones no es una calle de una sola mano. Sea proactivo al respecto. Abrase más rápidamente y los demás verán una faceta suya más genuina y confiable.",
-                    "Hágase tiempo para su familia y sus amigos más cercanos. Ud. necesita estar más tiempo con ellos para poder alimentar correctamente su talento Relación. Agende más actividades que lo pongan de buen humor y lo hagan sentir mejor.",
-                    "Haga esfuerzos por sociabilizar con colegas y compañeros de trabajo fuera del horario laboral. Esto puede ser tan sencillo como un café o un corto almuerzo. Esto ayuda a que Ud. esté más conectado en el trabajo, pero también repercutirá en el trabajo en equipo y la cooperación."]
+            datos: 
+              {
+                talento: "Relación",
+                items: ["Elija un trabajo donde se fomenten las amistades. Ud. no estará demasiado cómodo en ámbitos muy formales. Si va a una entrevista de trabajo, haga preguntas acerca del estilo con el que se trabaja en ese lugar, así como sobre la cultura del mismo.",
+                        "Intente conocer lo máximo posible a las personas que va sumando a su vida. A Ud. le gusta saber acerca de la gente y a mucha le gente le entusiasma que la gente sepa más acerca de ellos. Esto suele ser un buen catalizador para relaciones basadas en la confianza.",
+                        "No olvide hacerles saber a los demás que a Ud. le interesan mucho más las características de la personalidad de la gente, que su status o su título. Este es uno de sus más grandes talentos y es probable que sirva como modelos para otros.",
+                        "Muéstrese como una persona que se preocupa por los demás. Ud. podría ser un buen mentor en su empresa o compartir actividades con colegas que no necesariamente pertenecen a su mismo sector.",
+                        "No importa cuán ocupado esté, no pierda el contacto con sus amigos. Ellos son su combustible.",
+                        "Sea honesto con ellos. Lo mejor que puede hacer por sus amigos es ayudarlos a que tengan éxito y se sientan realizados. Ser honesto a la hora de darles feedback o ayudarlos a que salga de una situación complicada es una de las mejores maneras de mostrar empatía.",
+                        "Es probable que Ud. prefiera ser visto como una persona, un amigo, un compañero, antes que como un colega, un jefe o un título cualquiera. Hágales saber a los demás que Ud. prefiere que lo llamen por su nombre de pila.",
+                        "Ud. suele no ser muy demostrativo acerca de los aspectos más importantes de su personalidad hasta que los otros lo hacen primero. Recuerde: construir relaciones no es una calle de una sola mano. Sea proactivo al respecto. Abrase más rápidamente y los demás verán una faceta suya más genuina y confiable.",
+                        "Hágase tiempo para su familia y sus amigos más cercanos. Ud. necesita estar más tiempo con ellos para poder alimentar correctamente su talento Relación. Agende más actividades que lo pongan de buen humor y lo hagan sentir mejor.",
+                        "Haga esfuerzos por sociabilizar con colegas y compañeros de trabajo fuera del horario laboral. Esto puede ser tan sencillo como un café o un corto almuerzo. Esto ayuda a que Ud. esté más conectado en el trabajo, pero también repercutirá en el trabajo en equipo y la cooperación."]
+              }
           }
         ]}).to_json},
       {nombre: "Análisis", dominio_id: 4, 
@@ -1801,17 +1873,20 @@ El talento de Análisis se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Análisis",
-            items: ["Busque trabajos donde Ud. pueda ser remunerado por analizar datos, encontrar patrones u organizar ideas. Carreras como marketing, finanzas, investigación médica, administración de bases de datos o análisis de crédito.",
-                    "Independientemente de cuál sea su ocupación, identifique siempre cuáles son sus fuentes confiables de información. Trate de encontrar libros, sitios de Internet, o incluso bibliotecas de donde Ud. pueda obtener lo que necesita para destacarse.",
-                    "Su cabeza será siempre una máquina de analizar información. Es probable que los demás no siempre lo noten. No olvide comunicarlo. Compartir algunos de sus pensamientos le servirá a otros para valorar más su trabajo.",
-                    "Asegúrese siempre de encontrar formas de convertir todo el cúmulo de información que maneja en acción. Si cree que no es capaz de hacer esto solo, busque ayuda. No deje que el Análisis se transforme en parálisis.",
-                    "Toma clases, haga un curso, capacítese de tal forma que ejercite su talento. Si es posible, estudie algo que involucre a personas cuya lógica despierte en Ud. admiración y respeto.",
-                    "Ofrezca su talento de Análisis tan frecuentemente como sea posible. Muchas organizaciones – no necesariamente empresas – encontrarán su capacidad de organizar datos e ideas sumamente valiosas.",
-                    "Asóciese con aquellos que tienen el talento de Impulso. La impaciencia de ellos es el mejor combustible para poner sus ideas y análisis de las mismas en acción lo más rápidamente posible.",
-                    "Es probable que Ud. tienda a mostrarse escéptico hasta que alguien aporte pruebas sólidas acerca de un tema en particular. Ese escepticismo es una forma de asegurar validez, pero sepa que eso puede despertar en otros cierta incomodidad, ya que podrían tomarlo de manera personal. Ayúdelos a que entiendan que ese escepticismo es con la información y los datos y no con ellos.",
-                    "Busque siempre patrones de datos. Esto es particularmente útil a la hora de tratar de identificar causas raíz u orígenes de ciertas tendencias.",
-                    "Ayude a otros a que comprendan que muchas de sus ideas requieren más y mejor información. Al mismo tiempo, esta nueva información puede ser la fuente de más ideas."]
+            datos: 
+              {
+                talento: "Análisis",
+                items: ["Busque trabajos donde Ud. pueda ser remunerado por analizar datos, encontrar patrones u organizar ideas. Carreras como marketing, finanzas, investigación médica, administración de bases de datos o análisis de crédito.",
+                        "Independientemente de cuál sea su ocupación, identifique siempre cuáles son sus fuentes confiables de información. Trate de encontrar libros, sitios de Internet, o incluso bibliotecas de donde Ud. pueda obtener lo que necesita para destacarse.",
+                        "Su cabeza será siempre una máquina de analizar información. Es probable que los demás no siempre lo noten. No olvide comunicarlo. Compartir algunos de sus pensamientos le servirá a otros para valorar más su trabajo.",
+                        "Asegúrese siempre de encontrar formas de convertir todo el cúmulo de información que maneja en acción. Si cree que no es capaz de hacer esto solo, busque ayuda. No deje que el Análisis se transforme en parálisis.",
+                        "Toma clases, haga un curso, capacítese de tal forma que ejercite su talento. Si es posible, estudie algo que involucre a personas cuya lógica despierte en Ud. admiración y respeto.",
+                        "Ofrezca su talento de Análisis tan frecuentemente como sea posible. Muchas organizaciones – no necesariamente empresas – encontrarán su capacidad de organizar datos e ideas sumamente valiosas.",
+                        "Asóciese con aquellos que tienen el talento de Impulso. La impaciencia de ellos es el mejor combustible para poner sus ideas y análisis de las mismas en acción lo más rápidamente posible.",
+                        "Es probable que Ud. tienda a mostrarse escéptico hasta que alguien aporte pruebas sólidas acerca de un tema en particular. Ese escepticismo es una forma de asegurar validez, pero sepa que eso puede despertar en otros cierta incomodidad, ya que podrían tomarlo de manera personal. Ayúdelos a que entiendan que ese escepticismo es con la información y los datos y no con ellos.",
+                        "Busque siempre patrones de datos. Esto es particularmente útil a la hora de tratar de identificar causas raíz u orígenes de ciertas tendencias.",
+                        "Ayude a otros a que comprendan que muchas de sus ideas requieren más y mejor información. Al mismo tiempo, esta nueva información puede ser la fuente de más ideas."]
+              }
           }
         ]}).to_json},
       {nombre: "Contexto", dominio_id: 4, libro: "La revolución necesaria, Peter M Senge", pelicula: "GANDHI", 
@@ -1865,17 +1940,20 @@ El talento Contexto se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Contexto",
-            items: ["Antes de comenzar la planificación de un nuevo proyecto, aliente a los involucrados a estudiar proyectos anteriores. Ayúdelos a comprender la siguiente afirmación: “quien olvida su pasado, repite sus errores.”",
-                    "Si esta en un rol que requiera enseñar, arme sus clases alrededor de casos de estudio. Ud. disfrutará la búsqueda del caso apropiado, y sus alumnos aprenderán de los mismos. Use su comprensión de los hechos del pasado para ayudar a los otros a entender su futuro.",
-                    "En el trabajo, ayude a su empresa a fortalecer su cultura organizacional a través del folclore. Por ejemplo, reúna símbolos e historias que representan lo mejor del pasado, o sugiera nombrar un premio en homenaje a alguien que personifique las tradiciones históricas de la organización.",
-                    "Asóciese con alguien con talentos de Futuro o Estrategia. La fascinación de esta persona por lo que “podría ser” evitará que Ud. se quede atascado en el pasado, mientras que su entendimiento del contexto evitará que él o ella ignoren las lecciones del pasado. Juntos tienen más posibilidades de crear algo duradero.",
-                    "Acepte el cambio. Recuerde que su talento de Contexto no requiere que Ud. “viva en el pasado”. En cambio, puede convertirse en alguien conocido como un factor de cambio positivo.  Su sentido natural de contexto debería permitirle identificar más fácilmente que a la mayoría los aspectos del pasado que deben ser descartados, y aquellos que deben conservarse para construir un futuro sustentable.",
-                    "Compare éxitos pasados con hechos reales para crear una imagen vivida de lo que “podría ser” en el futuro. Las imágenes de la vida real que Ud. recrea pueden crear confianza y compromiso emocional.",
-                    "UD. sabe que la mejor manera de predecir comportamientos futuros es estudiar los comportamientos del pasado. Analice junto a sus amigos y colegas las acciones del pasado que pueden haber contribuido a sus éxitos actuales, de manera de ayudarlos a tomar   mejores decisiones en el futuro. Esto los ayudará a poner las decisiones en un contexto global.",
-                    "Lea novelas históricas, de hechos verídicos, o biografías. Ud. descubrirá diferentes puntos de vista que lo ayudarán a entender el presente. Ud. podrá pensar más claramente.",
-                    "Compare hechos y situaciones históricas con desafíos del presente. Identificar puntos en común puede hacerle ver nuevas perspectivas o la solución a sus problemas.",
-                    "Busque mentores que tengan conocimientos de historia. Escuchar sus memorias puede iluminar su proceso de pensamiento."]
+            datos: 
+              {
+                talento: "Contexto",
+                items: ["Antes de comenzar la planificación de un nuevo proyecto, aliente a los involucrados a estudiar proyectos anteriores. Ayúdelos a comprender la siguiente afirmación: “quien olvida su pasado, repite sus errores.”",
+                        "Si esta en un rol que requiera enseñar, arme sus clases alrededor de casos de estudio. Ud. disfrutará la búsqueda del caso apropiado, y sus alumnos aprenderán de los mismos. Use su comprensión de los hechos del pasado para ayudar a los otros a entender su futuro.",
+                        "En el trabajo, ayude a su empresa a fortalecer su cultura organizacional a través del folclore. Por ejemplo, reúna símbolos e historias que representan lo mejor del pasado, o sugiera nombrar un premio en homenaje a alguien que personifique las tradiciones históricas de la organización.",
+                        "Asóciese con alguien con talentos de Futuro o Estrategia. La fascinación de esta persona por lo que “podría ser” evitará que Ud. se quede atascado en el pasado, mientras que su entendimiento del contexto evitará que él o ella ignoren las lecciones del pasado. Juntos tienen más posibilidades de crear algo duradero.",
+                        "Acepte el cambio. Recuerde que su talento de Contexto no requiere que Ud. “viva en el pasado”. En cambio, puede convertirse en alguien conocido como un factor de cambio positivo.  Su sentido natural de contexto debería permitirle identificar más fácilmente que a la mayoría los aspectos del pasado que deben ser descartados, y aquellos que deben conservarse para construir un futuro sustentable.",
+                        "Compare éxitos pasados con hechos reales para crear una imagen vivida de lo que “podría ser” en el futuro. Las imágenes de la vida real que Ud. recrea pueden crear confianza y compromiso emocional.",
+                        "UD. sabe que la mejor manera de predecir comportamientos futuros es estudiar los comportamientos del pasado. Analice junto a sus amigos y colegas las acciones del pasado que pueden haber contribuido a sus éxitos actuales, de manera de ayudarlos a tomar   mejores decisiones en el futuro. Esto los ayudará a poner las decisiones en un contexto global.",
+                        "Lea novelas históricas, de hechos verídicos, o biografías. Ud. descubrirá diferentes puntos de vista que lo ayudarán a entender el presente. Ud. podrá pensar más claramente.",
+                        "Compare hechos y situaciones históricas con desafíos del presente. Identificar puntos en común puede hacerle ver nuevas perspectivas o la solución a sus problemas.",
+                        "Busque mentores que tengan conocimientos de historia. Escuchar sus memorias puede iluminar su proceso de pensamiento."]
+              }
           }
         ]}).to_json},
       {nombre: "Futuro", dominio_id: 4, libro: "La revolución de la riqueza, Peter Senge", pelicula: "MINORITY REPORT", 
@@ -1925,17 +2003,20 @@ El talento de Futuro se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Futuro",
-            items: ["Elija roles en los que pueda contribuir con sus ideas acerca del futuro. Por ejemplo, puede sobresalir en situaciones de emprendimientos o start-ups.",
-                    "Tómese el tiempo para pensar el futuro. Cuanto más tiempo dedique a considerar ideas sobre el futuro, mas gráficas serán éstas. Si las ideas son más gráficas, Ud. será más convincente.",
-                    "Busque audiencias que aprecien sus ideas sobre el futuro. Ellos esperarán que convierta esas ideas en realidades, y esas expectativas lo motivarán.",
-                    "Encuentre un amigo o colega que tenga también un fuerte talento Futuro. Tenga una hora al mes para debates sobre el “futuro”. Se empujarán mutuamente a mayores niveles de creatividad.",
-                    "Asóciese con alguien con un marcado talento de Impulso. Esta persona le recordará que el futuro no se descubre, sino que Ud. lo crea con las acciones que hace hoy.",
-                    "Ud. inspira a los demás con sus imágenes del futuro, sin embargo su pensamiento puede ser demasiado amplio para que lo comprendan. Cuando exprese su visión, asegúrese de describir en detalle con palabras y metáforas gráficas. Haga sus ideas y estrategias más concretas a través de gráficos, planes detallados paso a paso, o maquetas para que los otros puedan captar su idea fácilmente.",
-                    "Rodéese de gente que esté ansiosa de poner sus ideas en práctica. Ellos se sentirán estimulados con su talento Futuro, y Ud. podrá aprovechar esa energía para convertir sus visiones en realidad.",
-                    "Esté preparado para darle soporte lógico a su pensamiento futurístico. Sus emocionantes visiones de futuros éxitos serán mejor recibidas si están basadas en posibilidades reales.",
-                    "Su talento Futuro podrían ayudarlo a ser una guía o mentor para otros. A diferencia de Ud. , ellos pueden no tener la habilidad de ver más allá del horizonte. Si Ud. puede ver que podría ser o hacer alguien, no asuma que dicha persona está al tanto de ese potencial. Comparta lo que ve tan detalladamente cómo le sea posible. Al hacerlo, puede motivar a alguien a avanzar.",
-                    "Meditar acerca del futuro es natural en Ud. Lea artículos acerca de tecnología, ciencia, e investigue para obtener conocimientos que nutran su imaginación."]
+            datos: 
+              {
+                talento: "Futuro",
+                items: ["Elija roles en los que pueda contribuir con sus ideas acerca del futuro. Por ejemplo, puede sobresalir en situaciones de emprendimientos o start-ups.",
+                        "Tómese el tiempo para pensar el futuro. Cuanto más tiempo dedique a considerar ideas sobre el futuro, mas gráficas serán éstas. Si las ideas son más gráficas, Ud. será más convincente.",
+                        "Busque audiencias que aprecien sus ideas sobre el futuro. Ellos esperarán que convierta esas ideas en realidades, y esas expectativas lo motivarán.",
+                        "Encuentre un amigo o colega que tenga también un fuerte talento Futuro. Tenga una hora al mes para debates sobre el “futuro”. Se empujarán mutuamente a mayores niveles de creatividad.",
+                        "Asóciese con alguien con un marcado talento de Impulso. Esta persona le recordará que el futuro no se descubre, sino que Ud. lo crea con las acciones que hace hoy.",
+                        "Ud. inspira a los demás con sus imágenes del futuro, sin embargo su pensamiento puede ser demasiado amplio para que lo comprendan. Cuando exprese su visión, asegúrese de describir en detalle con palabras y metáforas gráficas. Haga sus ideas y estrategias más concretas a través de gráficos, planes detallados paso a paso, o maquetas para que los otros puedan captar su idea fácilmente.",
+                        "Rodéese de gente que esté ansiosa de poner sus ideas en práctica. Ellos se sentirán estimulados con su talento Futuro, y Ud. podrá aprovechar esa energía para convertir sus visiones en realidad.",
+                        "Esté preparado para darle soporte lógico a su pensamiento futurístico. Sus emocionantes visiones de futuros éxitos serán mejor recibidas si están basadas en posibilidades reales.",
+                        "Su talento Futuro podrían ayudarlo a ser una guía o mentor para otros. A diferencia de Ud. , ellos pueden no tener la habilidad de ver más allá del horizonte. Si Ud. puede ver que podría ser o hacer alguien, no asuma que dicha persona está al tanto de ese potencial. Comparta lo que ve tan detalladamente cómo le sea posible. Al hacerlo, puede motivar a alguien a avanzar.",
+                        "Meditar acerca del futuro es natural en Ud. Lea artículos acerca de tecnología, ciencia, e investigue para obtener conocimientos que nutran su imaginación."]
+              }
           }
         ]}).to_json},
       {nombre: "Ingenio", dominio_id: 4, libro: "El éxito de los perezosos, Ernie J. Zelinski", pelicula: "TEMPLE GRANDIN", 
@@ -1987,17 +2068,20 @@ El talento de Ingenio se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Ingenio",
-            items: ["Busque una carrera en la cual sea reconocido y le paguen por sus ideas, como marketing, publicidad, periodismo, diseño o desarrollo de nuevos productos.",
-                    "Es probable que Ud. se aburra rápidamente, entonces haga pequeños cambios en su trabajo o vida cotidiana. Experimente. Juegue mentalmente con Ud. mismo. Todo esto lo ayudara a mantenerse estimulado.",
-                    "Finalice sus pensamientos e ideas antes de comunicarlos. Al no poseer su talento de Ingenio, otros pueden no “conectar los puntos” de una interesante pero incompleta idea y por ello descartarla.",
-                    "No todas sus ideas serán igualmente practicables o útiles. Aprenda a editar sus ideas, o encuentre un amigo confiable o colega que pueda “probar” sus ideas e identificar probables problemas.",
-                    "Entienda cual es el combustible de su talento de INGENIO. Cuándo tiene las mejores ideas? Cuando está hablando con otras personas? Cuando está leyendo? Cuando esta simplemente escuchando u observando? Tome nota de las circunstancias que parecen producir sus mejores ideas, y recréelas. ",
-                    "Planifique tiempo para leer, porque las ideas y experiencias de otros pueden convertirse en materia prima para nuevas ideas. Planifique tiempo para pensar, porque pensar le da energía.",
-                    "Ud. encaja naturalmente con la investigación y el desarrollo; Ud. aprecia la mentalidad de los visionarios y soñadores. Pase tiempo con compañeros imaginativos, y participe en sus sesiones de brainstorming.",
-                    "Asóciese con alguien con fuerte talentos de Análisis. Esta persona lo cuestionará y desafiará, fortaleciendo sus ideas.",
-                    "Algunas veces otros pierden interés en Ud. porque no pueden seguir su estilo de pensamiento abstracto y conceptual. Haga sus ideas más concretas a través de dibujos, use analogías o metáforas, o simplemente explique sus conceptos paso a paso. ",
-                    "Alimente su talento de Ingenio a través del conocimiento. Estudie campos e industrias diferentes a la suya. Aplique ideas de afuera, y conecte ideas dispares para generar nuevas."]
+            datos: 
+              {
+                talento: "Ingenio",
+                items: ["Busque una carrera en la cual sea reconocido y le paguen por sus ideas, como marketing, publicidad, periodismo, diseño o desarrollo de nuevos productos.",
+                        "Es probable que Ud. se aburra rápidamente, entonces haga pequeños cambios en su trabajo o vida cotidiana. Experimente. Juegue mentalmente con Ud. mismo. Todo esto lo ayudara a mantenerse estimulado.",
+                        "Finalice sus pensamientos e ideas antes de comunicarlos. Al no poseer su talento de Ingenio, otros pueden no “conectar los puntos” de una interesante pero incompleta idea y por ello descartarla.",
+                        "No todas sus ideas serán igualmente practicables o útiles. Aprenda a editar sus ideas, o encuentre un amigo confiable o colega que pueda “probar” sus ideas e identificar probables problemas.",
+                        "Entienda cual es el combustible de su talento de INGENIO. Cuándo tiene las mejores ideas? Cuando está hablando con otras personas? Cuando está leyendo? Cuando esta simplemente escuchando u observando? Tome nota de las circunstancias que parecen producir sus mejores ideas, y recréelas. ",
+                        "Planifique tiempo para leer, porque las ideas y experiencias de otros pueden convertirse en materia prima para nuevas ideas. Planifique tiempo para pensar, porque pensar le da energía.",
+                        "Ud. encaja naturalmente con la investigación y el desarrollo; Ud. aprecia la mentalidad de los visionarios y soñadores. Pase tiempo con compañeros imaginativos, y participe en sus sesiones de brainstorming.",
+                        "Asóciese con alguien con fuerte talentos de Análisis. Esta persona lo cuestionará y desafiará, fortaleciendo sus ideas.",
+                        "Algunas veces otros pierden interés en Ud. porque no pueden seguir su estilo de pensamiento abstracto y conceptual. Haga sus ideas más concretas a través de dibujos, use analogías o metáforas, o simplemente explique sus conceptos paso a paso. ",
+                        "Alimente su talento de Ingenio a través del conocimiento. Estudie campos e industrias diferentes a la suya. Aplique ideas de afuera, y conecte ideas dispares para generar nuevas."]
+              }
           }
         ]}).to_json},
       {nombre: "Curiosidad", dominio_id: 4, libro: "Conocimiento Inventado, Fritze", pelicula: "PI", 
@@ -2051,17 +2135,20 @@ El talento Curiosidad se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Curiosidad",
-            items: ["Busque tareas o roles donde tenga la oportunidad de encontrar información novedosa todos los días. La docencia, el periodismo y la investigación son áreas donde es más probable que esto ocurra.",
-                    "Arme su propio sistema de organización de información, de tal manera que Ud. tenga acceso a ella cuando lo desee. Esto puede ir desde algo tan simple como una carpeta con recortes de artículos periodísticos hasta algo tan sofisticado como una base de datos programada en función de sus gustos y necesidades.",
-                    "Asóciese con aquellos que poseen talentos Enfoque y/o Disciplina. Una persona con alguno de esos talentos puede ayudarlo a mantenerse enfocado en una tarea puntual, ya que su inclinación natural siempre será desviarse hacia lugares más novedosos.",
-                    "Su mente es abierta y absorbente. Su cabeza actúa como una esponja, por lo que debe recordar siempre que, así como para una esponja el propósito no es retener líquidos de forma permanente, lo mismo debe ocurrir con la información que Ud. recaba. Si bien Ud. disfruta recopilar datos, esa información cobra mucho más sentido una vez que Ud. la comparte y, sobre todo, lo hace en un marco de trabajo en equipo.",
-                    "La cantidad de información que Ud. maneja es probable que lo posicione como experto en esos temas. No tema ser reconocido como una autoridad en la materia.",
-                    "Tenga presente que Ud. debe ser mucho más que un mero recolector de datos. En algún punto, esa información debe transformarse en acción. Confirme con los demás cuáles son los datos y estadísticas que ellos más valoran y asegúrese que los tengan siempre disponibles.",
-                    "Identifique sus áreas de especialización e intente encontrar nuevas fuentes de información acerca de ellas.",
-                    "Hágase el tiempo para leer libros (o artículos) que resulten estimulantes.",
-                    "Haga crecer su vocabulario intencionalmente. Busque nuevas palabras y sus significados e intente encontrar nuevas oportunidades para usarlas.",
-                    "Intente identificar los momentos más adecuados para compartir mucha de la información que Ud. maneja con otros. Hágase el tiempo para responder a aquellas preguntas que ellos pudieran tener."]
+            datos:
+              {
+                talento: "Curiosidad",
+                items: ["Busque tareas o roles donde tenga la oportunidad de encontrar información novedosa todos los días. La docencia, el periodismo y la investigación son áreas donde es más probable que esto ocurra.",
+                        "Arme su propio sistema de organización de información, de tal manera que Ud. tenga acceso a ella cuando lo desee. Esto puede ir desde algo tan simple como una carpeta con recortes de artículos periodísticos hasta algo tan sofisticado como una base de datos programada en función de sus gustos y necesidades.",
+                        "Asóciese con aquellos que poseen talentos Enfoque y/o Disciplina. Una persona con alguno de esos talentos puede ayudarlo a mantenerse enfocado en una tarea puntual, ya que su inclinación natural siempre será desviarse hacia lugares más novedosos.",
+                        "Su mente es abierta y absorbente. Su cabeza actúa como una esponja, por lo que debe recordar siempre que, así como para una esponja el propósito no es retener líquidos de forma permanente, lo mismo debe ocurrir con la información que Ud. recaba. Si bien Ud. disfruta recopilar datos, esa información cobra mucho más sentido una vez que Ud. la comparte y, sobre todo, lo hace en un marco de trabajo en equipo.",
+                        "La cantidad de información que Ud. maneja es probable que lo posicione como experto en esos temas. No tema ser reconocido como una autoridad en la materia.",
+                        "Tenga presente que Ud. debe ser mucho más que un mero recolector de datos. En algún punto, esa información debe transformarse en acción. Confirme con los demás cuáles son los datos y estadísticas que ellos más valoran y asegúrese que los tengan siempre disponibles.",
+                        "Identifique sus áreas de especialización e intente encontrar nuevas fuentes de información acerca de ellas.",
+                        "Hágase el tiempo para leer libros (o artículos) que resulten estimulantes.",
+                        "Haga crecer su vocabulario intencionalmente. Busque nuevas palabras y sus significados e intente encontrar nuevas oportunidades para usarlas.",
+                        "Intente identificar los momentos más adecuados para compartir mucha de la información que Ud. maneja con otros. Hágase el tiempo para responder a aquellas preguntas que ellos pudieran tener."]
+              }
           }
         ]}).to_json},
       {nombre: "Intelecto", dominio_id: 4, libro: "Flow, Csikszentmihalyi, Mihaly", pelicula: "A BEAUTIFUL MIND", 
@@ -2115,17 +2202,20 @@ El talento Intelecto se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Intelecto",
-            items: ["Considere comenzar o continuar sus estudios en Psicología, literatura o filosofía. Siempre encontrará temas que lo estimularan.",
-                    "Liste sus ideas en un log o diario. Estas ideas servirán de molienda para su molino mental, y pueden resultar en valiosas observaciones.",
-                    "Establezca deliberadamente relaciones con gente a la que considere “grandes pensadores”. Su ejemplo lo inspirara a enfocarse en sus propios pensamientos.",
-                    "La gente puede pensar que usted está en las nubes o desconectado cuando cierra la puerta o pasa tiempo a solas. Ayúdelos a entender que esto es simplemente un reflejo de su estilo de pensamiento, y que no resulta de una indiferencia hacia las relaciones, sino del deseo de brindar a las mismas lo más que puede.",
-                    "Ud. esta de lo mejor cuando tiene tiempo de seguir un camino intelectual y ver adónde conduce. Involúcrese en la dase inicial de los proyectos e iniciativas, más que en la ejecución. Si se suma en las partes finales del proceso, puede hacer descarrilar lo que ya se ha decidido y sus observaciones pueden llegar demasiado tarde.",
-                    "Involucrar gente en debates intelectuales y filosóficos es una de las maneras en las que encuentra sentido a las cosas. Esto no es el caso para todos. Asegúrese de canalizar sus preguntas provocativas a aquellos que como Ud. encuentran entretenido el ir y venir de los debates.",
-                    "Planifique tiempo para pensar: puede ser energizante para Ud. Utilice estas ocasiones para inspirarse y reflexionar.",
-                    "Tómese tiempo para escribir. Escribir puede ser la mejor manera para que Ud. cristalice e integre sus pensamientos.",
-                    "Encuentre gente a la que le guste conversar acerca de los mismos temas que a Ud. Organice grupos de conversación que toquen los temas que le interesan.",
-                    "Anime a las personas a su alrededor a usar todo su potencial intelectual reformulando preguntas para ellos y llevándolos a dialogar. A la vez tenga en cuenta que algunos pueden encontrar esto intimidante y necesitaran tiempo para reflexionar antes de exponerse."]
+            datos:
+              {
+                talento: "Intelecto",
+                items: ["Considere comenzar o continuar sus estudios en Psicología, literatura o filosofía. Siempre encontrará temas que lo estimularan.",
+                        "Liste sus ideas en un log o diario. Estas ideas servirán de molienda para su molino mental, y pueden resultar en valiosas observaciones.",
+                        "Establezca deliberadamente relaciones con gente a la que considere “grandes pensadores”. Su ejemplo lo inspirara a enfocarse en sus propios pensamientos.",
+                        "La gente puede pensar que usted está en las nubes o desconectado cuando cierra la puerta o pasa tiempo a solas. Ayúdelos a entender que esto es simplemente un reflejo de su estilo de pensamiento, y que no resulta de una indiferencia hacia las relaciones, sino del deseo de brindar a las mismas lo más que puede.",
+                        "Ud. esta de lo mejor cuando tiene tiempo de seguir un camino intelectual y ver adónde conduce. Involúcrese en la dase inicial de los proyectos e iniciativas, más que en la ejecución. Si se suma en las partes finales del proceso, puede hacer descarrilar lo que ya se ha decidido y sus observaciones pueden llegar demasiado tarde.",
+                        "Involucrar gente en debates intelectuales y filosóficos es una de las maneras en las que encuentra sentido a las cosas. Esto no es el caso para todos. Asegúrese de canalizar sus preguntas provocativas a aquellos que como Ud. encuentran entretenido el ir y venir de los debates.",
+                        "Planifique tiempo para pensar: puede ser energizante para Ud. Utilice estas ocasiones para inspirarse y reflexionar.",
+                        "Tómese tiempo para escribir. Escribir puede ser la mejor manera para que Ud. cristalice e integre sus pensamientos.",
+                        "Encuentre gente a la que le guste conversar acerca de los mismos temas que a Ud. Organice grupos de conversación que toquen los temas que le interesan.",
+                        "Anime a las personas a su alrededor a usar todo su potencial intelectual reformulando preguntas para ellos y llevándolos a dialogar. A la vez tenga en cuenta que algunos pueden encontrar esto intimidante y necesitaran tiempo para reflexionar antes de exponerse."]
+              }
           }
         ]}).to_json},
       {nombre: "Aprendizaje", dominio_id: 4, libro: "Conocimiento para la acción, Chris Argyris", pelicula: "GOOD WILL HUNTING", 
@@ -2179,16 +2269,19 @@ El talento Intelecto se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Aprendizaje",
-            items: ["Afine su manera de aprender. Por ejemplo, Ud. puede aprender mejor enseñando; si es así, busque oportunidades de hacer presentaciones. Puede que aprenda mejor a través de la reflexión; si es así, encuentre el tiempo de tranquilidad para ello.",
-                    "Desarrollo modo de evaluar el progreso de su aprendizaje. Si hay diferentes niveles o etapas de aprendizaje en su disciplina o tarea, tómese el tiempo para celebrar el avance a cada nivel. SI no hubiera dichos niveles, créelos para Ud. (por ej. Leer cinco libros de la materia  o hacer tres presentaciones del tema).",
-                    "Sea un catalizador para el cambio. Otros pueden ser intimidados por nuevas reglas, nuevas habilidades, o nuevas circunstancias. Su predisposición a absorber todas las novedades pueden aplacar sus temores y alentarlos a actuar. Tómese esta responsabilidad seriamente.",
-                    "Busque roles que requieran alguna forma de habilidad técnica. Ud. disfrutará el proceso de adquirir y mantener este expertise.",
-                    "Dentro de lo posible, mueva su carrera hacia un campo en el que haya cambios constantes de tecnologías o regulaciones. Se sentirá energizado por el desafío de mantenerse al día.",
-                    "Investigaciones avalan la relación entre el aprendizaje y el rendimiento. Cuando la gente tiene la oportunidad de aprender y crecer, son más productivos y leales. Busque modos de medir  el grado en el cual están satisfechas las necesidades de aprendizaje para crear objetivos individuales y premiar los logros en el aprendizaje.",
-                    "En el trabajo, saque provecho de los programas que subsidian su aprendizaje. Su organización puede estar dispuesta a pagar parte o todos sus cursos o certificaciones. Pregúntele a su gerente acerca de becas u otras oportunidades.",
-                    "Honre su deseo de aprender. Aproveche las oportunidades de educación para adultos de su comunidad. Tenga la disciplina de inscribirse al menos en un nuevo curso cada año.",
-                    "El tiempo vuela y la atención se intensifica cuando está inmerso en estudiar o aprender. Permítase “estar inmerso” programando sesiones de aprendizaje durante los períodos en los que no será interrumpido por temas urgentes."]
+            datos:
+              {
+                talento: "Aprendizaje",
+                items: ["Afine su manera de aprender. Por ejemplo, Ud. puede aprender mejor enseñando; si es así, busque oportunidades de hacer presentaciones. Puede que aprenda mejor a través de la reflexión; si es así, encuentre el tiempo de tranquilidad para ello.",
+                        "Desarrollo modo de evaluar el progreso de su aprendizaje. Si hay diferentes niveles o etapas de aprendizaje en su disciplina o tarea, tómese el tiempo para celebrar el avance a cada nivel. SI no hubiera dichos niveles, créelos para Ud. (por ej. Leer cinco libros de la materia  o hacer tres presentaciones del tema).",
+                        "Sea un catalizador para el cambio. Otros pueden ser intimidados por nuevas reglas, nuevas habilidades, o nuevas circunstancias. Su predisposición a absorber todas las novedades pueden aplacar sus temores y alentarlos a actuar. Tómese esta responsabilidad seriamente.",
+                        "Busque roles que requieran alguna forma de habilidad técnica. Ud. disfrutará el proceso de adquirir y mantener este expertise.",
+                        "Dentro de lo posible, mueva su carrera hacia un campo en el que haya cambios constantes de tecnologías o regulaciones. Se sentirá energizado por el desafío de mantenerse al día.",
+                        "Investigaciones avalan la relación entre el aprendizaje y el rendimiento. Cuando la gente tiene la oportunidad de aprender y crecer, son más productivos y leales. Busque modos de medir  el grado en el cual están satisfechas las necesidades de aprendizaje para crear objetivos individuales y premiar los logros en el aprendizaje.",
+                        "En el trabajo, saque provecho de los programas que subsidian su aprendizaje. Su organización puede estar dispuesta a pagar parte o todos sus cursos o certificaciones. Pregúntele a su gerente acerca de becas u otras oportunidades.",
+                        "Honre su deseo de aprender. Aproveche las oportunidades de educación para adultos de su comunidad. Tenga la disciplina de inscribirse al menos en un nuevo curso cada año.",
+                        "El tiempo vuela y la atención se intensifica cuando está inmerso en estudiar o aprender. Permítase “estar inmerso” programando sesiones de aprendizaje durante los períodos en los que no será interrumpido por temas urgentes."]
+              }
           }
         ]}).to_json},
       {nombre: "Estrategia", dominio_id: 4, libro: "Por qué ganan los que ganan, Alberto Levy", pelicula: "RUNAWAY JURY", 
@@ -2243,17 +2336,21 @@ El talento de Estrategia se puede expresar así:
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Estrategia",
-            items: ["Tómese el tiempo para reflexionar o meditar sobre las metas que quiere alcanzar hasta que los patrones y problemas relacionados con ellas estén claros. Recuerde que este tiempo de reflexión es clave para el pensamiento estratégico.",
-                    "Ud. puede ver las consecuencias con más claridad que los demás. Aproveche esta habilidad para planear las soluciones alternativasen detalle. No tiene mucho sentido saber que va a pasar si no está listo cuando llegue el momento,",
-                    "Encuentre un grupo que Ud. crea que realiza un trabajo importante y contribuya con su pensamiento estratégico. Ud. puede liderar con sus ideas.",
-                    "Su pensamiento estratégico será necesario para evitar que ideas posibles se conviertan en castillos en el aire. Considere todos los caminos posibles para convertir las ideas en realidades. La previsión inteligente puede evitar obstáculos antes de que aparezcan.",
-                    "Hágase conocer como un recurso de consulta para quienes se encuentran trabados por un problema puntual o complicados por un impedimento u obstáculo particular. Al Ud. ver naturalmente una solución cuando otros están convencidos de que no la hay, los guiara al éxito.",
-                    "Probablemente Ud. anticipa problemas potenciales más fácilmente que otros. Aunque su percepción de posibles peligros pueda ser vista como negatividad de su parte, Ud. debe compartir sus opiniones para evitar esas dificultades. Para evitar malas interpretaciones, no señale solo los posibles problemas sino también el modo de prevenirlos o solucionarlos. Confíe en sus pronósticos, y úselos para asegurar que el éxito de sus esfuerzos.",
-                    "Ayude a los otros a entender que su pensamiento estratégico no es un intento de menoscabar sus ideas, sino en cambio una propensión natural a evaluar todos los aspectos de un plan en forma objetiva. En vez de ser un negativista, Ud. lo que trata es de analizar la manera de lograr que los objetivos se cumplan, sin importar los obstáculos. Sus talentos le permitirán tener en cuenta las perspectivas de los demás sin perder de vista su meta final.",
-                    "Confíe en sus instintos tanto como sea posible. Aunque puede que no logre explicarlos racionalmente, sus intuiciones son creadas por un cerebro que naturalmente anticipa y planifica. Tenga confianza es estas percepciones.",
-                    "Asóciese con alguien que tenga el talento de Impulso. Entre la necesidad de actuar de esta persona y su necesidad de planificación, se puede lograr una poderosa sociedad.",
-                    "Asegúrese de estar involucrado en el inicio de nuevas iniciativas y emprendimientos. Su innovador pero a la vez planificado enfoque pueden ser críticos en la generación de nuevos proyectos porque evitara que los creadores desarrollen una visión falsa del proyecto."]
+            datos:
+              {
+                talento: "Estrategia",
+                items: ["Tómese el tiempo para reflexionar o meditar sobre las metas que quiere alcanzar hasta que los patrones y problemas relacionados con ellas estén claros. Recuerde que este tiempo de reflexión es clave para el pensamiento estratégico.",
+                        "Ud. puede ver las consecuencias con más claridad que los demás. Aproveche esta habilidad para planear las soluciones alternativasen detalle. No tiene mucho sentido saber que va a pasar si no está listo cuando llegue el momento,",
+                        "Encuentre un grupo que Ud. crea que realiza un trabajo importante y contribuya con su pensamiento estratégico. Ud. puede liderar con sus ideas.",
+                        "Su pensamiento estratégico será necesario para evitar que ideas posibles se conviertan en castillos en el aire. Considere todos los caminos posibles para convertir las ideas en realidades. La previsión inteligente puede evitar obstáculos antes de que aparezcan.",
+                        "Hágase conocer como un recurso de consulta para quienes se encuentran trabados por un problema puntual o complicados por un impedimento u obstáculo particular. Al Ud. ver naturalmente una solución cuando otros están convencidos de que no la hay, los guiara al éxito.",
+                        "Probablemente Ud. anticipa problemas potenciales más fácilmente que otros. Aunque su percepción de posibles peligros pueda ser vista como negatividad de su parte, Ud. debe compartir sus opiniones para evitar esas dificultades. Para evitar malas interpretaciones, no señale solo los posibles problemas sino también el modo de prevenirlos o solucionarlos. Confíe en sus pronósticos, y úselos para asegurar que el éxito de sus esfuerzos.",
+                        "Ayude a los otros a entender que su pensamiento estratégico no es un intento de menoscabar sus ideas, sino en cambio una propensión natural a evaluar todos los aspectos de un plan en forma objetiva. En vez de ser un negativista, Ud. lo que trata es de analizar la manera de lograr que los objetivos se cumplan, sin importar los obstáculos. Sus talentos le permitirán tener en cuenta las perspectivas de los demás sin perder de vista su meta final.",
+                        "Confíe en sus instintos tanto como sea posible. Aunque puede que no logre explicarlos racionalmente, sus intuiciones son creadas por un cerebro que naturalmente anticipa y planifica. Tenga confianza es estas percepciones.",
+                        "Asóciese con alguien que tenga el talento de Impulso. Entre la necesidad de actuar de esta persona y su necesidad de planificación, se puede lograr una poderosa sociedad.",
+                        "Asegúrese de estar involucrado en el inicio de nuevas iniciativas y emprendimientos. Su innovador pero a la vez planificado enfoque pueden ser críticos en la generación de nuevos proyectos porque evitara que los creadores desarrollen una visión falsa del proyecto."]
+              }
+                
           }
         ]}).to_json}
   ]
