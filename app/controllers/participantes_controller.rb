@@ -101,7 +101,7 @@ class ParticipantesController < ApplicationController
       
       talentos.each do |t|
         contexto[:talentos] << { nombre: t.nombre, 
-                                 texto: Sablon.content(:markdown, t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["texto"]) }
+                                 textos: t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["texto"].map { |texto| Sablon.content(:markdown, texto + "\n\n<br>") } }
       end
 
       send_data template.render_to_string(contexto), filename: "1_perfil_de_fortalezas.docx", disposition: 'attachment'
@@ -117,9 +117,11 @@ class ParticipantesController < ApplicationController
         talentos:[]
       }
 
+      ultimo = t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"].size -1 
+      t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"][ultimo] = (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"]).last + "<br>"
       talentos.each do |t|
         contexto[:talentos] << { nombre: t.nombre, 
-                                 items: (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"])
+                                 items: (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"] )
                                }
       end
 
