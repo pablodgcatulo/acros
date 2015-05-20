@@ -42,6 +42,7 @@ group :development, :test do
   gem 'spring'
   gem 'meta_request'
   gem 'better_errors'
+  gem "binding_of_caller"
   gem 'quiet_assets'
 end
 

@@ -109,19 +109,17 @@ class ParticipantesController < ApplicationController
     when tipo_de_encuesta.to_i == 2 #:manejar_las_fortalezas
       
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '2_como_manejar_las_fortalezas_template.docx'))      
-      
-      t = talentos.first
-
+      # talentos = Talento.find (290, 277, 291, 277, 284)
+            
       contexto  = {
         participante: @participante.apellido_y_nombre,
         talentos:[]
       }
 
-      ultimo = t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"].size -1 
-      t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"][ultimo] = (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"]).last + "<br>"
       talentos.each do |t|
         contexto[:talentos] << { nombre: t.nombre, 
-                                 items: (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"] )
+                                 items: t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"] ,
+                                 separador: "\n\n"
                                }
       end
 
@@ -145,18 +143,18 @@ class ParticipantesController < ApplicationController
       send_data template.render_to_string(contexto), filename: "3_liderazgo_basado_en_fortalezas.docx", disposition: 'attachment'
 
     when tipo_de_encuesta.to_i == 4 # Ideas para la acción
-      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '3_liderazgo_basado_en_fortalezas_template.docx'))      
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '4_ideas_para_la_accion.docx'))      
       
       contexto = { talentos: []}
 
       talentos.each do |t|
         contexto[:talentos] << {
           nombre: t.nombre,
-          items: (t.docx_json["documentos"][tipo_de_encuesta.to_i -1]["datos"]["items"].map { |i| Sablon.content(:markdown, i) })
+          items: t.docx_json["documentos"][(tipo_de_encuesta.to_i) -1]["datos"]["items"]
         }
       end
       
-      send_data template.render_to_string(contexto), filename: "4_ideas_para_la_accion.docx", disposition: 'attachment'
+      send_data template.render_to_string(contexto), filename: "ideas_para_la_accion_#{@participante.apellido}_#{@participante.nombre}.docx", disposition: 'attachment'
 
 
     when tipo_de_encuesta.to_i == 5 # Libros y peliculas
