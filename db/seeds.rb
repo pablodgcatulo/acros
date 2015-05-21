@@ -427,17 +427,20 @@ Talento.create(
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Disciplina",
-            items: ["No dude en revisar cuantas veces crea necesario para asegurarse que las cosas están bien. Siente el impulso de hacerlo, y pronto los demás comenzaran a esperarlo de Ud.",
-                    "Acepte que los errores pueden deprimirlo. La precisión es parte de lo que Ud. es; de todos modos, debe encontrar la manera de sobrepasar estos momentos de fastidio para no sentirse decepcionado.",
-                    "Admita que los otros pueden no ser tan disciplinados como Ud. Probablemente sus torpes procesos lo frustrarán, entonces trate de mirar más allá, y enfóquese en los resultados, no en los procesos.",
-                    "La exactitud es su fuerte; Ud. disfruta estudiando los detalles. Busque oportunidades para examinar contratos, comunicaciones importantes, o documentos financieros en búsqueda de errores. Puede evitarse y evitar a los demás costosos errores o situaciones incomodas.",
-                    "Incrementar la eficiencia es uno de sus sellos. Ud. es un perfeccionista de corazón. Descubra situaciones en las que se pierde tiempo o dinero debido a ineficiencias, y cree sistemas o procedimientos para mejorar la eficiencia.",
-                    "Ud. no solo crea orden, también lo anhela en la forma de un espacio bien organizado. Para liberar su talento de Disciplina invierta en mobiliario y sistemas de organización que le permitan “tener un lugar para todo y todo en su lugar”.",
-                    "Los cronogramas lo motivan. Cuando tiene una tarea que completar, le gusta saber la fecha límite para poder planear su agenda de acuerdo a ella. Utilice sus talentos de Disciplina para definir un plan paso a paso. Los demás apreciaran sus indicaciones porque ayudara a todos a estar “enfocados”.",
-                    "Los demás pueden confundir su talento de Disciplina con rigidez. Ayúdelos a entender que la disciplina lo ayuda a hacer su día más eficiente – a menudo porque prioriza su tiempo. Cuando trabaje con otros no tan disciplinados como Ud., pídales que sean claros con los las fechas límites de tal manera que Ud. pueda ajustar sus tareas para cumplir con sus requerimientos. ",
-                    "Escoja roles y responsabilidades que poseen estructura.",
-                    "Cree rutinas que  deban ser realizadas por Ud. en forma sistemática. Con el tiempo, los demás apreciaran esa clase de predictibilidad. "]
+            datos: 
+              {
+                talento: "Disciplina",
+                items: ["No dude en revisar cuantas veces crea necesario para asegurarse que las cosas están bien. Siente el impulso de hacerlo, y pronto los demás comenzaran a esperarlo de Ud.",
+                        "Acepte que los errores pueden deprimirlo. La precisión es parte de lo que Ud. es; de todos modos, debe encontrar la manera de sobrepasar estos momentos de fastidio para no sentirse decepcionado.",
+                        "Admita que los otros pueden no ser tan disciplinados como Ud. Probablemente sus torpes procesos lo frustrarán, entonces trate de mirar más allá, y enfóquese en los resultados, no en los procesos.",
+                        "La exactitud es su fuerte; Ud. disfruta estudiando los detalles. Busque oportunidades para examinar contratos, comunicaciones importantes, o documentos financieros en búsqueda de errores. Puede evitarse y evitar a los demás costosos errores o situaciones incomodas.",
+                        "Incrementar la eficiencia es uno de sus sellos. Ud. es un perfeccionista de corazón. Descubra situaciones en las que se pierde tiempo o dinero debido a ineficiencias, y cree sistemas o procedimientos para mejorar la eficiencia.",
+                        "Ud. no solo crea orden, también lo anhela en la forma de un espacio bien organizado. Para liberar su talento de Disciplina invierta en mobiliario y sistemas de organización que le permitan “tener un lugar para todo y todo en su lugar”.",
+                        "Los cronogramas lo motivan. Cuando tiene una tarea que completar, le gusta saber la fecha límite para poder planear su agenda de acuerdo a ella. Utilice sus talentos de Disciplina para definir un plan paso a paso. Los demás apreciaran sus indicaciones porque ayudara a todos a estar “enfocados”.",
+                        "Los demás pueden confundir su talento de Disciplina con rigidez. Ayúdelos a entender que la disciplina lo ayuda a hacer su día más eficiente – a menudo porque prioriza su tiempo. Cuando trabaje con otros no tan disciplinados como Ud., pídales que sean claros con los las fechas límites de tal manera que Ud. pueda ajustar sus tareas para cumplir con sus requerimientos. ",
+                        "Escoja roles y responsabilidades que poseen estructura.",
+                        "Cree rutinas que  deban ser realizadas por Ud. en forma sistemática. Con el tiempo, los demás apreciaran esa clase de predictibilidad. "]
+              }
           }
         ]}).to_json},
       {nombre: "Enfoque", dominio_id: 1, libro: "Primero lo primero, Stephen R. Covey", pelicula: "THE UNTOUCHABLES", 

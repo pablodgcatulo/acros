@@ -69,7 +69,7 @@ class ParticipantesController < ApplicationController
 
     #talentos_ids = params[:participante].map { |p| [p[:talento] }
     talentos_ids = []
-    
+    talentos = []
     if params[:participante][:talento_1].blank? and
        params[:participante][:talento_2].blank? and
        params[:participante][:talento_3].blank? and
@@ -79,7 +79,8 @@ class ParticipantesController < ApplicationController
     else
       (1..5).each do |i|
         if eval("params[:participante][:talento_#{i}]").present?
-          talentos_ids << eval("params[:participante][:talento_#{i}]")
+          talentos << Talento.find(eval("params[:participante][:talento_#{i}]"))
+          # talentos_ids << eval("params[:participante][:talento_#{i}]")
         end
       end
     end
@@ -87,14 +88,12 @@ class ParticipantesController < ApplicationController
     tipo_de_encuesta = params.require(:tipo_de_encuesta)
 
 
-    talentos = Talento.find(talentos_ids)
+    #talentos = Talento.find(talentos_ids)
     
     case 
     when tipo_de_encuesta.to_i == 1 #:perfil_de_fortalezas
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '1_los_treinta_y_cuatro_talentos_template.docx'))
  
-      # skill = Struct.new(:index, :label, :rating)
-      # talent = Struct.new(:nombre, :texto)
       contexto  = {
         talentos: []
       }
@@ -109,7 +108,6 @@ class ParticipantesController < ApplicationController
     when tipo_de_encuesta.to_i == 2 #:manejar_las_fortalezas
       
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '2_como_manejar_las_fortalezas_template.docx'))      
-      # talentos = Talento.find (290, 277, 291, 277, 284)
             
       contexto  = {
         participante: @participante.apellido_y_nombre,
@@ -133,17 +131,17 @@ class ParticipantesController < ApplicationController
       
       talentos.each do |t|
         contexto[:talentos] << {  nombre: t.nombre,
-                                  items_confianza:   (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items_confianza"].map { |i| Sablon.content(:markdown, i) }),
-                                  items_empatia:     (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items_empatia"].map { |i| Sablon.content(:markdown, i) }),
-                                  items_estabilidad: (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items_estabilidad"].map { |i| Sablon.content(:markdown, i) }),
-                                  items_esperanza:   (t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items_esperanza"].map { |i| Sablon.content(:markdown, i) }) 
+                                  items_confianza:   t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_confianza"],
+                                  items_empatia:     t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_empatia"],
+                                  items_estabilidad: t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_estabilidad"],
+                                  items_esperanza:   t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_esperanza"] 
                                 }
       end
 
       send_data template.render_to_string(contexto), filename: "3_liderazgo_basado_en_fortalezas.docx", disposition: 'attachment'
 
     when tipo_de_encuesta.to_i == 4 # Ideas para la acción
-      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '4_ideas_para_la_accion.docx'))      
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '4_ideas_para_la_accion_template.docx'))      
       
       contexto = { talentos: []}
 
@@ -154,10 +152,22 @@ class ParticipantesController < ApplicationController
         }
       end
       
-      send_data template.render_to_string(contexto), filename: "ideas_para_la_accion_#{@participante.apellido}_#{@participante.nombre}.docx", disposition: 'attachment'
+      send_data template.render_to_string(contexto), filename: "ideas_para_la_accion.docx", disposition: 'attachment'
 
 
     when tipo_de_encuesta.to_i == 5 # Libros y peliculas
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '5_libros_y_peliculas_template.docx'))      
+      
+      talento = Struct.new(:nombre, :libro, :pelicula)
+      contexto = {
+        talento_1: talento.new(talentos[0].nombre, talentos[0].libro, talentos[0].pelicula ),
+        talento_2: talento.new(talentos[1].nombre,talentos[1].libro, talentos[1].pelicula ),
+        talento_3: talento.new(talentos[2].nombre,talentos[2].libro, talentos[2].pelicula ),
+        talento_4: talento.new(talentos[3].nombre,talentos[3].libro, talentos[3].pelicula ),
+        talento_5: talento.new(talentos[4].nombre,talentos[4].libro, talentos[4].pelicula )
+      }
+      
+      send_data template.render_to_string(contexto), filename: "5_libros_y_peliculas.docx", disposition: 'attachment'
     end
 
     #raise
