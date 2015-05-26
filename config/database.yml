@@ -25,6 +25,8 @@ test:
 
 production:
   <<: *default
-  database: acros_production
-  username: acros
+  database: dbb3ldptb4sgh5
+  username: zhiarwhkmbvfzg
+  password: m-pekBzADp0LPO2ombHcdBw07Q
+  port: 5432
   password: <%= ENV['ACROS_DATABASE_PASSWORD'] %>
