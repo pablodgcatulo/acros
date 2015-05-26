@@ -7,3 +7,10 @@
       = link_to 'Cargar participante', new_participante_path
     %li 
       = link_to "Listar participantes", participantes_path
+%li.has-dropdown{ class: nav_bar_activo?(participantes_path) }
+  = link_to "Empresas", empresas_path
+  %ul.dropdown
+    %li
+      = link_to 'Cargar empresa', new_empresa_path
+    %li 
+      = link_to "Listar empresas", empresas_path
