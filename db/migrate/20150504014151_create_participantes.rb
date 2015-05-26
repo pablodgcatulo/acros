@@ -9,8 +9,10 @@ class CreateParticipantes < ActiveRecord::Migration
       t.string :direccion, limit: 50
       t.string :telefono, limit: 30
       t.string :celular, limit: 30
-      t.references :pais#, index: true, foreign_key: true
-      t.references :provincia, index: true, foreign_key: true
+      t.string :email
+      t.string :funcion_o_area
+      #t.references :pais#, index: true, foreign_key: true
+      #t.references :provincia, index: true, foreign_key: true
 
       t.timestamps null: false
     end

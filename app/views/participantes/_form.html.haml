@@ -40,15 +40,15 @@
           .large-6.columns
             .row.collapse
               .small-2.columns
-                %span.prefix País
+                %span.prefix e-mail
               .small-10.columns
-                = f.select :pais_id, @paises,{include_blank: true}, {class: 'select2'}
+                = f.text_field :email, {placeholder: 'Dirección de correo electónico'}
           .large-6.columns
             .row.collapse
               .small-2.columns
-                %span.prefix Provincia
+                %span.prefix Función
               .small-10.columns
-                = f.select :provincia_id, @provincias, {include_blank: true}, {class: 'select2'}
+                = f.text_field :funcion_o_area, {placeholder: "Area o función que desempeña"}
         .row
           .large-6.columns
             .row.collapse

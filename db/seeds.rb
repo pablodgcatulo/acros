@@ -1,42 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
-pais = Pais.create({nombre: "Argentina"})
-
-provincias = Provincia.create(
-  [
-    {id: 1, nombre: 'Buenos Aires', pais_id: pais.id},
-    {id: 2, nombre: 'Capital Federal', pais_id: pais.id},
-    {id: 3, nombre: 'Catamarca', pais_id: pais.id},
-    {id: 4, nombre: 'Chaco', pais_id: pais.id},
-    {id: 5, nombre: 'Chubut', pais_id: pais.id},
-    {id: 6, nombre: 'Córdoba', pais_id: pais.id},
-    {id: 7, nombre: 'Corrientes', pais_id: pais.id},
-    {id: 8, nombre: 'Entre Rí­os', pais_id: pais.id},
-    {id: 9, nombre: 'Formosa', pais_id: pais.id},
-    {id: 10, nombre: 'Jujuy', pais_id: pais.id},
-    {id: 11, nombre: 'La Pampa', pais_id: pais.id},
-    {id: 12, nombre: 'La Rioja', pais_id: pais.id},
-    {id: 13, nombre: 'Mendoza', pais_id: pais.id},
-    {id: 14, nombre: 'Misiones', pais_id: pais.id},
-    {id: 15, nombre: 'Neuquén', pais_id: pais.id},
-    {id: 16, nombre: 'Rí­o Negro', pais_id: pais.id},
-    {id: 17, nombre: 'Salta', pais_id: pais.id},
-    {id: 18, nombre: 'San Juan', pais_id: pais.id},
-    {id: 19, nombre: 'San Luis', pais_id: pais.id},
-    {id: 20, nombre: 'Santa Cruz', pais_id: pais.id},
-    {id: 21, nombre: 'Santa Fé', pais_id: pais.id},
-    {id: 22, nombre: 'Santiago del Estero', pais_id: pais.id},
-    {id: 23, nombre: 'Tierra del Fuego', pais_id: pais.id},
-    {id: 24, nombre: 'Tucumán', pais_id: pais.id}
-  ]
-)
-
 TipoDeDocumento.create(
   [
     {nombre: "Documento nacional de identidad", codigo: "DNI"},
@@ -679,17 +640,20 @@ Talento.create(
           },
           {
             nombre: "ideas_para_la_accion",
-            talento: "Impulso",
-            items: ["Busque empleos u ocupaciones donde Ud. pueda tomar sus propias decisiones y actuar en consecuencia. Si es posible, busque proyectos nuevos o reestructuraciones.",
-                    "En su empleo, asegúrese que sus superiores puedan evaluar sus resultados, más allá del proceso para conseguirlos. En muchos casos, ese proceso puede no ser muy atractivo.",
-                    "Ud. tiene la capacidad de transformar ideas en acción en forma casi inmediata. Júntese con pensadores creativos y ayúdelos a transformar esas ideas en algo concreto.",
-                    "Busque áreas bloqueadas por discusiones o barreras. Termine con el bloqueo creando un plan que ponga a todos en movimiento.",
-                    "Ud. aprende mucho más de las experiencias que de las discusiones teóricas. Para su crecimiento, busque experiencias que pongan a prueba sus habilidades y conocimiento.",
-                    "Recuerde que su tenacidad, a veces, puede ser intimidante para otros. Su talento de Impulso será más eficaz cuando consiga la confianza de otros primero.",
-                    "Identifique aquellos que toman las decisiones más importantes en su organización. Encuentre formas de interactuar con ellos y conseguir el apoyo y los recursos necesarios para poner su Impulso en acción.",
-                    "Ud. puede encender las ideas y planes de otros con facilidad. Considere formar alianzas con gente analítica y planificadora. Ellos pueden darle estructura a su energía por la acción y de esa manera generar consenso para sumar a otros a sus planes.",
-                    "No olvide nunca explicar las razones detrás de su ímpetu por actuar inmediatamente, ya que de lo contrario, sus “urgencias” pueden ser interpretadas como mera ansiedad.",
-                    "Ud. tiene la capacidad de influenciar a otros hacia la acción. Regule este impulso y guárdelo para aquellas situaciones donde esa influencia es imprescindible."]
+            datos: 
+              {
+                talento: "Impulso",
+                items: ["Busque empleos u ocupaciones donde Ud. pueda tomar sus propias decisiones y actuar en consecuencia. Si es posible, busque proyectos nuevos o reestructuraciones.",
+                        "En su empleo, asegúrese que sus superiores puedan evaluar sus resultados, más allá del proceso para conseguirlos. En muchos casos, ese proceso puede no ser muy atractivo.",
+                        "Ud. tiene la capacidad de transformar ideas en acción en forma casi inmediata. Júntese con pensadores creativos y ayúdelos a transformar esas ideas en algo concreto.",
+                        "Busque áreas bloqueadas por discusiones o barreras. Termine con el bloqueo creando un plan que ponga a todos en movimiento.",
+                        "Ud. aprende mucho más de las experiencias que de las discusiones teóricas. Para su crecimiento, busque experiencias que pongan a prueba sus habilidades y conocimiento.",
+                        "Recuerde que su tenacidad, a veces, puede ser intimidante para otros. Su talento de Impulso será más eficaz cuando consiga la confianza de otros primero.",
+                        "Identifique aquellos que toman las decisiones más importantes en su organización. Encuentre formas de interactuar con ellos y conseguir el apoyo y los recursos necesarios para poner su Impulso en acción.",
+                        "Ud. puede encender las ideas y planes de otros con facilidad. Considere formar alianzas con gente analítica y planificadora. Ellos pueden darle estructura a su energía por la acción y de esa manera generar consenso para sumar a otros a sus planes.",
+                        "No olvide nunca explicar las razones detrás de su ímpetu por actuar inmediatamente, ya que de lo contrario, sus “urgencias” pueden ser interpretadas como mera ansiedad.",
+                        "Ud. tiene la capacidad de influenciar a otros hacia la acción. Regule este impulso y guárdelo para aquellas situaciones donde esa influencia es imprescindible."]
+              }
           }
        ]}).to_json},
       {nombre: "Mando", dominio_id: 2, libro: "Winning, Jack Welch , Suzy Welch", pelicula: "THE GODFATHER", 

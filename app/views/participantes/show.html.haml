@@ -21,11 +21,11 @@
         %b Celular:
         = @participante.celular.present? ? @participante.celular : "Desconocido"
       %p
-        %b Pais:
-        = @participante.pais.present? ? @participante.pais.nombre : "Desconocido"
+        %b e-mail:
+        = @participante.email.present? ? @participante.email : "Desconocido"
       %p
-        %b Provincia:
-        = @participante.provincia.present? ? @participante.provincia.nombre : "Desconocido"
+        %b Función:
+        = @participante.funcion_o_area.present? ? @participante.funcion_o_area : "Desconocida"
 
   .large-8.columns
     .panel

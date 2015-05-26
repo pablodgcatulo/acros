@@ -15,16 +15,12 @@ class ParticipantesController < ApplicationController
   # GET /participantes/new
   def new
     @participante = Participante.new
-    @paises = Pais.all.collect {|p| [p.nombre, p.id]}
-    @provincias = Provincia.all.collect {|p| [p.nombre, p.id]}
     @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
     @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
   end
 
   # GET /participantes/1/edit
   def edit
-    @paises = Pais.all.collect {|p| [p.nombre, p.id]}
-    @provincias = Provincia.all.collect {|p| [p.nombre, p.id]}
     @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
     @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
   end
@@ -36,8 +32,6 @@ class ParticipantesController < ApplicationController
     if @participante.save
       redirect_to @participante, notice: 'El participante se guardo correctamente.' 
     else
-      @paises = Pais.all.collect {|p| [p.nombre, p.id]}
-      @provincias = Provincia.all.collect {|p| [p.nombre, p.id]}
       @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
       @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
 
@@ -50,8 +44,6 @@ class ParticipantesController < ApplicationController
     if @participante.update(participante_params)
       redirect_to @participante, notice: 'El participante se actualizó correctamente.' 
     else
-      @paises = Pais.all.collect {|p| [p.nombre, p.id]}
-      @provincias = Provincia.all.collect {|p| [p.nombre, p.id]}
       @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
       @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
 

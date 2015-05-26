@@ -3,10 +3,10 @@
     = accion
 .row
   %div.large-10.columns
-    %h2= titulo
+    %h3= titulo
   %div.large-2.columns
     %ul.button-group.round
       - botones.each do |b|
         %li
-          %a.small.button{href: b[:ruta]}= b[:texto]
+          %a.tiny.button{href: b[:ruta]}= b[:texto]
       
