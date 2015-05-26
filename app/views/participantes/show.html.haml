@@ -12,12 +12,6 @@
         %b Documento:
         = (@participante.tipo_de_documento.present? and @participante.numero_de_documento.present? ) ? (@participante.tipo_de_documento.codigo + ":" + @participante.numero_de_documento) : "Desconocido"
       %p
-        %b Direccion:
-        = @participante.direccion.present? ? @participante.direccion : "La dirección no esta disponible"
-      %p
-        %b Telefono:
-        = @participante.telefono.present? ? @participante.telefono : "Desconocido"
-      %p
         %b Celular:
         = @participante.celular.present? ? @participante.celular : "Desconocido"
       %p

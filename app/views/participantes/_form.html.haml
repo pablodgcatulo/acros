@@ -30,13 +30,6 @@
               .small-10.columns
                 = f.text_field :numero_de_documento, {placeholder: "Ingrese el número de documento"}
         .row
-          .medium-12.columns
-            .row.collapse
-              .medium-1.columns
-                %span.prefix Dirección
-              .medium-11.columns
-                = f.text_field :direccion, {placeholder: "Dirección"}
-        .row
           .large-6.columns
             .row.collapse
               .small-2.columns
@@ -50,13 +43,7 @@
               .small-10.columns
                 = f.text_field :funcion_o_area, {placeholder: "Area o función que desempeña"}
         .row
-          .large-6.columns
-            .row.collapse
-              .small-2.columns
-                %span.prefix Teléfono
-              .small-10.columns
-                = f.text_field :telefono, {placeholder: "Teléfono de contacto"}
-          .large-6.columns
+          .large-12.columns
             .row.collapse
               .small-2.columns
                 %span.prefix Celular

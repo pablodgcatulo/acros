@@ -6,8 +6,6 @@ class CreateParticipantes < ActiveRecord::Migration
       t.references :empresa, index: true, foreign_key: true
       t.references :tipo_de_documento, index: true, foreign_key: true
       t.string :numero_de_documento, limit: 10
-      t.string :direccion, limit: 50
-      t.string :telefono, limit: 30
       t.string :celular, limit: 30
       t.string :email
       t.string :funcion_o_area
