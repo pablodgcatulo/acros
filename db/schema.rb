@@ -34,8 +34,6 @@ ActiveRecord::Schema.define(version: 20150514151510) do
     t.integer  "empresa_id"
     t.integer  "tipo_de_documento_id"
     t.string   "numero_de_documento",  limit: 10
-    t.string   "direccion",            limit: 50
-    t.string   "telefono",             limit: 30
     t.string   "celular",              limit: 30
     t.string   "email"
     t.string   "funcion_o_area"

@@ -24,7 +24,8 @@ test:
 
 
 production:
-  <<: *default
+  adapter: postgresql
+  encoding: unicode
   host: ec2-54-197-224-173.compute-1.amazonaws.com
   database: dbb3ldptb4sgh5
   username: zhiarwhkmbvfzg
