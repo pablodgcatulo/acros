@@ -43,18 +43,17 @@
               .small-10.columns
                 = f.text_field :funcion_o_area, {placeholder: "Area o función que desempeña"}
         .row
-          .large-12.columns
+          .large-6.columns
             .row.collapse
               .small-2.columns
                 %span.prefix Celular
               .small-10.columns
                 = f.text_field :celular, {placeholder: "Número de celular"}
-        .row
-          .medium-12.columns
+          .large-6.columns
             .row.collapse
-              .medium-1.columns
+              .small-2.columns
                 %span.prefix Empresa
-              .medium-11.columns
+              .small-10.columns
                 = f.select :empresa_id, @empresas, {include_blank: true}, {class: 'select2', placeholder: "Seleccione la empresa para la que trabaja"}
   .row
     .large-12.columns

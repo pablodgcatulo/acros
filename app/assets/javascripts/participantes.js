@@ -11,7 +11,8 @@ function descargar_resultados (encuesta) {
     } 
   else{
     $('#tipo_de_encuesta').val(encuesta);
-    $('#edit_participante_1').submit();
+    $(".panel form").submit();
+    //$('#edit_participante_1').submit();
   };
 }
 

@@ -95,7 +95,7 @@ class ParticipantesController < ApplicationController
                                  textos: t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["texto"].map { |texto| Sablon.content(:markdown, texto + "\n\n<br>") } }
       end
 
-      send_data template.render_to_string(contexto), filename: "1_perfil_de_fortalezas.docx", disposition: 'attachment'
+      send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_perfil_de_fortalezas_.docx", disposition: 'attachment'
 
     when tipo_de_encuesta.to_i == 2 #:manejar_las_fortalezas
       
@@ -113,7 +113,7 @@ class ParticipantesController < ApplicationController
                                }
       end
 
-      send_data template.render_to_string(contexto), filename: "como_manejar_las_fortalezas_#{@participante.apellido}_#{@participante.nombre}.docx", disposition: 'attachment'
+      send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_como_manejar_las_fortalezas.docx", disposition: 'attachment'
 
     when tipo_de_encuesta.to_i == 3 # :liderazgo_basado_en_fortalezas
 
@@ -130,7 +130,7 @@ class ParticipantesController < ApplicationController
                                 }
       end
 
-      send_data template.render_to_string(contexto), filename: "3_liderazgo_basado_en_fortalezas.docx", disposition: 'attachment'
+      send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_liderazgo_basado_en_fortalezas.docx", disposition: 'attachment'
 
     when tipo_de_encuesta.to_i == 4 # Ideas para la acción
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '4_ideas_para_la_accion_template.docx'))      
@@ -144,7 +144,7 @@ class ParticipantesController < ApplicationController
         }
       end
       
-      send_data template.render_to_string(contexto), filename: "ideas_para_la_accion.docx", disposition: 'attachment'
+      send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_ideas_para_la_accion.docx", disposition: 'attachment'
 
 
     when tipo_de_encuesta.to_i == 5 # Libros y peliculas
@@ -159,7 +159,7 @@ class ParticipantesController < ApplicationController
         talento_5: talento.new(talentos[4].nombre,talentos[4].libro, talentos[4].pelicula )
       }
       
-      send_data template.render_to_string(contexto), filename: "5_libros_y_peliculas.docx", disposition: 'attachment'
+      send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_libros_y_peliculas.docx", disposition: 'attachment'
     end
 
     #raise
