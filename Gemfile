@@ -8,10 +8,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'therubyracer', :platform=>:ruby
+gem 'puma'
 
 group :production do
   gem 'rails_12factor'
-  gem 'puma'
 end
 
 group :development, :test do
