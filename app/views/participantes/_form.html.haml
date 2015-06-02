@@ -20,40 +20,21 @@
           .large-6.columns
             .row.collapse
               .small-2.columns
-                %span.prefix Tipo
-              .small-10.columns
-                = f.select :tipo_de_documento_id, @tipos_de_documento,{include_blank: true}, {class: 'select2', placeholder: "Ingrese el tipo de documento"}
-          .large-6.columns
-            .row.collapse
-              .small-2.columns
-                %span.prefix Número
-              .small-10.columns
-                = f.text_field :numero_de_documento, {placeholder: "Ingrese el número de documento"}
-        .row
-          .large-6.columns
-            .row.collapse
-              .small-2.columns
                 %span.prefix e-mail
               .small-10.columns
                 = f.text_field :email, {placeholder: 'Dirección de correo electónico'}
           .large-6.columns
             .row.collapse
               .small-2.columns
-                %span.prefix Función
-              .small-10.columns
-                = f.text_field :funcion_o_area, {placeholder: "Area o función que desempeña"}
-        .row
-          .large-6.columns
-            .row.collapse
-              .small-2.columns
                 %span.prefix Celular
               .small-10.columns
                 = f.text_field :celular, {placeholder: "Número de celular"}
-          .large-6.columns
+        .row
+          .large-12.columns
             .row.collapse
-              .small-2.columns
+              .small-1.columns
                 %span.prefix Empresa
-              .small-10.columns
+              .small-11.columns
                 = f.select :empresa_id, @empresas, {include_blank: true}, {class: 'select2', placeholder: "Seleccione la empresa para la que trabaja"}
   .row
     .large-12.columns

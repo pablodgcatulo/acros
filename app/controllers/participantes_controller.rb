@@ -9,20 +9,20 @@ class ParticipantesController < ApplicationController
 
   # GET /participantes/1
   def show
-    @talentos = Talento.all.map { |t| [t.nombre, t.id] }
+    @talentos = Talento.all.order(:nombre).map { |t| [t.nombre, t.id] }
   end
 
   # GET /participantes/new
   def new
     @participante = Participante.new
     @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
-    @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
+    #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
   end
 
   # GET /participantes/1/edit
   def edit
     @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
-    @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
+    #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
   end
 
   # POST /participantes
@@ -33,7 +33,7 @@ class ParticipantesController < ApplicationController
       redirect_to @participante, notice: 'El participante se guardo correctamente.' 
     else
       @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
-      @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
+      #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
 
       render :new 
     end
@@ -45,7 +45,7 @@ class ParticipantesController < ApplicationController
       redirect_to @participante, notice: 'El participante se actualizó correctamente.' 
     else
       @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
-      @tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
+      #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
 
       render :edit 
     end

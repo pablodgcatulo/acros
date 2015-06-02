@@ -8,19 +8,15 @@
   %table{role: "grid", width: "100%"}
     %thead
       %tr
-        %th Apellido
-        %th Nombre
+        %th Apellido y Nombre
         %th Empresa
-        %th Documento
         %th Celular
         %th{colspan: 3,style: "text-align: center;"} Acciones
     %tbody
       - @participantes.each do |participante|
         %tr
-          %td= participante.apellido
-          %td= participante.nombre
+          %td= participante.apellido + ", " + participante.nombre
           %td= participante.empresa.nombre
-          %td= (participante.tipo_de_documento.present? and participante.numero_de_documento.present? ) ? (participante.tipo_de_documento.codigo + ":" + participante.numero_de_documento) : "Desconocido"
           %td= participante.celular.present? ? participante.celular : "Desconocido"
           %td= link_to 'Ver', participante
           %td= link_to 'Editar', edit_participante_path(participante)

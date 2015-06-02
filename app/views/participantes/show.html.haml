@@ -9,17 +9,11 @@
         %b Empresa:
         = @participante.empresa.nombre
       %p
-        %b Documento:
-        = (@participante.tipo_de_documento.present? and @participante.numero_de_documento.present? ) ? (@participante.tipo_de_documento.codigo + ":" + @participante.numero_de_documento) : "Desconocido"
-      %p
         %b Celular:
         = @participante.celular.present? ? @participante.celular : "Desconocido"
       %p
         %b e-mail:
         = @participante.email.present? ? @participante.email : "Desconocido"
-      %p
-        %b Función:
-        = @participante.funcion_o_area.present? ? @participante.funcion_o_area : "Desconocida"
 
   .large-8.columns
     .panel

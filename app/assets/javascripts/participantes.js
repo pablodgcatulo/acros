@@ -79,7 +79,7 @@ $(document).ready(function() {
     // veo si los valores estan uno abajo del otro y los guardo
     arr_talentos = [];
     $.each(str.split("\n"), function (i, val) {
-      str_talento = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase();
+      str_talento = normalize(val.charAt(0).toUpperCase() + val.slice(1).toLowerCase());
       talento_id = 0;
       $.each(talentos_cargados, function(i, tc){
         if (str_talento == tc[1]) {
