@@ -87,6 +87,7 @@ class ParticipantesController < ApplicationController
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '1_los_treinta_y_cuatro_talentos_template.docx'))
  
       contexto  = {
+        participante: @participante.apellido_y_nombre,
         talentos: []
       }
       
@@ -119,7 +120,10 @@ class ParticipantesController < ApplicationController
 
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '3_liderazgo_basado_en_fortalezas_template.docx'))      
       
-      contexto = { talentos: []}
+      contexto = { 
+        participante: @participante.apellido_y_nombre,
+        talentos: []
+      }
       
       talentos.each do |t|
         contexto[:talentos] << {  nombre: t.nombre,
@@ -135,7 +139,10 @@ class ParticipantesController < ApplicationController
     when tipo_de_encuesta.to_i == 4 # Ideas para la acción
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '4_ideas_para_la_accion_template.docx'))      
       
-      contexto = { talentos: []}
+      contexto = { 
+        participante: @participante.apellido_y_nombre,
+        talentos: []
+      }
 
       talentos.each do |t|
         contexto[:talentos] << {
@@ -152,6 +159,7 @@ class ParticipantesController < ApplicationController
       
       talento = Struct.new(:nombre, :libro, :pelicula)
       contexto = {
+        participante: @participante.apellido_y_nombre,
         talento_1: talento.new(talentos[0].nombre, talentos[0].libro, talentos[0].pelicula ),
         talento_2: talento.new(talentos[1].nombre,talentos[1].libro, talentos[1].pelicula ),
         talento_3: talento.new(talentos[2].nombre,talentos[2].libro, talentos[2].pelicula ),
