@@ -85,15 +85,30 @@ class ParticipantesController < ApplicationController
     case 
     when tipo_de_encuesta.to_i == 1 #:perfil_de_fortalezas
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '1_los_treinta_y_cuatro_talentos_template.docx'))
- 
+  
       contexto  = {
         participante: @participante.apellido_y_nombre,
         talentos: []
       }
-      
+
+      posicion = 1
       talentos.each do |t|
         contexto[:talentos] << { nombre: t.nombre, 
                                  textos: t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["texto"].map { |texto| Sablon.content(:markdown, texto + "\n\n<br>") } }
+        
+        # Armo el cuadro de la primera pagina
+        case t.dominio.id
+        when 1 # ejecucion
+          eval("contexto[:ejecucion_#{posicion}] = t.nombre")
+        when 2 # influencia
+          eval("contexto[:influencia_#{posicion}] = t.nombre")
+        when 3 # relaciones
+          eval("contexto[:relaciones_#{posicion}] = t.nombre")
+        when 4 # estrategico
+          eval("contexto[:estrategico_#{posicion}] = t.nombre")
+        end
+        posicion +=1
+
       end
 
       send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_perfil_de_fortalezas_.docx", disposition: 'attachment'
