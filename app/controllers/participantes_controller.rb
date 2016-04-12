@@ -15,13 +15,13 @@ class ParticipantesController < ApplicationController
   # GET /participantes/new
   def new
     @participante = Participante.new
-    @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
+    @empresas = Empresa.order(:nombre).all.collect { |e| [e.nombre, e.id]}
     #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
   end
 
   # GET /participantes/1/edit
   def edit
-    @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
+    @empresas = Empresa.order(:nombre).all.collect { |e| [e.nombre, e.id]}
     #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
   end
 
@@ -30,24 +30,24 @@ class ParticipantesController < ApplicationController
     @participante = Participante.new(participante_params)
 
     if @participante.save
-      redirect_to @participante, notice: 'El participante se guardo correctamente.' 
+      redirect_to @participante, notice: 'El participante se guardo correctamente.'
     else
-      @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
+      @empresas = Empresa.order(:nombre).all.collect { |e| [e.nombre, e.id]}
       #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
 
-      render :new 
+      render :new
     end
   end
 
   # PATCH/PUT /participantes/1
   def update
     if @participante.update(participante_params)
-      redirect_to @participante, notice: 'El participante se actualizó correctamente.' 
+      redirect_to @participante, notice: 'El participante se actualizó correctamente.'
     else
-      @empresas = Empresa.all.collect { |e| [e.nombre, e.id]}
+      @empresas = Empresa.order(:nombre).all.collect { |e| [e.nombre, e.id]}
       #@tipos_de_documento = TipoDeDocumento.all.collect { |td| [td.codigo, td.id] }
 
-      render :edit 
+      render :edit
     end
   end
 
@@ -66,26 +66,29 @@ class ParticipantesController < ApplicationController
        params[:participante][:talento_2].blank? and
        params[:participante][:talento_3].blank? and
        params[:participante][:talento_4].blank? and
-       params[:participante][:talento_5].blank? 
-       redirect_to @participante, alert: 'Debe seleccionar al menos un talento para descargar los resultados' 
+       params[:participante][:talento_5].blank?
+       redirect_to @participante, alert: 'Debe seleccionar al menos un talento para descargar los resultados'
     else
       (1..5).each do |i|
         if eval("params[:participante][:talento_#{i}]").present?
           talentos << Talento.find(eval("params[:participante][:talento_#{i}]"))
           # talentos_ids << eval("params[:participante][:talento_#{i}]")
         end
+        @participante.talento_guardado_1_id = params[:participante][:talento_1]
+        @participante.talento_guardado_2_id = params[:participante][:talento_2]
+        @participante.talento_guardado_3_id = params[:participante][:talento_3]
+        @participante.talento_guardado_4_id = params[:participante][:talento_4]
+        @participante.talento_guardado_5_id = params[:participante][:talento_5]
+        @participante.save
       end
     end
 
     tipo_de_encuesta = params.require(:tipo_de_encuesta)
 
-
-    #talentos = Talento.find(talentos_ids)
-    
-    case 
+    case
     when tipo_de_encuesta.to_i == 1 #:perfil_de_fortalezas
       template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '1_los_treinta_y_cuatro_talentos_template.docx'))
-  
+
       contexto  = {
         participante: @participante.apellido_y_nombre,
         talentos: []
@@ -93,9 +96,9 @@ class ParticipantesController < ApplicationController
 
       posicion = 1
       talentos.each do |t|
-        contexto[:talentos] << { nombre: t.nombre, 
+        contexto[:talentos] << { nombre: t.nombre,
                                  textos: t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["texto"].map { |texto| Sablon.content(:markdown, texto + "\n\n<br>") } }
-        
+
         # Armo el cuadro de la primera pagina
         case t.dominio.id
         when 1 # ejecucion
@@ -114,16 +117,16 @@ class ParticipantesController < ApplicationController
       send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_perfil_de_fortalezas_.docx", disposition: 'attachment'
 
     when tipo_de_encuesta.to_i == 2 #:manejar_las_fortalezas
-      
-      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '2_como_manejar_las_fortalezas_template.docx'))      
-            
+
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '2_como_manejar_las_fortalezas_template.docx'))
+
       contexto  = {
         participante: @participante.apellido_y_nombre,
         talentos:[]
       }
 
       talentos.each do |t|
-        contexto[:talentos] << { nombre: t.nombre, 
+        contexto[:talentos] << { nombre: t.nombre,
                                  items: t.docx_json["documentos"][tipo_de_encuesta.to_i - 1]["datos"]["items"] ,
                                  separador: "\n\n"
                                }
@@ -133,28 +136,28 @@ class ParticipantesController < ApplicationController
 
     when tipo_de_encuesta.to_i == 3 # :liderazgo_basado_en_fortalezas
 
-      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '3_liderazgo_basado_en_fortalezas_template.docx'))      
-      
-      contexto = { 
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '3_liderazgo_basado_en_fortalezas_template.docx'))
+
+      contexto = {
         participante: @participante.apellido_y_nombre,
         talentos: []
       }
-      
+
       talentos.each do |t|
         contexto[:talentos] << {  nombre: t.nombre,
                                   items_confianza:   t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_confianza"],
                                   items_empatia:     t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_empatia"],
                                   items_estabilidad: t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_estabilidad"],
-                                  items_esperanza:   t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_esperanza"] 
+                                  items_esperanza:   t.docx_json["documentos"][(tipo_de_encuesta.to_i) - 1]["datos"]["items_esperanza"]
                                 }
       end
 
       send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_liderazgo_basado_en_fortalezas.docx", disposition: 'attachment'
 
     when tipo_de_encuesta.to_i == 4 # Ideas para la acción
-      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '4_ideas_para_la_accion_template.docx'))      
-      
-      contexto = { 
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '4_ideas_para_la_accion_template.docx'))
+
+      contexto = {
         participante: @participante.apellido_y_nombre,
         talentos: []
       }
@@ -165,13 +168,13 @@ class ParticipantesController < ApplicationController
           items: t.docx_json["documentos"][(tipo_de_encuesta.to_i) -1]["datos"]["items"]
         }
       end
-      
+
       send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_ideas_para_la_accion.docx", disposition: 'attachment'
 
 
     when tipo_de_encuesta.to_i == 5 # Libros y peliculas
-      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '5_libros_y_peliculas_template.docx'))      
-      
+      template = Sablon.template(File.join(Rails.root, 'app', 'docx_templates', '5_libros_y_peliculas_template.docx'))
+
       talento = Struct.new(:nombre, :libro, :pelicula)
       contexto = {
         participante: @participante.apellido_y_nombre,
@@ -181,7 +184,7 @@ class ParticipantesController < ApplicationController
         talento_4: talento.new(talentos[3].nombre,talentos[3].libro, talentos[3].pelicula ),
         talento_5: talento.new(talentos[4].nombre,talentos[4].libro, talentos[4].pelicula )
       }
-      
+
       send_data template.render_to_string(contexto), filename: "#{@participante.apellido}_#{@participante.nombre}_libros_y_peliculas.docx", disposition: 'attachment'
     end
 

@@ -32,4 +32,4 @@ gem "select2-rails"
 
 # genera docx basado en template
 gem 'sablon'
-ruby "2.2.0"
+ruby "2.2.2"

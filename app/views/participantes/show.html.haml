@@ -1,8 +1,8 @@
-= content_for :panel do 
+= content_for :panel do
   = render partial: 'shared/panel', locals: {titulo: "Participante: #{@participante.apellido + ', ' + @participante.nombre}", accion: "Ver /", |
     botones: [{ruta: edit_participante_path(@participante), texto: 'Editar'}, {ruta: participantes_path, texto: 'Listado'} ] }
 
-.row 
+.row
   .large-4.columns
     .panel
       %p
@@ -21,7 +21,7 @@
         .row
           .large-12.columns
             %label
-              Copie y pegue los cinco talentos 
+              Copie y pegue los cinco talentos
               = text_area_tag :talentos,nil, rows: 6
         .row
           .large-12.columns
@@ -29,23 +29,23 @@
               %li
                 %ul.vcard
                   %li.fn Primer Talento
-                  %li.locality= f.select :talento_1, @talentos, {include_blank: true}
+                  %li.locality= f.select :talento_1, @talentos, {include_blank: true, selected: @participante.talento_guardado_1_id}
               %li
                 %ul.vcard
                   %li.fn Segundo Talento
-                  %li.locality= f.select :talento_2, @talentos, {include_blank: true}
+                  %li.locality= f.select :talento_2, @talentos, {include_blank: true, selected: @participante.talento_guardado_2_id}
               %li
                 %ul.vcard
                   %li.fn Tercer Talento
-                  %li.locality= f.select :talento_3, @talentos, {include_blank: true}
+                  %li.locality= f.select :talento_3, @talentos, {include_blank: true, selected: @participante.talento_guardado_3_id}
               %li
                 %ul.vcard
                   %li.fn Cuarto Talento
-                  %li.locality= f.select :talento_4, @talentos, {include_blank: true}
+                  %li.locality= f.select :talento_4, @talentos, {include_blank: true, selected: @participante.talento_guardado_4_id}
               %li
                 %ul.vcard
                   %li.fn Quinto Talento
-                  %li.locality= f.select :talento_5, @talentos, {include_blank: true}
+                  %li.locality= f.select :talento_5, @talentos, {include_blank: true, selected: @participante.talento_guardado_5_id}
         .row
           .large-12.columns
             = hidden_field_tag "tipo_de_encuesta"

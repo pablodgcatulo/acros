@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150514151510) do
+ActiveRecord::Schema.define(version: 20160412150918) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,34 +28,26 @@ ActiveRecord::Schema.define(version: 20150514151510) do
     t.datetime "updated_at",            null: false
   end
 
-  create_table "paises", force: :cascade do |t|
-    t.string   "nombre",     limit: 30
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
-  end
-
   create_table "participantes", force: :cascade do |t|
-    t.string   "nombre",               limit: 30
-    t.string   "apellido",             limit: 30
+    t.string   "nombre",                limit: 30
+    t.string   "apellido",              limit: 30
     t.integer  "empresa_id"
     t.integer  "tipo_de_documento_id"
-    t.string   "numero_de_documento",  limit: 10
-    t.string   "celular",              limit: 30
+    t.string   "numero_de_documento",   limit: 10
+    t.string   "celular",               limit: 30
     t.string   "email"
     t.string   "funcion_o_area"
-    t.datetime "created_at",                      null: false
-    t.datetime "updated_at",                      null: false
+    t.datetime "created_at",                       null: false
+    t.datetime "updated_at",                       null: false
+    t.integer  "talento_guardado_1_id"
+    t.integer  "talento_guardado_2_id"
+    t.integer  "talento_guardado_3_id"
+    t.integer  "talento_guardado_4_id"
+    t.integer  "talento_guardado_5_id"
   end
 
   add_index "participantes", ["empresa_id"], name: "index_participantes_on_empresa_id", using: :btree
   add_index "participantes", ["tipo_de_documento_id"], name: "index_participantes_on_tipo_de_documento_id", using: :btree
-
-  create_table "provincias", force: :cascade do |t|
-    t.string   "nombre",     limit: 30
-    t.integer  "pais_id"
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
-  end
 
   create_table "talentos", force: :cascade do |t|
     t.string   "nombre"
