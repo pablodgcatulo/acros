@@ -4,7 +4,7 @@ class ParticipantesController < ApplicationController
 
   # GET /participantes
   def index
-    @participantes = Participante.all
+    @participantes = Participante.includes(:empresa).order(:nombre).all
   end
 
   # GET /participantes/1
@@ -74,13 +74,13 @@ class ParticipantesController < ApplicationController
           talentos << Talento.find(eval("params[:participante][:talento_#{i}]"))
           # talentos_ids << eval("params[:participante][:talento_#{i}]")
         end
-        @participante.talento_guardado_1_id = params[:participante][:talento_1]
-        @participante.talento_guardado_2_id = params[:participante][:talento_2]
-        @participante.talento_guardado_3_id = params[:participante][:talento_3]
-        @participante.talento_guardado_4_id = params[:participante][:talento_4]
-        @participante.talento_guardado_5_id = params[:participante][:talento_5]
-        @participante.save
       end
+      @participante.talento_guardado_1_id = params[:participante][:talento_1]
+      @participante.talento_guardado_2_id = params[:participante][:talento_2]
+      @participante.talento_guardado_3_id = params[:participante][:talento_3]
+      @participante.talento_guardado_4_id = params[:participante][:talento_4]
+      @participante.talento_guardado_5_id = params[:participante][:talento_5]
+      @participante.save
     end
 
     tipo_de_encuesta = params.require(:tipo_de_encuesta)
